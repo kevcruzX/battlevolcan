@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Interactive link showcase shortcode style - begin
+   ========================================================================== */
+
+.edgtf-ils-holder {
+    @include edgtfRelativeHolderLayout();
+	
+	&.edgtf-ils-skin-light {
+		
+		.edgtf-ils-item-link {
+			color: #fff;
+		}
+	}
+	
+	.edgtf-ils-image-holder {
+		@include edgtfAbsoluteHolderLayout();
+	}
+	
+	.edgtf-ils-item-image {
+		@include edgtfAbsoluteHolderLayout();
+		background-size: cover;
+		background-position: center 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		opacity: 0;
+		@include edgtfTransition(opacity .0s .8s);
+		
+		@include ipad-landscape {
+			background-attachment: scroll;
+		}
+		
+		&.edgtf-active {
+			z-index: 10;
+			opacity: 1;
+			@include edgtfTransition(opacity .9s cubic-bezier(0.215, 0.61, 0.355, 1));
+		}
+		
+		img {
+			display: none;
+		}
+	}
+	
+	.edgtf-ils-content-holder {
+		@include edgtfRelativeHolderLayout();
+		min-height: 100vh;
+		z-index: 100;
+		
+		.admin-bar & {
+			min-height: calc(100vh - 32px);
+		}
+	}
+	
+	.edgtf-ils-content-inner {
+		@include edgtfTableLayout();
+	}
+	
+	.edgtf-ils-item-content {
+		@include edgtfTableCellLayout();
+		padding: 130px 0 94px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	
+	.edgtf-ils-item-link {
+		position: relative;
+		display: block;
+		height: 150px;
+		line-height: 1;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: $default-heading-color;
+		overflow: hidden;
+		box-sizing: border-box;
+		@include edgtfTransition(none);
+		
+		&.edgtf-active {
+			
+			svg {
+				&.edgtf-ils-svg-clone {
+					opacity: 1;
+					@include edgtfTransition(opacity .8s ease);
+				}
+			}
+		}
+		
+		svg {
+			display: block;
+			width: 100%;
+			height: inherit;
+			fill: none;
+			stroke: currentColor;
+			overflow: visible;
+			@include edgtfTransition(fill .3s ease);
+			
+			text {
+				font-family: inherit;
+			}
+			
+			&.edgtf-ils-svg-clone {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				fill: currentColor;
+				opacity: 0;
+				@include edgtfTransition(opacity .15s ease);
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Interactive link showcase shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,127 @@
+/* ==========================================================================
+   Interactive Image With Text shortcode responsive style - begin
+   ========================================================================== */
+
+@include laptop-landscape-mac {
+
+	.edgtf-interactive-image-with-text-holder {
+
+		span.edgtf-iiwt-title {
+			font-size: 55px;
+		}
+	}
+}
+
+@include ipad-landscape {
+	
+	.edgtf-interactive-image-with-text-holder {
+		
+		&.edgtf-iiwt-prefix-left {
+			
+			.edgtf-iiwt-inner {
+				padding-left: 230px;
+			}
+			
+			.edgtf-iiwt-image {
+				padding-left: 60px;
+			}
+		}
+		
+		&.edgtf-iiwt-prefix-right {
+			
+			.edgtf-iiwt-inner {
+				padding-right: 230px;
+			}
+			
+			.edgtf-iiwt-image {
+				padding-right: 60px;
+			}
+		}
+		
+		.edgtf-iiwt-prefix-holder {
+			width: 200px;
+		}
+		
+		.edgtf-iiwt-prefix-text {
+			font-size: 200px;
+		}
+		
+		span.edgtf-iiwt-title {
+			font-size: 45px;
+		}
+	}
+}
+
+@include ipad-portrait {
+	
+	.edgtf-interactive-image-with-text-holder {
+		
+		&.edgtf-iiwt-prefix-left {
+			
+			.edgtf-iiwt-inner {
+				padding-left: 160px;
+			}
+		}
+		
+		&.edgtf-iiwt-prefix-right {
+			
+			.edgtf-iiwt-inner {
+				padding-right: 160px;
+			}
+		}
+		
+		&.edgtf-iiwt-small-space {
+			
+			.edgtf-iiwt-prefix-text {
+				font-size: 160px;
+			}
+		}
+		
+		.edgtf-iiwt-prefix-holder {
+			width: 160px;
+		}
+		
+		.edgtf-iiwt-prefix-text {
+			font-size: 120px;
+		}
+	}
+}
+
+@include phone-landscape {
+	
+	.edgtf-interactive-image-with-text-holder {
+		
+		&.edgtf-iiwt-prefix-left {
+			
+			.edgtf-iiwt-inner,
+			.edgtf-iiwt-image {
+				padding-left: 0;
+			}
+		}
+		
+		&.edgtf-iiwt-prefix-right {
+			text-align: left;
+			
+			.edgtf-iiwt-inner,
+			.edgtf-iiwt-image {
+				padding-right: 0;
+			}
+		}
+		
+		.edgtf-iiwt-prefix-holder {
+			display: none;
+		}
+		
+		.edgtf-iiwt-title {
+			margin: 39px 0 0;
+		}
+		
+		span.edgtf-iiwt-title {
+			font-size: 35px;
+		}
+	}
+}
+
+/* ==========================================================================
+   Interactive Image With Text shortcode responsive style - end
+   ========================================================================== */

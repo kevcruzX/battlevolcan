@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Testimonials shortcode style - begin
+   ========================================================================== */
+
+.edgtf-testimonials-holder {
+    @include edgtfRelativeHolderLayout();
+    text-align: center;
+    
+    .edgtf-testimonials,
+    .edgtf-testimonial-content,
+    .edgtf-testimonial-text-holder {
+        @include edgtfRelativeHolderLayout();
+    }
+
+    .edgtf-testimonials {
+        padding: 0 20%;
+        box-sizing: border-box;
+    }
+
+    .edgtf-testimonial-image {
+        @include edgtfRelativeHolderLayout();
+        margin: 0;
+
+        img {
+            display: block;
+            width: auto !important;
+            margin: 0 auto;
+        }
+    }
+
+    .edgtf-testimonial-author {
+        margin: 28px 0 0;
+        font-size: 17px;
+        color: $default-heading-color;
+    }
+
+    .edgtf-testimonial-text {
+        margin: 37px 0 0;
+        font-size: 27px;
+        line-height: 40px;
+        font-style: italic;
+        color: $default-heading-color;
+    }
+
+    .owl-nav {
+
+		.owl-prev,
+		.owl-next {
+			color: #777;
+			border: none;
+		}
+
+		.owl-prev {
+			left: 0;
+		}
+
+		.owl-next {
+			right: 0;
+		}
+	}
+
+    /* Light/Dark styles */
+    &.edgtf-testimonials-light {
+
+        .edgtf-testimonial-text,
+        .edgtf-testimonial-author {
+            color: #fff;
+        }
+
+        .owl-nav {
+
+            .owl-prev,
+            .owl-next {
+                
+                > span {
+                    svg {
+                        stroke: #fff;
+                    }
+                }
+            }
+        }
+
+        .owl-dots {
+
+            .owl-dot {
+
+                span {
+                    border: 2px solid #777;
+                }
+
+                &:hover,
+                &.active {
+
+                    span {
+                        background-color: #fff;
+                        border-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Testimonials shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,211 @@
+/* ==========================================================================
+   Portfolio Single page style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-single-holder {
+	@include edgtfRelativeHolderLayout();
+	margin: 0 0 50px;
+	
+    .edgtf-ps-image-holder {
+	    @include edgtfRelativeHolderLayout();
+	    
+	    .edgtf-ps-image {
+		    @include edgtfRelativeHolderLayout();
+		    box-sizing: border-box;
+		    
+		    a, img {
+			    position: relative;
+			    display: block;
+		    }
+
+		    .edgtf-ps-image-caption {
+			    position: absolute;
+                bottom: -27px;
+                left: 0;
+                font-size: 15px;
+                line-height: 1;
+                color: $default-heading-color;
+		    }
+		    
+		    .edgtf-self-hosted-video-holder {
+			
+			    .mejs-offscreen,
+			    .mejs-controls {
+				    display: none !important;
+			    }
+		    }
+	    }
+    }
+	
+	.edgtf-ps-info-holder {
+		@include edgtfRelativeHolderLayout();
+
+		&.edgtf-ps-info-holder-with-border-top {
+			border-top: 1px solid $default-border-color;
+		}
+
+		.edgtf-ps-info-title,
+		.edgtf-social-title,
+		.edgtf-ps-info-value-holder {
+			position: relative;
+			display: table-cell;
+			vertical-align: top;
+		}
+
+		.edgtf-ps-info-title {
+			top: 6px;
+			margin: 0;
+		}
+
+		.edgtf-social-share-holder.edgtf-list .edgtf-social-title {
+			font-size: 12px;
+		    letter-spacing: .05em;
+			font-weight: 700;
+            text-transform: uppercase;
+            color: $default-heading-color;
+		}
+
+		.edgtf-social-share-holder.edgtf-list ul {
+			position: relative;
+			left: -7px;
+			top: -1px;
+		}
+	}
+	
+	.edgtf-ps-info-with-border {
+		@include edgtfRelativeHolderLayout();
+		padding-top: 24px;
+		padding-left: 25px;
+		border-left: 1px solid $default-border-color;
+		box-sizing: border-box;
+		
+		.edgtf-ps-info-title,
+		.edgtf-social-title {
+			width: 100px;
+		}
+	}
+
+	.edgtf-ps-info-item {
+		@include edgtfTableLayout();
+		margin: 0 0 6px;
+
+		p, a {
+			display: inline-block;
+			margin: 0;
+		}
+
+		a {
+			color: inherit;
+
+			&:hover {
+				color: $first-main-color;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Portfolio Single page style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio Single page specific style for types - begin
+   ========================================================================== */
+
+.edgtf-portfolio-single-holder {
+	
+	.edgtf-ps-image-holder {
+		
+		&.edgtf-ps-gallery-images {
+			
+			/***** Columns Layout - begin *****/
+			
+			$columns_number: ('two', 'three', 'four');
+			
+			@for $i from 0 to length($columns_number) {
+				&.edgtf-ps-#{nth($columns_number,$i+1)}-columns {
+					
+					.edgtf-ps-image {
+						width: 100% / ($i+2);
+					}
+					
+					@if ($i > 1) { // set different break point for four columns
+						@media only screen and (min-width: $laptop-landscape-plus-pixel) {
+							
+							.edgtf-ps-image {
+								
+								&:nth-child(#{$i+2}n+1) {
+									clear: both;
+								}
+							}
+						}
+					} @else {
+						@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+							
+							.edgtf-ps-image {
+								
+								&:nth-child(#{$i+2}n+1) {
+									clear: both;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			/***** Columns Layout - end *****/
+		}
+		
+		&.edgtf-ps-masonry-images {
+			
+			.edgtf-ps-image,
+			.edgtf-ps-grid-sizer {
+				width: 25%;
+			}
+			
+			.edgtf-ps-grid-gutter {
+				width: 0;
+			}
+			
+			.edgtf-ps-image {
+				
+				a,
+				img {
+					height: 100%;
+				}
+			}
+			
+			.edgtf-masonry-size-large-width {
+				
+				img {
+					width: 100%;
+				}
+			}
+			
+			/***** Columns Layout - begin *****/
+			
+			$columns_number: ('two', 'three', 'four');
+			
+			@for $i from 0 to length($columns_number) {
+				&.edgtf-ps-#{nth($columns_number,$i+1)}-columns {
+					$column_width: 100%/($i+2);
+					
+					.edgtf-ps-image,
+					.edgtf-ps-grid-sizer {
+						width: $column_width;
+					}
+					
+					.edgtf-ps-image.edgtf-masonry-size-large-width,
+					.edgtf-ps-image.edgtf-masonry-size-large-width-height {
+						width: $column_width * 2;
+					}
+				}
+			}
+			
+			/***** Columns Layout - end *****/
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page specific style for types - end
+   ========================================================================== */

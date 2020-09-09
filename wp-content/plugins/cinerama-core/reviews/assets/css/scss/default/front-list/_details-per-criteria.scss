@@ -1,0 +1,32 @@
+.edgtf-reviews-per-criteria {
+    .edgtf-item-reviews-average-rating {
+        color: $first-main-color;
+        font-size: 60px;
+        line-height: 1em;
+        font-weight: 700;
+    }
+
+    .edgtf-item-reviews-verbal-description {
+        vertical-align: middle;
+        margin: 2px 0 0;
+    }
+
+    .edgtf-item-reviews-rating-icon {
+        vertical-align: middle;
+        font-size: 20px;
+    }
+
+    .edgtf-item-reviews-display-right {
+        vertical-align: middle;
+        padding-left: 200px;
+        box-sizing: border-box;
+
+        .edgtf-item-reviews-display-bar {
+            line-height: 28px;
+
+            .edgtf-item-reviews-display-bar-inner {
+                padding: 6px 0;
+            }
+        }
+    }
+}

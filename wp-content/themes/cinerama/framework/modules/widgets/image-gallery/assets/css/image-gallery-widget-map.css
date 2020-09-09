@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Image Gallery widget style - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+.widget.edgtf-image-gallery-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.widget.edgtf-image-gallery-widget img {
+  display: block;
+  width: 100%;
+}
+
+/* ==========================================================================
+   Image Gallery widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=image-gallery-widget-map.css.map */

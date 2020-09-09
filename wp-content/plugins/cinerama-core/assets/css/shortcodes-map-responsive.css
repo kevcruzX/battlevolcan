@@ -1,0 +1,975 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Button shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .edgtf-btn.edgtf-btn-large, .edgtf-btn.edgtf-btn-huge {
+    padding: 18px 46px 16px;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Call To Action shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .edgtf-call-to-action-holder .edgtf-grid {
+    width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .edgtf-call-to-action-holder.edgtf-three-quarters-columns .edgtf-cta-text-holder, .edgtf-call-to-action-holder.edgtf-four-fifths-columns .edgtf-cta-text-holder {
+    width: 66.66666666666667%;
+  }
+  .edgtf-call-to-action-holder.edgtf-three-quarters-columns .edgtf-cta-button-holder, .edgtf-call-to-action-holder.edgtf-four-fifths-columns .edgtf-cta-button-holder {
+    width: 33.33333333333333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-call-to-action-holder.edgtf-normal-layout .edgtf-cta-inner,
+  .edgtf-call-to-action-holder.edgtf-normal-layout .edgtf-cta-text-holder,
+  .edgtf-call-to-action-holder.edgtf-normal-layout .edgtf-cta-button-holder {
+    display: block;
+  }
+  .edgtf-call-to-action-holder.edgtf-normal-layout .edgtf-cta-button-holder {
+    margin: 28px 0 0;
+    text-align: initial;
+  }
+  .edgtf-call-to-action-holder.edgtf-two-halves-columns .edgtf-cta-text-holder,
+  .edgtf-call-to-action-holder.edgtf-two-halves-columns .edgtf-cta-button-holder, .edgtf-call-to-action-holder.edgtf-two-thirds-columns .edgtf-cta-text-holder,
+  .edgtf-call-to-action-holder.edgtf-two-thirds-columns .edgtf-cta-button-holder, .edgtf-call-to-action-holder.edgtf-three-quarters-columns .edgtf-cta-text-holder,
+  .edgtf-call-to-action-holder.edgtf-three-quarters-columns .edgtf-cta-button-holder, .edgtf-call-to-action-holder.edgtf-four-fifths-columns .edgtf-cta-text-holder,
+  .edgtf-call-to-action-holder.edgtf-four-fifths-columns .edgtf-cta-button-holder {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Call To Action shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Cards Gallery shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .edgtf-cards-gallery .edgtf-cg-fake-card {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card.edgtf-out {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card:nth-last-child(6) {
+    -webkit-transform: scale(0.3) translateX(84%);
+    -moz-transform: scale(0.3) translateX(84%);
+    transform: scale(0.3) translateX(84%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card:nth-last-child(5) {
+    -webkit-transform: scale(0.4) translateX(60%);
+    -moz-transform: scale(0.4) translateX(60%);
+    transform: scale(0.4) translateX(60%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card:nth-last-child(4) {
+    -webkit-transform: scale(0.5) translateX(39%);
+    -moz-transform: scale(0.5) translateX(39%);
+    transform: scale(0.5) translateX(39%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card:nth-last-child(3) {
+    -webkit-transform: scale(0.6) translateX(25%);
+    -moz-transform: scale(0.6) translateX(25%);
+    transform: scale(0.6) translateX(25%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-left .edgtf-cg-card:nth-last-child(2) {
+    -webkit-transform: scale(0.7) translateX(11.2%);
+    -moz-transform: scale(0.7) translateX(11.2%);
+    transform: scale(0.7) translateX(11.2%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card.edgtf-out {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card:nth-last-child(6) {
+    -webkit-transform: scale(0.3) translateX(-84%);
+    -moz-transform: scale(0.3) translateX(-84%);
+    transform: scale(0.3) translateX(-84%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card:nth-last-child(5) {
+    -webkit-transform: scale(0.4) translateX(-60%);
+    -moz-transform: scale(0.4) translateX(-60%);
+    transform: scale(0.4) translateX(-60%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card:nth-last-child(4) {
+    -webkit-transform: scale(0.5) translateX(-39%);
+    -moz-transform: scale(0.5) translateX(-39%);
+    transform: scale(0.5) translateX(-39%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card:nth-last-child(3) {
+    -webkit-transform: scale(0.6) translateX(-25%);
+    -moz-transform: scale(0.6) translateX(-25%);
+    transform: scale(0.6) translateX(-25%);
+  }
+  .edgtf-cards-gallery.edgtf-cg-shuffled-right .edgtf-cg-card:nth-last-child(2) {
+    -webkit-transform: scale(0.7) translateX(-11.2%);
+    -moz-transform: scale(0.7) translateX(-11.2%);
+    transform: scale(0.7) translateX(-11.2%);
+  }
+}
+
+/* ==========================================================================
+   Cards Gallery shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Countdown shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .edgtf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-countdown .countdown-row.countdown-show4 .countdown-section, .edgtf-countdown .countdown-row.countdown-show5 .countdown-section, .edgtf-countdown .countdown-row.countdown-show6 .countdown-section {
+    width: 33.33333333333333%;
+  }
+  .edgtf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 40px;
+  }
+}
+
+/* ==========================================================================
+   Countdown shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Custom Font shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .edgtf-custom-font-holder.edgtf-disable-title-break br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Custom Font shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-two-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-three-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-four-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-five-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-six-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-one-column-alignment-left .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: left;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-one-column-alignment-right .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: right;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1366.edgtf-one-column-alignment-center .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-two-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-three-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-four-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-five-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-six-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-one-column-alignment-left .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: left;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-one-column-alignment-right .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: right;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-1024.edgtf-one-column-alignment-center .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-two-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-three-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-four-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-five-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-six-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-one-column-alignment-left .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: left;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-one-column-alignment-right .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: right;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-768.edgtf-one-column-alignment-center .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-two-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-three-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-four-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-five-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-six-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-one-column-alignment-left .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: left;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-one-column-alignment-right .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: right;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-680.edgtf-one-column-alignment-center .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-two-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-three-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-four-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-five-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-six-columns .edgtf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-one-column-alignment-left .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: left;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-one-column-alignment-right .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: right;
+  }
+  .edgtf-elements-holder.edgtf-responsive-mode-480.edgtf-one-column-alignment-center .edgtf-eh-item .edgtf-eh-item-content {
+    text-align: center;
+  }
+  .edgtf-elements-holder .edgtf-eh-item-content {
+    padding: 0 10px;
+  }
+}
+
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Google Map shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-google-map-overlay {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Google Map shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Horizontal Timeline shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .edgtf-horizontal-timeline .edgtf-ht-content {
+    margin-top: 50px;
+  }
+  .edgtf-horizontal-timeline .edgtf-ht-content .edgtf-hti-content-inner.edgtf-timeline-has-image > * {
+    width: 100%;
+    float: none;
+  }
+  .edgtf-horizontal-timeline .edgtf-ht-content .edgtf-hti-content-inner.edgtf-timeline-has-image .edgtf-hti-content-value {
+    margin-top: 30px;
+  }
+}
+
+/* ==========================================================================
+   Horizontal Timeline shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Image Gallery shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image:nth-child(6n+1) {
+    clear: none;
+  }
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-grid-sizer {
+    width: 20%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-grid-sizer {
+    width: 25%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 50%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-grid-sizer {
+    width: 25%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-four-columns .edgtf-ig-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-two-columns .edgtf-ig-image:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-three-columns .edgtf-ig-image:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-four-columns .edgtf-ig-image:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-grid-sizer {
+    width: 33.33333%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 66.66667%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-grid-sizer {
+    width: 33.33333%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 66.66667%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-grid-sizer {
+    width: 50%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-three-columns .edgtf-ig-image {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-grid-sizer {
+    width: 50%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-grid-sizer {
+    width: 50%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-grid-sizer {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-two-columns .edgtf-ig-image {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-three-columns .edgtf-ig-image {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-four-columns .edgtf-ig-image {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-five-columns .edgtf-ig-image {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-grid.edgtf-ig-six-columns .edgtf-ig-image {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-two-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-two-columns .edgtf-ig-grid-sizer {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-two-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-two-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-grid-sizer {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-three-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-grid-sizer {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-four-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-grid-sizer {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-five-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-grid-sizer {
+    width: 100%;
+  }
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width,
+  .edgtf-image-gallery .edgtf-ig-masonry.edgtf-ig-six-columns .edgtf-ig-image.edgtf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Image Gallery shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Interactive Image With Text shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .edgtf-interactive-image-with-text-holder span.edgtf-iiwt-title {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-left .edgtf-iiwt-inner {
+    padding-left: 230px;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-left .edgtf-iiwt-image {
+    padding-left: 60px;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-right .edgtf-iiwt-inner {
+    padding-right: 230px;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-right .edgtf-iiwt-image {
+    padding-right: 60px;
+  }
+  .edgtf-interactive-image-with-text-holder .edgtf-iiwt-prefix-holder {
+    width: 200px;
+  }
+  .edgtf-interactive-image-with-text-holder .edgtf-iiwt-prefix-text {
+    font-size: 200px;
+  }
+  .edgtf-interactive-image-with-text-holder span.edgtf-iiwt-title {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-left .edgtf-iiwt-inner {
+    padding-left: 160px;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-right .edgtf-iiwt-inner {
+    padding-right: 160px;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-small-space .edgtf-iiwt-prefix-text {
+    font-size: 160px;
+  }
+  .edgtf-interactive-image-with-text-holder .edgtf-iiwt-prefix-holder {
+    width: 160px;
+  }
+  .edgtf-interactive-image-with-text-holder .edgtf-iiwt-prefix-text {
+    font-size: 120px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-left .edgtf-iiwt-inner,
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-left .edgtf-iiwt-image {
+    padding-left: 0;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-right {
+    text-align: left;
+  }
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-right .edgtf-iiwt-inner,
+  .edgtf-interactive-image-with-text-holder.edgtf-iiwt-prefix-right .edgtf-iiwt-image {
+    padding-right: 0;
+  }
+  .edgtf-interactive-image-with-text-holder .edgtf-iiwt-prefix-holder {
+    display: none;
+  }
+  .edgtf-interactive-image-with-text-holder .edgtf-iiwt-title {
+    margin: 39px 0 0;
+  }
+  .edgtf-interactive-image-with-text-holder span.edgtf-iiwt-title {
+    font-size: 35px;
+  }
+}
+
+/* ==========================================================================
+   Interactive Image With Text shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Interactive link showcase shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .edgtf-ils-holder .edgtf-ils-item-link {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-ils-holder .edgtf-ils-item-link {
+    height: 70px;
+  }
+  .edgtf-ils-holder .edgtf-ils-item-link svg text {
+    stroke-width: 0.008px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-ils-holder .edgtf-ils-item-link {
+    height: 32px;
+    margin: 10px 0;
+  }
+}
+
+/* ==========================================================================
+   Interactive link showcase shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Image Gallery shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item:nth-child(6n+1) {
+    clear: none;
+  }
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-lig-holder.edgtf-four-columns .edgtf-lig-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-lig-holder.edgtf-two-columns .edgtf-lig-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-lig-holder.edgtf-three-columns .edgtf-lig-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-lig-holder.edgtf-four-columns .edgtf-lig-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-lig-holder.edgtf-three-columns .edgtf-lig-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-lig-holder.edgtf-two-columns .edgtf-lig-item {
+    width: 100%;
+  }
+  .edgtf-lig-holder.edgtf-three-columns .edgtf-lig-item {
+    width: 100%;
+  }
+  .edgtf-lig-holder.edgtf-four-columns .edgtf-lig-item {
+    width: 100%;
+  }
+  .edgtf-lig-holder.edgtf-five-columns .edgtf-lig-item {
+    width: 100%;
+  }
+  .edgtf-lig-holder.edgtf-six-columns .edgtf-lig-item {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Image Gallery shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Section Title shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-section-title-holder.edgtf-st-two-columns {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-section-title-holder {
+    padding: 0 !important;
+  }
+  .edgtf-section-title-holder.edgtf-st-two-columns .edgtf-st-inner {
+    margin: 0 !important;
+  }
+  .edgtf-section-title-holder.edgtf-st-two-columns .edgtf-st-title-column,
+  .edgtf-section-title-holder.edgtf-st-two-columns .edgtf-st-text-column {
+    width: 100% !important;
+    float: none !important;
+    text-align: initial !important;
+  }
+  .edgtf-section-title-holder.edgtf-st-two-columns .edgtf-st-text-column {
+    margin: 14px 0 0;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-tabs.edgtf-tabs-simple .edgtf-tabs-nav li a {
+    padding: 11px 42px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-tabs.edgtf-tabs-standard .edgtf-tabs-nav li, .edgtf-tabs.edgtf-tabs-simple .edgtf-tabs-nav li {
+    display: block;
+    float: none;
+  }
+  .edgtf-tabs.edgtf-tabs-standard .edgtf-tabs-nav li a, .edgtf-tabs.edgtf-tabs-simple .edgtf-tabs-nav li a {
+    width: 100%;
+  }
+  .edgtf-tabs.edgtf-tabs-simple .edgtf-tabs-nav li a {
+    padding: 13px 26px 8px;
+  }
+}
+
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/cinerama-core/assets/css/shortcodes-map-responsive.css.map */

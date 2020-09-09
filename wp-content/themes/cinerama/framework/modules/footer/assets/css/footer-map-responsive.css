@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Footer responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Footer responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .edgtf-page-footer .edgtf-column-content.edgtf-grid-col-3 {
+    width: 50%;
+    float: left;
+  }
+  .edgtf-page-footer .edgtf-column-content.edgtf-grid-col-3:nth-child(2n+1) {
+    clear: both;
+  }
+  .edgtf-page-footer .edgtf-column-content.edgtf-grid-col-3:nth-child(3), .edgtf-page-footer .edgtf-column-content.edgtf-grid-col-3:nth-child(4) {
+    margin-top: 30px;
+  }
+  .edgtf-page-footer .edgtf-column-content.edgtf-grid-col-4 {
+    width: 33.33333333333333%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-page-footer .edgtf-column-content:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+/* ==========================================================================
+   Footer responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map-responsive.css.map */

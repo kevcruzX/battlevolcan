@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Lightbox Image Gallery shortcode style - begin
+   ========================================================================== */
+
+.edgtf-lig-holder {
+	@include edgtfRelativeHolderLayout();
+	
+	$gallery_columns: ('two', 'three', 'four', 'five', 'six');
+	@for $i from 0 to length($gallery_columns) {
+		&.edgtf-#{nth($gallery_columns, $i+1)}-columns {
+			$column_width: 100%/($i+2);
+			
+			.edgtf-lig-item {
+				width: $column_width;
+				
+				@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+					
+					&:nth-child(#{$i+2}n+1) {
+						clear: both;
+					}
+				}
+			}
+		}
+	}
+	
+	.edgtf-lig-item {
+		@include edgtfRelativeHolderLayout();
+		float: left;
+		box-sizing: border-box;
+		
+		&.edgtf-has-video {
+			
+			a {
+				overflow: hidden;
+				
+				&:after {
+					content: '';
+					position: absolute;
+					top: calc(50% - 22px);
+					left: calc(50% - 24px);
+					width: 44px;
+					height: 48px;
+					background-image: url('../img/play.svg');
+					background-size: 44px 48px;
+					background-repeat: no-repeat;
+					opacity: 1;
+					@include edgtfTransition(opacity .2s);
+				}
+				
+				@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+					
+					&:hover {
+						
+						img,
+						&:after {
+							opacity: 0;
+							@include edgtfTransition(opacity .4s);
+						}
+					}
+				}
+			}
+		}
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+		
+		img {
+			opacity: 1;
+			@include edgtfTransition(opacity .2s);
+		}
+	}
+	
+	.edgtf-self-hosted-video-holder {
+		@include edgtfAbsoluteHolderLayout();
+		z-index: -1;
+		
+		video {
+			object-fit: inherit;
+		}
+		
+		.edgtf-video-wrap,
+		.edgtf-self-hosted-video {
+			width: 100% !important;
+			height: 100% !important;
+		}
+		
+		.mejs-controls,
+		.mejs-offscreen {
+			display: none !important;
+		}
+	}
+}
+
+/* ==========================================================================
+   Lightbox Image Gallery shortcode style - end
+   ========================================================================== */

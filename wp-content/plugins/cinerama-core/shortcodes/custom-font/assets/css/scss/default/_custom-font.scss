@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Custom Font shortcode style - begin
+   ========================================================================== */
+
+.edgtf-custom-font-holder {
+	
+	.edgtf-cf-typed-wrap {
+		width: 0;
+		white-space: nowrap;
+	}
+	
+	.edgtf-cf-typed {
+		display: inline-block;
+		
+		span {
+			display: none; //remove initial strings
+		}
+		
+		~ .typed-cursor {
+			display: inline-block;
+			opacity: 1;
+			-webkit-animation: blink 0.7s infinite;
+			animation: blink 0.7s infinite;
+		}
+		
+		@-webkit-keyframes blink {
+			0% {
+				opacity: 1;
+				filter: alpha(opacity=100);
+			}
+			50% {
+				opacity: 0;
+				filter: alpha(opacity=0);
+			}
+			100% {
+				opacity: 1;
+				filter: alpha(opacity=100);
+			}
+		}
+		
+		@keyframes blink {
+			0% {
+				opacity: 1;
+				filter: alpha(opacity=100);
+			}
+			50% {
+				opacity: 0;
+				filter: alpha(opacity=0);
+			}
+			100% {
+				opacity: 1;
+				filter: alpha(opacity=100);
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Custom Font shortcode style - end
+   ========================================================================== */

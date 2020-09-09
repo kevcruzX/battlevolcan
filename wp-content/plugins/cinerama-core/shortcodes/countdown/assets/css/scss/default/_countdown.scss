@@ -1,0 +1,72 @@
+/* ==========================================================================
+   Countdown shortcode style - begin
+   ========================================================================== */
+
+.edgtf-countdown {
+	@include edgtfRelativeHolderLayout();
+	
+	&.edgtf-light-skin {
+		
+		.countdown-row {
+			
+			.countdown-section {
+				
+				.countdown-amount,
+				.countdown-period {
+					color: #fff;
+				}
+			}
+		}
+	}
+	
+	.countdown-rtl {
+		direction: rtl;
+	}
+	
+	.countdown-row {
+		@include edgtfRelativeHolderLayout();
+		text-align: center;
+		clear: both;
+		
+		$columns_label: ('countdown-show1', 'countdown-show2', 'countdown-show3', 'countdown-show4', 'countdown-show5', 'countdown-show6');
+		@for $i from 0 to length($columns_label) {
+			&.#{nth($columns_label, $i+1)} {
+				$column_width: 100% / ($i+1);
+				
+				.countdown-section {
+					width: $column_width;
+				}
+			}
+		}
+		
+		.countdown-section {
+			@include edgtfRelativeHolderLayout();
+			padding: 0 5px;
+			box-sizing: border-box;
+			
+			.countdown-amount {
+				position: relative;
+				display: block;
+				color: $default-heading-color;
+				font-family: $additional-text-font;
+				font-size: 50px;
+				line-height: 1em;
+				font-weight: 700;
+			}
+			
+			.countdown-period {
+				display: block;
+				margin: 15px 0 0;
+				color: $default-heading-color;
+				font-size: 12px;
+				line-height: 1.5em;
+				font-weight: 700;
+				letter-spacing: .13em;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Countdown shortcode style - end
+   ========================================================================== */

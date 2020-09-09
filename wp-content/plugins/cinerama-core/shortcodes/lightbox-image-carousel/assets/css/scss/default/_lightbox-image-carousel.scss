@@ -1,0 +1,143 @@
+/* ==========================================================================
+   Lightbox Image Carousel shortcode style - begin
+   ========================================================================== */
+
+.edgtf-lic-holder {
+	@include edgtfRelativeHolderLayout();
+	
+	.center {
+		.edgtf-lic-item.edgtf-has-video a:after {
+			visibility: visible;
+		}
+	}
+	
+	.edgtf-lic-item {
+		@include edgtfRelativeHolderLayout();
+		box-sizing: border-box;
+		
+		@media only screen and (min-width: $phone-landscape-plus-pixel) {
+			margin: 10% 0;
+			@include edgtfTransitionTransform(.3s ease);
+			
+			&:after {
+				@include edgtfAbsoluteHolderLayout();
+				content: '';
+				background-color: rgba($default-heading-color, .4);
+				opacity: 1;
+				visibility: visible;
+				@include edgtfTransition(opacity .3s ease);
+			}
+		}
+		
+		&:hover {
+			.edgtf-lic-item-link {
+				
+				img {
+					@include edgtfTransform(scale(1) translateZ(0));
+				}
+			}
+		}
+		
+		.edgtf-lic-item-link {
+			overflow: hidden;
+			
+			img {
+				@include edgtfTransform(scale(1.03) translateZ(0));
+				@include edgtfTransitionTransform(1s ease);
+			}
+		}
+		
+		&.edgtf-has-video {
+			
+			&:hover {
+				a {
+					&:after {
+						-webkit-animation: move-right .5s ease 1;
+						-moz-animation: move-right .5s ease 1;
+						-o-animation: move-right .5s ease 1;
+						animation: move-right .5s ease 1;
+					}
+				}
+			}
+			
+			a {
+				&:after {
+					content: '';
+					position: absolute;
+					top: calc(50% - 22px);
+					left: calc(50% - 24px);
+					width: 44px;
+					height: 48px;
+					background-image: url('../img/play.svg');
+					background-size: 44px 48px;
+					background-repeat: no-repeat;
+					visibility: hidden;
+				}
+			}
+		}
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	.owl-item {
+		z-index: 4;
+		
+		&.center {
+			z-index: 5;
+			
+			@media only screen and (min-width: $phone-landscape-plus-pixel) {
+				
+				.edgtf-lic-item {
+					@include edgtfTransform(scale(1.2));
+					
+					&:after {
+						opacity: 0;
+						visibility: hidden;
+					}
+				}
+			}
+		}
+	}
+}
+
+@-webkit-keyframes move-right {
+	0%,100% {
+		-webkit-transform: translateX(0);
+	}
+	50% {
+		-webkit-transform: translateX(5px);
+	}
+}
+
+@-moz-keyframes move-right {
+	0%,100% {
+		-moz-transform: translateX(0);
+	}
+	50% {
+		-moz-transform: translateX(5px);
+	}
+}
+
+@-o-keyframes move-right {
+	0%,100% {
+		-o-transform: translateX(0);
+	}
+	50% {
+		-o-transform: translateX(5px);
+	}
+}
+
+@keyframes move-right {
+	0%,100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+}
+/* ==========================================================================
+   Lightbox Image Carousel shortcode style - end
+   ========================================================================== */

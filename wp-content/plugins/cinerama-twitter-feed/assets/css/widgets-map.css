@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Widgets styles
+   ========================================================================== */
+/* ==========================================================================
+   Twitter widget style - begin
+   ========================================================================== */
+.widget.widget_edgtf_twitter_widget {
+  margin: 0 0 20px;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li:not(:last-child) {
+  margin: 0 0 22px;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-twitter-icon {
+  font-size: 18px;
+  color: #000;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text {
+  position: relative;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text span {
+  color: #737373;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text a {
+  position: relative;
+  color: #737373;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text a:hover {
+  color: #000;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text a.edgtf-tweet-time {
+  display: block;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text a.edgtf-tweet-time span {
+  margin: 0 2px 0 0;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-standard li .edgtf-twitter-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-standard li .edgtf-tweet-text {
+  padding: 0 0 0 40px;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider li {
+  overflow: hidden;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider li .edgtf-tweet-text a.edgtf-tweet-time {
+  margin: 21px 0 0;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-prev,
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-next {
+  width: 40px;
+  height: 40px;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-prev:hover,
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-next:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-prev > span,
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-next > span {
+  font-size: 20px;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-prev {
+  left: -16px;
+}
+
+.widget.widget_edgtf_twitter_widget .edgtf-twitter-widget.edgtf-twitter-slider .owl-nav .owl-next {
+  right: -16px;
+}
+
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-twitter-icon {
+  color: #b1b2b2;
+}
+
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text span {
+  color: #b1b2b2;
+}
+
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text a {
+  color: #b1b2b2;
+}
+
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget li .edgtf-tweet-text a:hover {
+  color: #fff;
+}
+
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget .owl-nav .owl-prev,
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget .owl-nav .owl-next {
+  color: #b1b2b2;
+  border-color: #b1b2b2;
+}
+
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget .owl-nav .owl-prev:hover,
+.edgtf-page-footer .widget.widget_edgtf_twitter_widget .edgtf-twitter-widget .owl-nav .owl-next:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* ==========================================================================
+   Twitter widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/cinerama-twitter-feed/assets/css/widgets-map.css.map */

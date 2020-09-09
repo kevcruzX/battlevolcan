@@ -1,0 +1,327 @@
+.edgtf-page input.edgtf-form-element,
+.edgtf-page select.edgtf-form-element,
+.edgtf-page textarea.edgtf-form-element {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  -ms-transition: border-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border-color: #ddd;
+  font-size: 12px;
+  outline: none; }
+.edgtf-page .input-group-addon {
+  font-size: 12px;
+  background-color: #f7f7f7; }
+.edgtf-page input[type='text'].edgtf-form-element,
+.edgtf-page input[type='email'].edgtf-form-element,
+.edgtf-page input[type='password'].edgtf-form-element,
+.edgtf-page input[type='number'].edgtf-form-element,
+.edgtf-page select.edgtf-form-element,
+.edgtf-page textarea.edgtf-form-element {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px; }
+.edgtf-page input[type='text'].edgtf-form-element.edgtf-form-element-xxsmall,
+.edgtf-page input[type='email'].edgtf-form-element.edgtf-form-element-xxsmall,
+.edgtf-page input[type='password'].edgtf-form-element.edgtf-form-element-xxsmall,
+.edgtf-page input[type='number'].edgtf-form-element.edgtf-form-element-xxsmall,
+.edgtf-page select.edgtf-form-element.edgtf-form-element-xxsmall,
+.edgtf-page textarea.edgtf-form-element.edgtf-form-element-xxsmall {
+  width: 60px; }
+.edgtf-page input[type='text'].edgtf-form-element.edgtf-form-element-xsmall,
+.edgtf-page input[type='email'].edgtf-form-element.edgtf-form-element-xsmall,
+.edgtf-page input[type='password'].edgtf-form-element.edgtf-form-element-xsmall,
+.edgtf-page input[type='number'].edgtf-form-element.edgtf-form-element-xsmall,
+.edgtf-page select.edgtf-form-element.edgtf-form-element-xsmall,
+.edgtf-page textarea.edgtf-form-element.edgtf-form-element-xsmall {
+  width: 100px; }
+.edgtf-page input[type='text'].edgtf-form-element.edgtf-form-element-small,
+.edgtf-page input[type='email'].edgtf-form-element.edgtf-form-element-small,
+.edgtf-page input[type='password'].edgtf-form-element.edgtf-form-element-small,
+.edgtf-page input[type='number'].edgtf-form-element.edgtf-form-element-small,
+.edgtf-page select.edgtf-form-element.edgtf-form-element-small,
+.edgtf-page textarea.edgtf-form-element.edgtf-form-element-small {
+  width: 155px; }
+.edgtf-page input[type='text'].edgtf-form-element.edgtf-form-element-medium,
+.edgtf-page input[type='email'].edgtf-form-element.edgtf-form-element-medium,
+.edgtf-page input[type='password'].edgtf-form-element.edgtf-form-element-medium,
+.edgtf-page input[type='number'].edgtf-form-element.edgtf-form-element-medium,
+.edgtf-page select.edgtf-form-element.edgtf-form-element-medium,
+.edgtf-page textarea.edgtf-form-element.edgtf-form-element-medium {
+  width: 255px; }
+.edgtf-page input[type='text'].edgtf-form-element.edgtf-form-element-large,
+.edgtf-page input[type='email'].edgtf-form-element.edgtf-form-element-large,
+.edgtf-page input[type='password'].edgtf-form-element.edgtf-form-element-large,
+.edgtf-page input[type='number'].edgtf-form-element.edgtf-form-element-large,
+.edgtf-page select.edgtf-form-element.edgtf-form-element-large,
+.edgtf-page textarea.edgtf-form-element.edgtf-form-element-large {
+  width: 500px; }
+.edgtf-page #general textarea.edgtf-form-element {
+  resize: vertical; }
+.edgtf-page input[type='text'].edgtf-form-element,
+.edgtf-page input[type='email'].edgtf-form-element,
+.edgtf-page input[type='password'].edgtf-form-element,
+.edgtf-page input[type='number'].edgtf-form-element,
+.edgtf-page select.edgtf-form-element {
+  height: 34px;
+  line-height: 1.42857143; }
+.edgtf-page input[type='text'].edgtf-form-element,
+.edgtf-page input[type='email'].edgtf-form-element,
+.edgtf-page input[type='password'].edgtf-form-element,
+.edgtf-page input[type='number'].edgtf-form-element,
+.edgtf-page select.edgtf-form-element,
+.edgtf-page textarea.edgtf-form-element {
+  padding: 6px 12px; }
+.edgtf-page input.edgtf-form-element:hover,
+.edgtf-page select.edgtf-form-element:hover,
+.edgtf-page textarea.edgtf-form-element:hover {
+  background-color: #f7f9fa; }
+.edgtf-page input.edgtf-form-element:focus,
+.edgtf-page select.edgtf-form-element:focus,
+.edgtf-page textarea.edgtf-form-element:focus {
+  border-color: #999;
+  background-color: #f7f9fa;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+.edgtf-page input[type="radio"].edgtf-form-element,
+.edgtf-page input[type="checkbox"].edgtf-form-element {
+  margin-top: 1px;
+  outline: none; }
+@media only screen and (max-width: 782px) {
+  .edgtf-page input[type="radio"].edgtf-form-element,
+  .edgtf-page input[type="checkbox"].edgtf-form-element {
+    width: 16px;
+    height: 16px; } }
+@media only screen and (max-width: 782px) {
+  .edgtf-page input[type="radio"].edgtf-form-element:checked:before,
+  .edgtf-page input[type="checkbox"].edgtf-form-element:checked:before {
+    font: 400 21px/1 dashicons; } }
+@media only screen and (max-width: 782px) {
+  .edgtf-page input[type="checkbox"].edgtf-form-element:checked:before {
+    margin: -3px 0 0 -4px; } }
+@media only screen and (max-width: 782px) {
+  .edgtf-page input[type="radio"].edgtf-form-element:checked:before {
+    margin: 3px; } }
+.edgtf-page .input-group {
+  margin-bottom: 15px; }
+.edgtf-page .input-group .input-group-addon {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+.edgtf-page label {
+  margin: 0; }
+.edgtf-page .radio-inline input[type="radio"] + img {
+  border: 2px solid transparent;
+  -webkit-transition: border-color 0.15s ease-in-out;
+  -moz-transition: border-color 0.15s ease-in-out;
+  -ms-transition: border-color 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out; }
+.edgtf-page .radio-inline input[type="radio"]:checked + img {
+  border-color: #bba011; }
+.edgtf-page .edgtf-radio-group-holder.with-images .radio-inline {
+  padding-left: 0; }
+.edgtf-page .edgtf-field-description {
+  margin: 0px 0 10px;
+  display: block;
+  color: #808A93;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5; }
+.edgtf-page .edgtf-field-description {
+  margin-top: 10px; }
+.edgtf-page .edgtf-page-form-section {
+  border-top: 1px solid #efefef;
+  display: table;
+  width: 100%; }
+.edgtf-page .edgtf-page-form-section:last-child {
+  border-bottom: none; }
+.edgtf-page .edgtf-page-form-section {
+  border-top: 1px solid #efefef;
+  display: table;
+  width: 100%; }
+.edgtf-page .edgtf-page-form-container-holder .edgtf-field-desc {
+  background-color: #f7f9fa;
+  border-left: 2px solid #D8DDE7; }
+.edgtf-page .edgtf-field-desc {
+  width: 20%;
+  padding: 15px 10px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  background-color: #f7f9fa; }
+.edgtf-page .edgtf-field-desc h4 {
+  margin-bottom: 0;
+  color: #374a59;
+  font-size: 14px;
+  font-weight: 600; }
+.edgtf-page .edgtf-field-desc p {
+  color: #777;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400; }
+.edgtf-page .edgtf-section-content {
+  padding: 20px 0;
+  display: table-cell;
+  width: 80%;
+  height: 100%;
+  vertical-align: middle; }
+
+@media only screen and (max-width: 782px) {
+  #wpbody select.edgtf-form-element {
+    font-size: 13px;
+    height: 34px; } }
+
+/*# sourceMappingURL=edgtf-forms.css.map */
+
+/*
+NEW CSS START
+*/
+
+.edgtf-page .edgtf-page-form-section.edgtf-no-description .edgtf-field-desc {
+    display: none;
+}
+
+.edgtf-page .edgtf-page-form-section.edgtf-no-description .edgtf-section-content {
+    width: 100%;
+}
+
+/* Repeater global style -  start */
+
+.edgtf-page .edgtf-repeater-fields-row-inner,
+.edgtf-page .edgtf-repeater-inner-fields-holder{
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    table-layout: fixed;
+}
+
+.edgtf-page .edgtf-repeater-fields,
+.edgtf-page .edgtf-repeater-inner-fields{
+    display: table-cell;
+    width: 80%;
+    height: 100%;
+    vertical-align: middle;
+    background: #f6f6f6;
+}
+
+.edgtf-page .edgtf-repeater-fields-row .edgtf-repeater-wrapper .edgtf-repeater-add{
+    padding-left: 0;
+}
+
+.edgtf-page .edgtf-repeater-remove,
+.edgtf-page .edgtf-repeater-sort {
+    border-top: 1px solid #efefef;
+    font-size: 20px;
+    display: table-cell;
+    width: 10%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.edgtf-page .edgtf-repeater-sort {
+    cursor: move;
+}
+
+.edgtf-page .edgtf-repeater-sort:hover {
+    background-color: #efefef;
+}
+
+.edgtf-page .edgtf-repeater-wrapper-inner:not(.sortable) .edgtf-repeater-sort{
+	display: none;
+}
+
+.edgtf-page .edgtf-repeater-add,
+.edgtf-page .edgtf-repeater-inner-add {
+    padding: 15px;
+    display: inline-block;
+}
+
+.edgtf-page .edgtf-field-desc h4 {
+    margin-top: 0;
+}
+
+.edgtf-page .placeholder,
+.edgtf-page .placeholder-sub{
+    background-color: #dadada;
+    border: 1px dashed #000;
+    height: 75px;
+}
+
+.edgtf-page .placeholder-sub {
+    margin-left: 50px;
+}
+
+.edgtf-page .edgtf-repeater-fields-row.ui-sortable-helper {
+    background-color: #fff;
+}
+
+.edgtf-page .edgtf-repeater-fields-row.second-level{
+    margin-left: 50px;
+}
+
+/*Repeater Table style*/
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-fields-holder{
+	display: table;
+	width: 100%;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-table-heading .edgtf-repeater-table-cell{
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	padding: 15px;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-fields-holder{
+	border-top: 1px solid #efefef;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-fields-row {
+	text-align: center;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-fields-row .select2{
+	text-align: left;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-page-form-section{
+	border-top: none;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-remove,
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-sort {
+    border-top: none;
+}
+
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-fields,
+.edgtf-page .edgtf-repeater-table .edgtf-repeater-inner-fields{
+	background-color: transparent;
+}
+
+/* Repeater global style -  end */
+
+.edgtf-page .map_canvas {
+    height: 300px;
+    margin: 20px 0;
+}
+
+.row.edgtf-icon-collection-holder {
+    margin-top: 20px;
+}
+
+/*
+NEW CSS END
+*/

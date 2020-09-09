@@ -1,0 +1,25 @@
+.edgtf-comment-rating-box {
+	display: inline-block;
+	margin-left: 18px;
+    vertical-align: middle;
+	
+	.edgtf-star-rating {
+		position: relative;
+		display: inline-block;
+		font-family: 'ElegantIcons';
+		color: #c8c8c8;
+		font-size: 16px;
+		letter-spacing: 5px;
+		cursor: pointer;
+		overflow: hidden;
+		@include edgtfTransition(all 0.3s ease);
+		
+		&.active {
+			color: #ffd740;
+		}
+		
+		&:before {
+			content: '\e033';
+		}
+	}
+}

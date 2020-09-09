@@ -1,0 +1,8 @@
+2020-09-08T16:13:45+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\dashboard\battlevolcan-1\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-09-08T17:26:27+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\dashboard\battlevolcan-1\wp-includes\Requests\Transport\cURL.php on line 463
+
+2020-09-08T18:09:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\dashboard\battlevolcan-1\wp-includes\Requests\Transport\cURL.php en la línea 441
+
+2020-09-08T18:09:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\dashboard\battlevolcan-1\wp-includes\class-wp-image-editor-gd.php en la línea 185
+

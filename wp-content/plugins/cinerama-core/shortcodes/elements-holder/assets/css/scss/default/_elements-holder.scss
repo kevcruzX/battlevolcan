@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Elements Holder shortcode style - begin
+   ========================================================================== */
+
+.edgtf-elements-holder {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	
+	&.edgtf-eh-full-height {
+		height: 100%;
+	}
+	
+	&.edgtf-ehi-float {
+		
+		.edgtf-eh-item {
+			float: left;
+		}
+	}
+	
+	$columns_label: ('two', 'three', 'four', 'five', 'six');
+	
+	@for $i from 0 to length($columns_label) {
+		&.edgtf-#{nth($columns_label,$i+1)}-columns {
+			$column_width: 100%/($i+2);
+			
+			.edgtf-eh-item {
+				width: $column_width;
+			}
+		}
+	}
+
+	.edgtf-eh-item {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+		background-position: center;
+		background-size: cover;
+
+		&.edgtf-vertical-alignment-top {
+			vertical-align: top;
+		}
+
+		&.edgtf-vertical-alignment-bottom {
+			vertical-align: bottom;
+		}
+
+		&.edgtf-horizontal-alignment-center {
+			text-align: center;
+		}
+
+		&.edgtf-horizontal-alignment-right {
+			text-align: right;
+		}
+
+		.edgtf-elements-holder-item-inner {
+			width: 100%;
+		}
+	}
+
+	.edgtf-ehi-content {
+		padding: 0 20px;
+	}
+}
+/* ==========================================================================
+   Elements Holder shortcode style - end
+   ========================================================================== */

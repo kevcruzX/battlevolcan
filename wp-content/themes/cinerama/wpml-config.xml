@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+		<key name="edgtf_options_cinerama">
+			<key name="meta_keywords"/>
+			<key name="meta_description"/>
+		</key>
+	</admin-texts>
+</wpml-config>

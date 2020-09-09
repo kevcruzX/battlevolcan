@@ -1,0 +1,105 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #868686;
+    background-color: #fff;
+    overflow-x: hidden !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1.167em;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.15em;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 1.321em;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.39em;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 17px;
+    line-height: 1.465em;
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 2.5em;
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0;
+    color: #000;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    color: #3b3b3b;
+}
+
+a,
+p a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+a:hover,
+p a:hover {
+    color: #3b3b3b;
+}
+
+p {
+    margin: 10px 0;
+}

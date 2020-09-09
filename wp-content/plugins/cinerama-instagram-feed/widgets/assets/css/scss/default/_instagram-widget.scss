@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Instagram widget style - begin
+   ========================================================================== */
+
+aside.edgtf-sidebar,
+.wpb_widgetised_column {
+	
+	.widget {
+		
+		&.widget_edgtf_instagram_widget {
+			
+			.edgtf-widget-title {
+				margin: 0 0 25px;
+			}
+		}
+	}
+}
+
+.edgtf-instagram-feed {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+	li {
+		float: left;
+		box-sizing: border-box;
+		border: none !important;
+		
+		a {
+			position: relative;
+			display: block;
+			overflow: hidden;
+			@include edgtfImageOverlayHoverStyle();
+			
+			.edgtf-instagram-icon {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				color: #fff;
+				opacity: 0;
+				z-index: 1;
+				@include edgtfTransition(opacity .2s ease-in-out);
+				@include edgtfTransform(translate(-50%, -50%));
+			}
+			
+			&:hover {
+				
+				.edgtf-instagram-icon {
+					opacity: 1;
+				}
+			}
+		}
+		
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+	
+	&.edgtf-instagram-gallery {
+		$gallery_space_label: ('no', 'tiny', 'small', 'normal');
+		$gallery_space_width: (0, 5, 10, 15);
+		
+		@for $i from 0 to length($gallery_space_label) {
+			&.edgtf-#{nth($gallery_space_label,$i+1)}-space {
+				$column_width: nth($gallery_space_width, $i+1);
+				$column_width_margin: $column_width * 2;
+				
+				@if ($column_width == 0) {
+					margin: 0;
+				} @else {
+					margin: 0 -#{$column_width}px -#{$column_width_margin}px;
+				}
+				
+				li {
+					padding: 0 #{$column_width}px;
+					margin: 0 0 #{$column_width_margin}px;
+				}
+			}
+		}
+		
+		$gallery_columns: ('2', '3', '4', '6', '9');
+		@for $i from 0 to length($gallery_columns) {
+			&.edgtf-col-#{nth($gallery_columns, $i+1)} {
+				$column_width: 100%/($i+2);
+				
+				@if ($i == 3) {
+					$column_width: 100%/6;
+				} @else if ($i == 4) {
+					$column_width: 100%/9;
+				}
+				
+				li {
+					width: $column_width;
+				}
+			}
+		}
+	}
+	
+	&.edgtf-instagram-carousel {
+		
+		li {
+			position: relative;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			
+			a {
+				position: relative;
+				display: block;
+				height: 100%;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Instagram widget style - end
+   ========================================================================== */

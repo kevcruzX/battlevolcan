@@ -1,0 +1,19 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">masonry-gallery</custom-type>
+		<custom-type translate="1">portfolio-item</custom-type>
+		<custom-type translate="1">proofing-gallery</custom-type>
+		<custom-type translate="1">stock-photography</custom-type>
+		<custom-type translate="1">team-member</custom-type>
+		<custom-type translate="1">testimonials</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">masonry-gallery-category</taxonomy>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+		<taxonomy translate="1">portfolio-tag</taxonomy>
+		<taxonomy translate="1">stock-photography-category</taxonomy>
+		<taxonomy translate="1">stock-photography-tag</taxonomy>
+		<taxonomy translate="1">team-category</taxonomy>
+		<taxonomy translate="1">testimonials-category</taxonomy>
+	</taxonomies>
+</wpml-config>

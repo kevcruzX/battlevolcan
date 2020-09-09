@@ -1,0 +1,53 @@
+1.5
+- Added WooCommerce 3.6.3 compatibility
+- Updated WPBakery Page Builder to 6.0.2
+- Minor improvements
+
+1.4.1
+- Updated WPBakery Page Builder to 6.0.1
+- Minor improvements
+
+1.4
+- Added WooCommerce 3.6.2 compatibility
+- Updated Cinerama Core to 1.1
+- Improved import functionality
+
+1.3.1
+- Minor changes and fixes
+
+1.3
+- Added WooCommerce 3.5.6 compatibility
+- Updated Cinerama Core to 1.0.4
+- Small changes and fixes
+
+1.2.1
+- Fixed mobile menu opener bug
+
+1.2
+- Added WooCommerce 3.5.5 compatibility
+- Added compatibility with Gutenberg plugin
+- Updated WPBakery Page Builder to 5.7
+- Updated Revolution Slider to 5.4.8.3
+- Updated Cinerama Core to 1.0.3
+- Improved framework files
+
+1.1.2
+- Fixed displaying video content on secured protocol
+
+1.1.1
+- Fixed version of Cinerama Core plugin
+
+1.1
+- Added WooCommerce 3.4.5 compatibility
+- Updated WPBakery Page Builder to 5.6
+- Updated Revolution Slider to 5.4.8.2
+- Updated Core to 1.0.2
+- Fixed portfolio list preview video on smaller screens
+- Improved full screen functionality for YouTube lightbox video
+
+1.0.1
+- Updated Visual Composer to 5.5
+- Updated Revolution Slider to 5.4.8
+- Updated Cinerama Core to 1.0.1
+- Added Set Link as Lightbox option for Interactive Link Showcase shortcode
+- Fixed infinity loading after import revolution sliders

@@ -1,0 +1,301 @@
+/* ==========================================================================
+   Horizontal Timeline shortcode style - begin
+   ========================================================================== */
+
+.edgtf-horizontal-timeline {
+	@include edgtfRelativeHolderLayout(top);
+	opacity: 0;
+	@include edgtfTransition(opacity 0.2s);
+	
+	&:before {
+		// never visible - this is used in jQuery to check the current MQ
+		content: 'desktop';
+		display: none;
+		
+		@include ipad-landscape {
+			content: 'mobile';
+		}
+	}
+	
+	&.edgtf-loaded {
+		opacity: 1;
+	}
+	
+	*,
+	*:before,
+	*:after {
+		box-sizing: border-box;
+	}
+	
+	ol, ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.edgtf-ht-nav {
+		@include edgtfRelativeHolderLayout(top);
+	}
+	
+	.edgtf-ht-nav-wrapper {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		width: calc(100% - 20px);
+		height: 60px;
+		margin: 0 10px;
+		overflow: hidden;
+	}
+	
+	.edgtf-ht-nav-inner {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		height: 2px;
+		background-color: #cdcdcd;
+		@include edgtfTransitionTransform(.4s);
+		
+		a {
+			position: absolute;
+			bottom: 0;
+			padding: 0 0 6px;
+			color: #bfbfbf;
+			font-size: 23px;
+			line-height: 34px;
+			font-weight: 700;
+			text-align: center;
+			z-index: 2;
+			
+			&:hover {
+				
+				&:after {
+					background-color: $default-heading-color;
+				}
+			}
+			
+			&.edgtf-selected {
+				pointer-events: none;
+				padding-bottom: 7px;
+				color: $default-heading-color;
+				font-size: 28px;
+				
+				&:after {
+					background-color: $default-heading-color;
+				}
+			}
+			
+			&.edgtf-older-event {
+				
+				&:after {
+					background-color: $default-heading-color;
+				}
+			}
+			
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: -4px;
+				left: calc(50% - 5px);
+				right: auto;
+				height: 6px;
+				width: 6px;
+				background-color: #cdcdcd;
+				border: 2px solid #fff;
+				border-radius: 100%;
+				box-sizing: content-box;
+				@include edgtfTransition(background-color 0.3s);
+			}
+		}
+	}
+	
+	.edgtf-ht-nav-filling-line {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color:$first-main-color;
+		z-index: 1;
+		@include edgtfTransitionTransform(.3s);
+		@include edgtfTransformOrigin(left center);
+		@include edgtfTransform(scaleX(0));
+	}
+	
+	.edgtf-ht-nav-navigation {
+		
+		a {
+			position: absolute;
+			bottom: -1px;
+			font-size: 24px;
+			line-height: 1;
+			z-index: 2;
+			
+			&:after {
+				display: block;
+				font-family: 'ElegantIcons';
+			}
+			
+			&.edgtf-prev {
+				left: -8px;
+				
+				&:after {
+					content: "\34";
+				}
+			}
+			
+			&.edgtf-next {
+				right: -8px;
+				
+				&:after {
+					content: "\35";
+				}
+			}
+			
+			&.edgtf-inactive {
+				cursor: not-allowed;
+			}
+		}
+	}
+	
+	.edgtf-ht-content {
+		@include edgtfRelativeHolderLayout(top);
+		margin-top: 75px;
+		overflow: hidden;
+		@include edgtfTransition(height 0.4s);
+		
+		.edgtf-hti-content-inner {
+			margin: 0 -16px;
+			
+			&.edgtf-timeline-has-image {
+			
+				> * {
+					width: 50%;
+					float: left;
+				}
+			}
+			
+			> * {
+				position: relative;
+				display: inline-block;
+				vertical-align: top;
+				width: 100%;
+				padding: 0 33px;
+				box-sizing: border-box;
+			}
+		}
+		
+		li {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			-webkit-animation-duration: 0.6s;
+			-moz-animation-duration: 0.6s;
+			animation-duration: 0.6s;
+			-webkit-animation-timing-function: ease-in-out;
+			-moz-animation-timing-function: ease-in-out;
+			animation-timing-function: ease-in-out;
+			opacity: 0;
+			z-index: 1;
+			@include edgtfTransform(translateX(-100%));
+			
+			&.edgtf-selected {
+				position: relative;
+				opacity: 1;
+				z-index: 2;
+				@include edgtfTransform(translateX(0));
+			}
+			
+			&.edgtf-enter-left,
+			&.edgtf-leave-left {
+				-webkit-animation-name: edgtf-enter-left;
+				-moz-animation-name: edgtf-enter-left;
+				animation-name: edgtf-enter-left;
+			}
+			
+			&.edgtf-enter-right,
+			&.edgtf-leave-right {
+				-webkit-animation-name: edgtf-enter-right;
+				-moz-animation-name: edgtf-enter-right;
+				animation-name: edgtf-enter-right;
+			}
+			
+			&.edgtf-leave-left,
+			&.edgtf-leave-right {
+				-webkit-animation-direction: reverse;
+				-moz-animation-direction: reverse;
+				animation-direction: reverse;
+			}
+		}
+	}
+}
+
+@-webkit-keyframes edgtf-enter-right {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+	}
+}
+
+@-moz-keyframes edgtf-enter-right {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0%);
+	}
+}
+
+@keyframes edgtf-enter-right {
+	0% {
+		opacity: 0;
+		@include edgtfTransform(translateX(100%));
+	}
+	100% {
+		opacity: 1;
+		@include edgtfTransform(translateX(0%));
+	}
+}
+
+@-webkit-keyframes edgtf-enter-left {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+	}
+}
+
+@-moz-keyframes edgtf-enter-left {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0%);
+	}
+}
+
+@keyframes edgtf-enter-left {
+	0% {
+		opacity: 0;
+		@include edgtfTransform(translateX(-100%));
+	}
+	100% {
+		opacity: 1;
+		@include edgtfTransform(translateX(0%));
+	}
+}
+
+/* ==========================================================================
+   Horizontal Timeline shortcode style - end
+   ========================================================================== */

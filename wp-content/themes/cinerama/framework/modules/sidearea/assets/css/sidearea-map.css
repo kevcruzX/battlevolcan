@@ -1,0 +1,343 @@
+/* ==========================================================================
+   Side area styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Side area style - begin
+========================================================================== */
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener,
+.edgtf-light-header .edgtf-top-bar .edgtf-side-menu-button-opener {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener.opened, .edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener:hover,
+.edgtf-light-header .edgtf-top-bar .edgtf-side-menu-button-opener.opened,
+.edgtf-light-header .edgtf-top-bar .edgtf-side-menu-button-opener:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener,
+.edgtf-dark-header .edgtf-top-bar .edgtf-side-menu-button-opener {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener.opened, .edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener:hover,
+.edgtf-dark-header .edgtf-top-bar .edgtf-side-menu-button-opener.opened,
+.edgtf-dark-header .edgtf-top-bar .edgtf-side-menu-button-opener:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.edgtf-side-menu-button-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-side-menu-button-opener .edgtf-side-menu-title {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+  color: currentColor;
+}
+
+.edgtf-side-menu-button-opener .edgtf-side-menu-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-side-menu-button-opener.opened, .edgtf-side-menu-button-opener:hover {
+  color: #000;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack {
+  top: -1px;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack .edgtf-side-menu-icon {
+  font-size: 20px;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack .edgtf-side-menu-icon * {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack .edgtf-side-menu-icon *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-svg-path .edgtf-side-menu-icon > * {
+  vertical-align: middle;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-svg-path .edgtf-side-menu-icon > *,
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-svg-path .edgtf-side-menu-icon path {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-predefined {
+  top: -3px;
+  line-height: 1;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-predefined .edgtf-hm-lines {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 10px;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-predefined .edgtf-hm-lines .edgtf-hm-line {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: currentColor;
+  border-radius: 12px;
+  -webkit-transition: width 0.3s ease;
+  -moz-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-predefined .edgtf-hm-lines .edgtf-hm-line.edgtf-line-1 {
+  top: 0;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-predefined .edgtf-hm-lines .edgtf-hm-line.edgtf-line-2 {
+  top: 4px;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-predefined .edgtf-hm-lines .edgtf-hm-line.edgtf-line-3 {
+  bottom: 0;
+}
+
+.edgtf-side-menu {
+  position: fixed;
+  top: 0;
+  right: -405px;
+  width: 405px;
+  height: 100%;
+  min-height: 100%;
+  padding: 66px 65px 36px;
+  background-color: #fff;
+  text-align: left;
+  overflow: hidden;
+  visibility: hidden;
+  z-index: 9999;
+  -webkit-backface-visibility: hidden;
+  box-sizing: border-box;
+  box-shadow: -3px 0 3px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu {
+  position: absolute;
+  top: 33px;
+  right: 40px;
+  display: block;
+  z-index: 1000;
+  color: #000;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu:hover {
+  color: #737373;
+}
+
+.admin-bar .edgtf-side-menu a.edgtf-close-side-menu {
+  top: 68px;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-icon-pack {
+  font-size: 20px;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-icon-pack * {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-icon-pack *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-svg-path > * {
+  vertical-align: middle;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-svg-path > *,
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-svg-path path {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+/* ==========================================================================
+# Side area style - end
+========================================================================== */
+/* ==========================================================================
+# Side area slides over content style - begin
+========================================================================== */
+.edgtf-right-side-menu-opened .edgtf-wrapper,
+.edgtf-right-side-menu-opened footer.edgtf-footer-uncover,
+.edgtf-right-side-menu-opened .edgtf-fixed-wrapper.fixed,
+.edgtf-right-side-menu-opened .edgtf-sticky-header,
+.edgtf-right-side-menu-opened .mobile-header-appear .edgtf-mobile-header-inner {
+  left: 0;
+}
+
+.edgtf-side-menu-slide-from-right .edgtf-wrapper {
+  background-color: #fff;
+  position: relative;
+  z-index: 1000;
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu-slide-from-right .edgtf-wrapper .edgtf-cover {
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: opacity 0.2s ease-in-out, z-index 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out, z-index 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, z-index 0.2s ease-in-out;
+}
+
+.edgtf-side-menu-slide-from-right .edgtf-sticky-header,
+.edgtf-side-menu-slide-from-right .edgtf-fixed-wrapper.fixed {
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu-slide-from-right footer.edgtf-footer-uncover {
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu-slide-from-right.edgtf-right-side-menu-opened .edgtf-cover {
+  z-index: 1002;
+  opacity: 1;
+}
+
+.edgtf-side-menu-slide-from-right.edgtf-right-side-menu-opened .edgtf-side-menu {
+  right: 0;
+  visibility: visible;
+}
+
+/* ==========================================================================
+# Side area slides over content style - end
+========================================================================== */
+/* ==========================================================================
+# Side area uncovering - begin
+========================================================================== */
+.edgtf-side-area-uncovered-from-content.edgtf-right-side-menu-opened .edgtf-wrapper,
+.edgtf-side-area-uncovered-from-content.edgtf-right-side-menu-opened footer.edgtf-footer-uncover,
+.edgtf-side-area-uncovered-from-content.edgtf-right-side-menu-opened .edgtf-sticky-header,
+.edgtf-side-area-uncovered-from-content.edgtf-right-side-menu-opened .edgtf-fixed-wrapper.fixed,
+.edgtf-side-area-uncovered-from-content.edgtf-right-side-menu-opened .edgtf-mobile-header-inner,
+.edgtf-side-area-uncovered-from-content.edgtf-right-side-menu-opened .mobile-header-appear .edgtf-mobile-header-inner {
+  left: -405px;
+}
+
+.edgtf-side-area-uncovered-from-content .edgtf-side-menu {
+  right: 0;
+  z-index: 90;
+}
+
+.edgtf-side-area-uncovered-from-content .edgtf-sticky-header,
+.edgtf-side-area-uncovered-from-content .edgtf-fixed-wrapper.fixed {
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* ==========================================================================
+# Side area uncovering - end
+========================================================================== */
+/* ==========================================================================
+# Side area slides with content style - begin
+========================================================================== */
+.edgtf-side-menu-slide-with-content {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+  -webkit-overflow-scrolling: auto !important;
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu-slide-with-content .edgtf-side-menu {
+  visibility: visible;
+}
+
+.edgtf-side-menu-slide-with-content footer.edgtf-footer-uncover,
+.edgtf-side-menu-slide-with-content .edgtf-wrapper {
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu-slide-with-content .edgtf-sticky-header,
+.edgtf-side-menu-slide-with-content .edgtf-fixed-wrapper.fixed,
+.edgtf-side-menu-slide-with-content .edgtf-mobile-header-inner {
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.edgtf-side-menu-slide-with-content.edgtf-side-menu-open .edgtf-wrapper,
+.edgtf-side-menu-slide-with-content.edgtf-side-menu-open footer.edgtf-footer-uncover,
+.edgtf-side-menu-slide-with-content.edgtf-side-menu-open .edgtf-sticky-header,
+.edgtf-side-menu-slide-with-content.edgtf-side-menu-open .edgtf-fixed-wrapper,
+.edgtf-side-menu-slide-with-content.edgtf-side-menu-open .edgtf-mobile-header-inner {
+  left: -405px;
+}
+
+.edgtf-side-menu-slide-with-content.edgtf-side-menu-open .edgtf-side-menu {
+  right: 0;
+}
+
+/* ==========================================================================
+# Side area slides with content style - end
+========================================================================== */
+/* ==========================================================================
+# Side area responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .edgtf-side-menu-slide-from-right .edgtf-side-menu {
+    padding: 65px 40px 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-side-menu-slide-from-right .edgtf-side-menu {
+    padding: 60px 42px 30px 41px;
+  }
+}
+
+/* ==========================================================================
+# Side area style - end
+========================================================================== */
+/* ==========================================================================
+   Side area styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=sidearea-map.css.map */

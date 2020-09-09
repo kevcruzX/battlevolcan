@@ -1,0 +1,153 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Widgets styles
+   ========================================================================== */
+/* ==========================================================================
+   Instagram widget style - begin
+   ========================================================================== */
+aside.edgtf-sidebar .widget.widget_edgtf_instagram_widget .edgtf-widget-title,
+.wpb_widgetised_column .widget.widget_edgtf_instagram_widget .edgtf-widget-title {
+  margin: 0 0 25px;
+}
+
+.edgtf-instagram-feed {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.edgtf-instagram-feed li {
+  float: left;
+  box-sizing: border-box;
+  border: none !important;
+}
+
+.edgtf-instagram-feed li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.edgtf-instagram-feed li a:hover:after {
+  opacity: 1;
+}
+
+.edgtf-instagram-feed li a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  -moz-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+
+.edgtf-instagram-feed li a .edgtf-instagram-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.edgtf-instagram-feed li a:hover .edgtf-instagram-icon {
+  opacity: 1;
+}
+
+.edgtf-instagram-feed li img {
+  width: 100%;
+  display: block;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-no-space {
+  margin: 0;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-no-space li {
+  padding: 0 0px;
+  margin: 0 0 0px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-tiny-space {
+  margin: 0 -5px -10px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-tiny-space li {
+  padding: 0 5px;
+  margin: 0 0 10px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-small-space {
+  margin: 0 -10px -20px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-small-space li {
+  padding: 0 10px;
+  margin: 0 0 20px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-normal-space {
+  margin: 0 -15px -30px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-normal-space li {
+  padding: 0 15px;
+  margin: 0 0 30px;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-col-2 li {
+  width: 50%;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-col-3 li {
+  width: 33.33333%;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-col-4 li {
+  width: 25%;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-col-6 li {
+  width: 16.66667%;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-gallery.edgtf-col-9 li {
+  width: 11.11111%;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-carousel li {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.edgtf-instagram-feed.edgtf-instagram-carousel li a {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+/* ==========================================================================
+   Instagram widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/cinerama-instagram-feed/assets/css/widget-map.css.map */

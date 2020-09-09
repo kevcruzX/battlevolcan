@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Blog List widget style - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+@media only screen and (min-width: 1025px) {
+  .edgtf-blog-list-widget .edgtf-blog-list-holder.edgtf-bl-simple .edgtf-post-image {
+    width: 49%;
+  }
+  .edgtf-blog-list-widget .edgtf-blog-list-holder.edgtf-bl-simple .edgtf-bli-content {
+    width: 51%;
+  }
+}
+
+.edgtf-page-footer .edgtf-blog-list-widget .edgtf-blog-list-holder .edgtf-bli-content .edgtf-post-info-date a {
+  color: #b1b2b2;
+}
+
+.edgtf-page-footer .edgtf-blog-list-widget .edgtf-blog-list-holder .edgtf-bli-content .edgtf-post-info-date a:hover {
+  color: #fff;
+}
+
+/* ==========================================================================
+   Blog List widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=blog-list-widget-map.css.map */

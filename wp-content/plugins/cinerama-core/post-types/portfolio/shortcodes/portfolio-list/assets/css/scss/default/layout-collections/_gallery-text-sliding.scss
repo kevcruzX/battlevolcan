@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Slide From Image Bottom style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-list-holder {
+	
+	&.edgtf-pl-gallery-text-sliding {
+		
+		&.edgtf-pl-has-shadow {
+			
+			.edgtf-pl-item-inner {
+				box-shadow: $default-box-shadow;
+			}
+		}
+		
+		article {
+			
+			&:hover {
+				
+				.edgtf-pli-excerpt {
+					max-height: 52px;
+				}
+				
+				.edgtf-pli-image {
+					
+					img {
+						@include edgtfTransform(scale(1));
+					}
+				}
+			}
+			
+			&.edgtf-masonry-size-large-width {
+				.edgtf-pli-excerpt {
+					width: 40%;
+				}
+			}
+			
+			.edgtf-pl-item-inner,
+			.edgtf-pli-image {
+				overflow: hidden;
+			}
+			
+			.edgtf-pli-image {
+				
+				img {
+					@include edgtfTransform(scale(1.03));
+					@include edgtfTransitionTransform(1s ease);
+				}
+			}
+			
+			.edgtf-pli-title {
+				color: #fff;
+				margin-bottom: 4px;
+			}
+			
+			.edgtf-pli-excerpt {
+				color: #fff;
+				max-height: 0;
+				margin: 0;
+				width: 51%;
+				overflow: hidden;
+				@include edgtfTransition(max-height .5s ease);
+			}
+		}
+		
+		.edgtf-pli-text-holder {
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: auto;
+			bottom: 0;
+			left: 0;
+		}
+		
+		.edgtf-pli-text {
+			@include edgtfRelativeHolderLayout();
+			padding: 15px 49px 39px;
+			overflow: hidden;
+			box-sizing: border-box;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Slide From Image Bottom style - end
+   ========================================================================== */

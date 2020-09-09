@@ -1,0 +1,113 @@
+/* ==========================================================================
+   Accordions shortcode style - begin
+   ========================================================================== */
+
+.edgtf-accordion-holder {
+    @include edgtfRelativeHolderLayout();
+
+    .edgtf-accordion-title {
+        position: relative;
+        cursor: pointer;
+        margin: 0 0 13px;
+	    padding: 14px 21px 5px 2px;
+	    color: #777;
+	    border-bottom: 1px solid #aaaaaa;
+        box-sizing: border-box;
+        @include edgtfTransform(translateZ(0px));
+        @include edgtfTransition(color .2s ease-out, border-color .2s ease-out);
+	
+	    .edgtf-tab-title {
+		    display: block;
+		    line-height: inherit;
+	    }
+
+        .edgtf-accordion-mark {
+            position: absolute;
+            top: 50%;
+	        right: 10px;
+            width: 20px;
+	        height: 27px;
+	        margin: -1px 0 0;
+	        font-size: 27px;
+	        line-height: 27px;
+            text-align: center;
+            @include edgtfTransform(translateY(-50%));
+	
+	        span {
+		        position: absolute;
+		        display: block;
+		        width: 100%;
+		        height: 100%;
+		        font-size: inherit;
+		        line-height: inherit;
+
+		        &:before {
+			        display: block;
+			        line-height: inherit;
+		        }
+		        
+		        &.edgtf_icon_minus {
+			        opacity: 0;
+		        }
+
+		        &.edgtf_icon_plus {
+			        opacity: 1;
+		        }
+	        }
+        }
+
+	    &.ui-state-active,
+	    &.ui-state-hover {
+		    color: $default-heading-color;
+		    border-bottom-color: $default-heading-color;
+	    }
+
+	    &.ui-state-active {
+		    border-bottom-width: 3px;
+
+		    .edgtf-accordion-mark {
+
+			    span {
+
+				    &.edgtf_icon_minus {
+					    opacity: 1;
+				    }
+
+				    &.edgtf_icon_plus {
+					    opacity: 0;
+				    }
+			    }
+		    }
+	    }
+    }
+
+    .edgtf-accordion-content {
+        margin: 0;
+	    padding: 16px 0 12px;
+
+	    p {
+		    margin: 0;
+	    }
+    }
+
+	&.edgtf-accordion-light {
+
+		.edgtf-accordion-title {
+		    color: #b2b2b2;
+		    border-bottom-color: rgba(#aaa, .43);
+
+		    &.ui-state-active,
+		    &.ui-state-hover {
+			    color: #fff;
+			    border-bottom-color: #fff;
+		    }
+	    }
+
+		.edgtf-accordion-content {
+			color: #fff;
+		}
+	}
+}
+/* ==========================================================================
+   Accordions shortcode style - end
+   ========================================================================== */

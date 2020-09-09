@@ -1,0 +1,69 @@
+.edgtf-welcome-page .edgtf-welcome-page-content {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 22px 0 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-logo img {
+	display: block;
+}
+
+.edgtf-welcome-page-select .edgtf-welcome-page-logo {
+	background-color: #0073aa;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-title {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	min-height: 60px;
+	margin: 0;
+	padding: 0 0 0 80px;
+	box-sizing: border-box;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-text {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 20px 0 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-text img {
+	display: block;
+	max-width: 600px;
+	margin: 43px 0 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-text h4 {
+	margin: 37px 0 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-links {
+	margin: 8px 0 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-links li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px 10px 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-links li:last-child {
+	margin-right: 0;
+}
+
+.edgtf-welcome-page .edgtf-welcome-page-links li a {
+	font-size: 15px;
+}

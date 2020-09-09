@@ -1,0 +1,3974 @@
+# Copyright (C) 2019 Cinerama Core
+# This file is distributed under the same license as the Cinerama Core package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cinerama Core 1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cinerama-core\n"
+"POT-Creation-Date: 2019-05-21 08:29:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: backup/functions.php:119 backup/functions.php:149 backup/functions.php:181
+msgid "Import field is empty"
+msgstr ""
+
+#: backup/functions.php:127
+msgid "Options are imported successfully"
+msgstr ""
+
+#: backup/functions.php:129 backup/functions.php:161 backup/functions.php:206
+msgid "Non valid authorization"
+msgstr ""
+
+#: backup/functions.php:133 backup/functions.php:165 backup/functions.php:210
+msgid "You don't have privileges for this operation"
+msgstr ""
+
+#: backup/functions.php:158 import/cinerama-import.php:102
+msgid "Custom sidebars imported successfully"
+msgstr ""
+
+#: backup/functions.php:204 import/cinerama-import.php:82
+msgid "Widgets imported successfully"
+msgstr ""
+
+#: import/cinerama-import.php:65
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: import/cinerama-import.php:67
+msgid "Content imported successfully"
+msgstr ""
+
+#: import/cinerama-import.php:108
+msgid "Options imported successfully"
+msgstr ""
+
+#: import/cinerama-import.php:224
+msgid "Cinerama Options - Cinerama Import"
+msgstr ""
+
+#: import/cinerama-import.php:225
+msgid "Import"
+msgstr ""
+
+#: import/class.wordpress-importer.php:143
+#: import/class.wordpress-importer.php:194
+#: import/class.wordpress-importer.php:198
+#: import/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: import/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: import/class.wordpress-importer.php:199
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: import/class.wordpress-importer.php:215
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: import/class.wordpress-importer.php:240
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: import/class.wordpress-importer.php:267
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: import/class.wordpress-importer.php:269
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: import/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: import/class.wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: import/class.wordpress-importer.php:374
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:426
+msgid "Failed to import category %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:470
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:520
+#: import/class.wordpress-importer.php:744
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:610
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:647
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: import/class.wordpress-importer.php:709
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: import/class.wordpress-importer.php:875
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: import/class.wordpress-importer.php:882
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:945
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: import/class.wordpress-importer.php:958
+msgid "Invalid file type"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1002
+msgid "Remote server did not respond"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1008
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1015
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1020
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1026
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1127
+msgid "Import WordPress"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1134
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1149
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1150
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: import/parsers.php:42 import/parsers.php:78 import/parsers.php:86
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: import/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: import/parsers.php:90 import/parsers.php:95 import/parsers.php:285
+#: import/parsers.php:474
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: lib/helpers-functions.php:318
+msgid "Facebook"
+msgstr ""
+
+#: lib/helpers-functions.php:319
+msgid "Twitter"
+msgstr ""
+
+#: lib/helpers-functions.php:320
+msgid "Linkedin"
+msgstr ""
+
+#: lib/helpers-functions.php:321
+msgid "Instagram"
+msgstr ""
+
+#: lib/helpers-functions.php:322
+msgid "Pinterest"
+msgstr ""
+
+#: lib/helpers-functions.php:323
+msgid "Tumbrl"
+msgstr ""
+
+#: lib/helpers-functions.php:324
+msgid "Google Plus"
+msgstr ""
+
+#: main.php:113 main.php:114 main.php:187
+msgid "Cinerama Options"
+msgstr ""
+
+#: main.php:131
+msgid "Cinerama Options - "
+msgstr ""
+
+#: main.php:162
+msgid "Cinerama Options - Backup Options"
+msgstr ""
+
+#: main.php:163
+msgid "Backup Options"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-categories-meta-boxes.php:17
+msgid "Category Image"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:18
+msgid "Portfolio Images/Videos (single upload)"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:26
+msgid "Add Image/Video"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:31
+msgid "File Type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:33
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:40
+#: shortcodes/banner/banner.php:38
+#: shortcodes/clients-carousel/clients-carousel-item.php:34
+#: shortcodes/image-with-text/image-with-text.php:38
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:38
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:75
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:61
+#: shortcodes/single-image/single-image.php:32 shortcodes/team/team.php:80
+msgid "Image"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:34
+msgid "Video"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:50
+msgid "Video Type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:52
+msgid "YouTube"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:53
+msgid "Vimeo"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:54
+msgid "Self Hosted"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:65
+msgid "Video ID"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:76
+msgid "Video mp4"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:87
+msgid "Video Cover Image"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:101
+msgid "Portfolio Images (multiple upload)"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:104
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:19
+#: post-types/portfolio/admin/options/portfolio-options-map.php:113
+msgid "Portfolio Images"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:104
+msgid "Choose your portfolio images"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:112
+msgid "Additional Portfolio Sidebar Items"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:121
+msgid "Add New Item"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:126
+msgid "Item Title"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:131
+msgid "Item Text"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-meta-boxes.php:136
+msgid "Enter Full URL for Item Text Link"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:7
+msgid "Portfolio Settings"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:14
+#: post-types/portfolio/admin/options/portfolio-options-map.php:108
+msgid "Portfolio Type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:15
+#: post-types/portfolio/admin/options/portfolio-options-map.php:110
+msgid "Choose a default type for Single Project pages"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:18
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:58
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:106
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:186
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:204
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:219
+#: post-types/portfolio/admin/options/portfolio-options-map.php:230
+#: post-types/portfolio/helper-functions.php:269
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:52
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:33
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:71
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:168
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:68
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:262
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:282
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:41
+#: shortcodes/accordions/accordion.php:42 shortcodes/banner/banner.php:62
+#: shortcodes/button/button.php:52 shortcodes/button/button.php:65
+#: shortcodes/call-to-action/call-to-action.php:94
+#: shortcodes/countdown/countdown.php:40 shortcodes/counter/counter.php:50
+#: shortcodes/custom-font/custom-font.php:165
+#: shortcodes/elements-holder/elements-holder.php:72
+#: shortcodes/elements-holder/elements-holder.php:88
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:77
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:89
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:114
+#: shortcodes/image-gallery/functions.php:42
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:87
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:176
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:197
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:33
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:67
+#: shortcodes/progress-bar/progress-bar.php:44
+#: shortcodes/section-title/section-title.php:89
+#: shortcodes/separator/separator.php:66
+msgid "Default"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:20
+#: post-types/portfolio/admin/options/portfolio-options-map.php:114
+msgid "Portfolio Small Images"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:21
+#: post-types/portfolio/admin/options/portfolio-options-map.php:115
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:42
+msgid "Portfolio Slider"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:22
+#: post-types/portfolio/admin/options/portfolio-options-map.php:116
+msgid "Portfolio Small Slider"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:23
+#: post-types/portfolio/admin/options/portfolio-options-map.php:117
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:24
+#: post-types/portfolio/admin/options/portfolio-options-map.php:118
+msgid "Portfolio Small Gallery"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:25
+#: post-types/portfolio/admin/options/portfolio-options-map.php:119
+msgid "Portfolio Masonry"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:26
+#: post-types/portfolio/admin/options/portfolio-options-map.php:120
+msgid "Portfolio Small Masonry"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:27
+#: post-types/portfolio/admin/options/portfolio-options-map.php:121
+msgid "Portfolio Custom"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:28
+#: post-types/portfolio/admin/options/portfolio-options-map.php:122
+msgid "Portfolio Full Width Custom"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:53
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:101
+#: post-types/portfolio/admin/options/portfolio-options-map.php:39
+#: post-types/portfolio/admin/options/portfolio-options-map.php:148
+#: post-types/portfolio/admin/options/portfolio-options-map.php:195
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:31
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:69
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:66
+#: shortcodes/image-gallery/image-gallery.php:96
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:31
+msgid "Number of Columns"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:55
+#: post-types/portfolio/admin/options/portfolio-options-map.php:150
+msgid "Set number of columns for portfolio gallery type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:59
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:107
+#: post-types/portfolio/admin/options/portfolio-options-map.php:44
+#: post-types/portfolio/admin/options/portfolio-options-map.php:153
+#: post-types/portfolio/admin/options/portfolio-options-map.php:200
+#: shortcodes/elements-holder/elements-holder.php:53
+msgid "2 Columns"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:60
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:108
+#: post-types/portfolio/admin/options/portfolio-options-map.php:45
+#: post-types/portfolio/admin/options/portfolio-options-map.php:154
+#: post-types/portfolio/admin/options/portfolio-options-map.php:201
+#: shortcodes/elements-holder/elements-holder.php:54
+msgid "3 Columns"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:61
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:109
+#: post-types/portfolio/admin/options/portfolio-options-map.php:46
+#: post-types/portfolio/admin/options/portfolio-options-map.php:155
+#: post-types/portfolio/admin/options/portfolio-options-map.php:202
+#: shortcodes/elements-holder/elements-holder.php:55
+msgid "4 Columns"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:70
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:118
+#: post-types/portfolio/admin/options/portfolio-options-map.php:56
+#: post-types/portfolio/admin/options/portfolio-options-map.php:164
+#: post-types/portfolio/admin/options/portfolio-options-map.php:211
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:66
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:47
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:85
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:82
+#: shortcodes/image-gallery/image-gallery.php:110
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:44
+#: shortcodes/team-carousel/team-carousel.php:47
+msgid "Space Between Items"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:71
+#: post-types/portfolio/admin/options/portfolio-options-map.php:165
+msgid "Set space size between columns for portfolio gallery type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:103
+#: post-types/portfolio/admin/options/portfolio-options-map.php:197
+msgid "Set number of columns for portfolio masonry type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:119
+#: post-types/portfolio/admin/options/portfolio-options-map.php:212
+msgid "Set space size between columns for portfolio masonry type"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:133
+#: post-types/portfolio/admin/options/portfolio-options-map.php:226
+msgid "Show Title Area"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:134
+msgid "Enabling this option will show title area on your single portfolio page"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:144
+msgid "Portfolio Info Top Padding"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:145
+msgid "Set top padding for portfolio info elements holder. This option works only for Portfolio Images, Slider, Gallery and Masonry portfolio types"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:158
+msgid "Portfolio External Link"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:159
+msgid "Enter URL to link from Portfolio List page"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:171
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:55
+msgid "Featured Image"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:172
+msgid "Choose an image for Portfolio Lists shortcode where Hover Type option is Switch Featured Images"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:181
+msgid "Dimensions for Masonry - Image Fixed Proportion"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:182
+msgid "Choose image layout when it appears in Masonry type portfolio lists where image proportion is fixed"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:187
+#: post-types/portfolio/helper-functions.php:270
+#: shortcodes/button/button.php:53
+#: shortcodes/call-to-action/call-to-action.php:95 shortcodes/icon/icon.php:44
+#: shortcodes/icon-with-text/icon-with-text.php:73
+#: shortcodes/image-gallery/functions.php:43
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:88
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:198
+#: shortcodes/section-title/section-title.php:78
+msgid "Small"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:188
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:205
+#: post-types/portfolio/helper-functions.php:271
+#: shortcodes/image-gallery/functions.php:44
+msgid "Large Width"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:189
+#: post-types/portfolio/helper-functions.php:272
+#: shortcodes/image-gallery/functions.php:45
+msgid "Large Height"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:190
+msgid "Large Width/Height"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:199
+msgid "Dimensions for Masonry - Image Original Proportion"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:200
+msgid "Choose image layout when it appears in Masonry type portfolio lists where image proportion is original"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:214
+msgid "Single Portfolio Navigation Skin"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:215
+msgid "Choose skin for single portfolio navigation"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:220
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:53
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:169
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:263
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:283
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:42
+#: shortcodes/accordions/accordion.php:43 shortcodes/button/button.php:66
+#: shortcodes/countdown/countdown.php:41
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:115
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:177
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:34
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:68
+msgid "Light"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:235
+msgid "\"Back To\" Link"
+msgstr ""
+
+#: post-types/portfolio/admin/meta-boxes/portfolio-settings-meta-boxes.php:236
+msgid "Choose \"Back To\" page to link from portfolio Single Project page"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:9
+#: post-types/portfolio/helper-functions.php:514
+msgid "Portfolio"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:16
+msgid "Portfolio Archive"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:26
+msgid "Number of Items"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:27
+msgid "Set number of items for your portfolio list on archive pages. Default value is 12"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:41
+msgid "Set number of columns for your portfolio list on archive pages. Default value is 4 columns"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:47
+#: shortcodes/elements-holder/elements-holder.php:56
+msgid "5 Columns"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:57
+msgid "Set space size between portfolio items for your portfolio list on archive pages. Default value is normal"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:68
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:73
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:75
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:99
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:89
+msgid "Image Proportions"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:70
+msgid "Set image proportions for your portfolio list on archive pages. Default value is landscape"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:73
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:75
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:77
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:101
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:91
+msgid "Original"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:74
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:77
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:79
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:103
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:93
+msgid "Landscape"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:75
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:78
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:80
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:104
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:94
+msgid "Portrait"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:76
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:76
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:78
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:102
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:92
+#: shortcodes/icon/icon.php:62 shortcodes/icon-with-text/icon-with-text.php:62
+msgid "Square"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:85
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:176
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:141
+msgid "Item Style"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:87
+msgid "Set item style for your portfolio list on archive pages. Default value is Standard - Shader"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:90
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:178
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:143
+msgid "Standard - Shader"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:91
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:181
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:145
+msgid "Gallery - Overlay"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:98
+msgid "Portfolio Single"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:227
+msgid "Enabling this option will show title area on single projects"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:231
+msgid "Yes"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:232
+msgid "No"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:244
+msgid "Enable Lightbox for Images"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:245
+msgid "Enabling this option will turn on lightbox functionality for projects with images"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:255
+msgid "Enable Lightbox for Videos"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:256
+msgid "Enabling this option will turn on lightbox functionality for YouTube/Vimeo projects"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:266
+msgid "Enable Categories"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:267
+msgid "Enabling this option will enable category meta description on single projects"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:277
+msgid "Enable Date"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:278
+msgid "Enabling this option will enable date meta on single projects"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:288
+msgid "Enable Tags"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:289
+msgid "Enabling this option will enable tag meta description on single projects"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:299
+msgid "Enable Sticky Side Text"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:300
+msgid "Enabling this option will make side text sticky on Single Project pages. This option works only for Full Width Images, Small Images, Small Gallery and Small Masonry portfolio types"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:310
+msgid "Show Comments"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:311
+msgid "Enabling this option will show comments on your page"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:321
+msgid "Hide Pagination"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:322
+msgid "Enabling this option will turn off portfolio pagination functionality"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:346
+msgid "Enable Pagination Through Same Category"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:347
+msgid "Enabling this option will make portfolio pagination sort through current category"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:357
+msgid "Portfolio Single Slug"
+msgstr ""
+
+#: post-types/portfolio/admin/options/portfolio-options-map.php:358
+msgid "Enter if you wish to use a different Single Project slug (Note: After entering slug, navigate to Settings -> Permalinks and click \"Save\" in order for changes to take effect)"
+msgstr ""
+
+#: post-types/portfolio/helper-functions.php:31
+#: post-types/portfolio/portfolio-register.php:99
+msgid "Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/helper-functions.php:32
+msgid "Show Social Share for Portfolio Items"
+msgstr ""
+
+#: post-types/portfolio/helper-functions.php:264
+#: shortcodes/clients-carousel/clients-carousel-item.php:46
+#: shortcodes/image-gallery/functions.php:37
+#: shortcodes/image-gallery/image-gallery.php:57
+#: shortcodes/image-with-text/image-with-text.php:52
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:52
+#: shortcodes/single-image/single-image.php:38
+msgid "Image Size"
+msgstr ""
+
+#: post-types/portfolio/helper-functions.php:265
+msgid "Choose image size for portfolio single item - Masonry layout"
+msgstr ""
+
+#: post-types/portfolio/helper-functions.php:273
+#: shortcodes/image-gallery/functions.php:46
+msgid "Large Width Height"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:98
+msgid "Cinerama Portfolio"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:100
+msgid "New Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:101
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:102
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:128
+#: post-types/portfolio/portfolio-register.php:138
+msgid "Portfolio Categories"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:129
+msgid "Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:130
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:131
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:132
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:133
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:134
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:135
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:136
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:137
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:156
+#: post-types/portfolio/portfolio-register.php:166
+msgid "Portfolio Tags"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:157
+msgid "Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:158
+msgid "Search Portfolio Tags"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:159
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:160
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:161
+msgid "Parent Portfolio Tags:"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:162
+msgid "Edit Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:163
+msgid "Update Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:164
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:165
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:42
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:44
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:25
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:43
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:32
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:44
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:32
+#: reviews/shortcodes/top-reviews-carousel/top-reviews-carousel.php:27
+#: shortcodes/accordions/accordion-tab.php:27
+#: shortcodes/accordions/accordion.php:26
+#: shortcodes/animation-holder/animation-holder.php:26
+#: shortcodes/banner/banner.php:25 shortcodes/button/button.php:25
+#: shortcodes/call-to-action/call-to-action.php:25
+#: shortcodes/cards-gallery/cards-gallery.php:25
+#: shortcodes/clients-carousel/clients-carousel-item.php:25
+#: shortcodes/clients-carousel/clients-carousel.php:25
+#: shortcodes/countdown/countdown.php:25 shortcodes/counter/counter.php:25
+#: shortcodes/custom-font/custom-font.php:26
+#: shortcodes/elements-holder/elements-holder-item.php:27
+#: shortcodes/elements-holder/elements-holder.php:25
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:26
+#: shortcodes/full-screen-sections/full-screen-sections.php:25
+#: shortcodes/google-map/google-map.php:24
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:25
+#: shortcodes/icon/icon.php:24 shortcodes/icon-list-item/icon-list-item.php:26
+#: shortcodes/icon-with-text/icon-with-text.php:26
+#: shortcodes/image-gallery/image-gallery.php:25
+#: shortcodes/image-with-text/image-with-text.php:25
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:25
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:25
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:25
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:25
+#: shortcodes/pie-chart/pie-chart.php:26
+#: shortcodes/progress-bar/progress-bar.php:25
+#: shortcodes/section-title/section-title.php:25
+#: shortcodes/separator/separator.php:24
+#: shortcodes/single-image/single-image.php:25
+#: shortcodes/social-share/social-share.php:39 shortcodes/tabs/tabs-item.php:26
+#: shortcodes/tabs/tabs.php:26 shortcodes/team/team.php:62
+#: shortcodes/team-carousel/team-carousel.php:25
+#: shortcodes/video-button/video-button.php:26
+msgid "by CINERAMA"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:50
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:166
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:39
+#: shortcodes/accordions/accordion.php:40 shortcodes/button/button.php:63
+#: shortcodes/countdown/countdown.php:38
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:65
+msgid "Skin"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:59
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:50
+msgid "Number of Portfolios Items"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:61
+msgid "Set number of items for your portfolio carousel. Enter -1 to show all"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:79
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:81
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:105
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:95
+#: shortcodes/button/button.php:54
+#: shortcodes/call-to-action/call-to-action.php:96 shortcodes/icon/icon.php:45
+#: shortcodes/icon-with-text/icon-with-text.php:71
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:199
+#: shortcodes/section-title/section-title.php:76
+msgid "Medium"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:80
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:82
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:106
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:96
+#: shortcodes/button/button.php:55
+#: shortcodes/call-to-action/call-to-action.php:97 shortcodes/icon/icon.php:46
+#: shortcodes/icon-with-text/icon-with-text.php:74
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:200
+#: shortcodes/section-title/section-title.php:75
+msgid "Large"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:82
+msgid "Set image proportions for your portfolio carousel."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:88
+msgid "One-Category Portfolio Carousel"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:89
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:130
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:105
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:55
+msgid "Enter one category slug (leave empty for showing all categories)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:94
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:135
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:110
+msgid "Show Only Projects with Listed IDs"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:100
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:141
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:116
+msgid "Delimit ID numbers by comma (leave empty for all)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:105
+msgid "One-Tag Portfolio Carousel"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:106
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:147
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:122
+msgid "Enter one tag slug (leave empty for showing all tags)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:111
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:61
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:152
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:127
+msgid "Order By"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:118
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:68
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:159
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:134
+msgid "Order"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:125
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:203
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:168
+msgid "Enable Title"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:127
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:135
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:143
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:184
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:191
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:198
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:205
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:213
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:221
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:229
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:237
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:244
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:252
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:149
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:156
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:163
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:170
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:178
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:186
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:193
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:201
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:208
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:216
+msgid "Content Layout"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:132
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:89
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:210
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:175
+#: shortcodes/accordions/accordion-tab.php:41 shortcodes/banner/banner.php:100
+#: shortcodes/counter/counter.php:82 shortcodes/custom-font/custom-font.php:103
+#: shortcodes/icon-with-text/icon-with-text.php:175
+#: shortcodes/image-with-text/image-with-text.php:95
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:107
+#: shortcodes/pie-chart/pie-chart.php:69
+#: shortcodes/progress-bar/progress-bar.php:57
+#: shortcodes/section-title/section-title.php:118
+msgid "Title Tag"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:140
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:218
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:183
+msgid "Title Text Transform"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:148
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:31
+msgid "Enable Carousel Autoplay"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:151
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:158
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:165
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:172
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:180
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:189
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:197
+msgid "Carousel Settings"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:156
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:238
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:76
+#: shortcodes/clients-carousel/clients-carousel.php:62
+#: shortcodes/image-gallery/image-gallery.php:151
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:38
+#: shortcodes/team-carousel/team-carousel.php:68
+msgid "Slide Duration"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:157
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:239
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:77
+#: shortcodes/clients-carousel/clients-carousel.php:63
+#: shortcodes/image-gallery/image-gallery.php:152
+#: shortcodes/team-carousel/team-carousel.php:69
+msgid "Default value is 5000 (ms)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:163
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:245
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:83
+#: shortcodes/clients-carousel/clients-carousel.php:68
+#: shortcodes/image-gallery/image-gallery.php:159
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:44
+#: shortcodes/team-carousel/team-carousel.php:74
+msgid "Slide Animation Duration"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:164
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:246
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:84
+#: shortcodes/clients-carousel/clients-carousel.php:69
+#: shortcodes/image-gallery/image-gallery.php:160
+#: shortcodes/team-carousel/team-carousel.php:75
+msgid "Speed of slide animation in milliseconds. Default value is 600."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:170
+msgid "Stage Padding (%)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:171
+msgid "Input the percentage value for the visible preview part for the sliders located to the left and right of the currently highlighted slide."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:177
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:50
+msgid "Enable Carousel Navigation Arrows"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:185
+msgid "Enable Cursor Follow Navigation Arrows"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:194
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:74
+msgid "Enable Carousel Pagination"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:403
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:431
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:702
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:730
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:51
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:370
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:398
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:54
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:191
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:220
+msgid "Category"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:466
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:497
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:287
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:765
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:796
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:240
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:271
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:433
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:464
+msgid "Id"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:466
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:494
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:765
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:793
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:50
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:240
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:268
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:433
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:461
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:17
+#: reviews/shortcodes/top-reviews-carousel/top-reviews-carousel.php:34
+#: shortcodes/accordions/accordion-tab.php:35 shortcodes/banner/banner.php:95
+#: shortcodes/counter/counter.php:77
+#: shortcodes/icon-list-item/icon-list-item.php:57
+#: shortcodes/icon-with-text/icon-with-text.php:170
+#: shortcodes/image-with-text/image-with-text.php:90
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:102
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:65
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:56
+#: shortcodes/pie-chart/pie-chart.php:64
+#: shortcodes/progress-bar/progress-bar.php:52
+#: shortcodes/section-title/section-title.php:105
+#: shortcodes/tabs/tabs-item.php:34
+msgid "Title"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:531
+#: post-types/portfolio/shortcodes/portfolio-carousel/portfolio-carousel.php:559
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:830
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:858
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:52
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:498
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:526
+msgid "Tag"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/templates/parts/image.php:14
+#: post-types/portfolio/shortcodes/portfolio-list/templates/parts/image-standard-switch-images.php:9
+#: post-types/portfolio/shortcodes/portfolio-list/templates/parts/image.php:14
+msgid "Portfolio Featured Image"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-carousel/templates/portfolio-carousel.php:25
+#: post-types/portfolio/shortcodes/portfolio-category-list/templates/parts/posts-not-found.php:1
+#: post-types/portfolio/shortcodes/portfolio-list/templates/parts/posts-not-found.php:1
+#: post-types/testimonials/shortcodes/testimonials/templates/testimonials.php:35
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:23
+msgid "Portfolio Category List"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:34
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:72
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:69
+#: shortcodes/clients-carousel/clients-carousel.php:36
+#: shortcodes/image-gallery/image-gallery.php:119
+#: shortcodes/team-carousel/team-carousel.php:35
+msgid "One"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:35
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:73
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:70
+#: shortcodes/clients-carousel/clients-carousel.php:37
+#: shortcodes/image-gallery/image-gallery.php:98
+#: shortcodes/image-gallery/image-gallery.php:120
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:33
+#: shortcodes/team-carousel/team-carousel.php:36
+msgid "Two"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:36
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:74
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:71
+#: shortcodes/clients-carousel/clients-carousel.php:38
+#: shortcodes/image-gallery/image-gallery.php:99
+#: shortcodes/image-gallery/image-gallery.php:121
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:34
+#: shortcodes/team-carousel/team-carousel.php:37
+msgid "Three"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:37
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:75
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:72
+#: shortcodes/clients-carousel/clients-carousel.php:39
+#: shortcodes/image-gallery/image-gallery.php:100
+#: shortcodes/image-gallery/image-gallery.php:122
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:35
+#: shortcodes/team-carousel/team-carousel.php:38
+msgid "Four"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:38
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:76
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:73
+#: shortcodes/clients-carousel/clients-carousel.php:40
+#: shortcodes/image-gallery/image-gallery.php:101
+#: shortcodes/image-gallery/image-gallery.php:123
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:36
+#: shortcodes/team-carousel/team-carousel.php:39
+msgid "Five"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:40
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:78
+msgid "Default value is Three"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:54
+msgid "Number of Items Per Page"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:55
+msgid "Set number of items for your portfolio category list. Default value is 6"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-category-list/portfolio-category-list.php:84
+msgid "Set image proportions for your portfolio category list"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:41
+msgid "Portfolio List"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:49
+msgid "Portfolio List Template"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:51
+msgid "Gallery"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:52
+#: shortcodes/image-gallery/image-gallery.php:41
+msgid "Masonry"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:60
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:57
+msgid "Click Behavior"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:62
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:59
+msgid "Open portfolio single page on click"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:63
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:60
+msgid "Open gallery in Pretty Photo on click"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:92
+msgid "Number of Portfolios Per Page"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:93
+msgid "Set number of items for your portfolio list. Enter -1 to show all."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:108
+msgid "Set image proportions for your portfolio list."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:114
+msgid "Enable Fixed Image Proportions"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:116
+msgid "Set predefined image proportions for your masonry portfolio list. This option will apply image proportions you set in Portfolio Single page - dimensions for masonry option."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:122
+#: shortcodes/image-gallery/image-gallery.php:63
+#: shortcodes/image-with-text/image-with-text.php:58
+#: shortcodes/single-image/single-image.php:61
+msgid "Enable Image Shadow"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:129
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:104
+msgid "One-Category Portfolio List"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:146
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:121
+msgid "One-Tag Portfolio List"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:179
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:144
+msgid "Standard - Switch Featured Images"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:180
+msgid "Standard - Video Preview"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:182
+msgid "Gallery - Text Sliding"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:189
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:154
+msgid "Content Top Margin (px or %)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:196
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:161
+msgid "Content Bottom Margin (px or %)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:226
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:191
+msgid "Enable Category"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:234
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:198
+msgid "Enable Number of Images"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:242
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:206
+msgid "Enable Excerpt"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:249
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:213
+msgid "Excerpt Length"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:250
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:214
+msgid "Number of characters"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:257
+msgid "Pagination Type"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:259
+#: shortcodes/image-gallery/image-gallery.php:72
+#: shortcodes/image-with-text/image-with-text.php:67
+#: shortcodes/single-image/single-image.php:70
+msgid "None"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:260
+#: shortcodes/section-title/section-title.php:40 shortcodes/tabs/tabs.php:41
+msgid "Standard"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:261
+#: post-types/portfolio/shortcodes/portfolio-list/templates/pagination/load-more.php:17
+msgid "Load More"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:262
+msgid "Infinite Scroll"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:264
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:271
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:278
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:291
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:299
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:306
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:314
+msgid "Additional Features"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:269
+msgid "Load More Top Margin (px or %)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:276
+msgid "Enable Category Filter"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:283
+msgid "Filter Order By"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:285
+#: shortcodes/team/team.php:85
+msgid "Name"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:286
+msgid "Count"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:288
+msgid "Slug"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:296
+msgid "Filter Text Transform"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:304
+msgid "Filter Bottom Margin (px or %)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:311
+msgid "Enable Article Animation"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php:313
+msgid "Enabling this option you will enable appears animation for your portfolio list items"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/templates/parts/filter.php:12
+msgid "Show all"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/templates/parts/image-standard-switch-images.php:14
+msgid "Portfolio Hover Featured Image"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list/templates/parts/images-count.php:22
+msgid " pics"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:30
+msgid "Portfolio Project Info"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:38
+msgid "Selected Project"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:43
+msgid "If you left this field empty then project ID will be of the current page"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:48
+msgid "Project Info Type"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:53
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:37
+msgid "Author"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:54
+msgid "Date"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:62
+msgid "Project Title Tag"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:64
+msgid "Set title tag for project title element"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:70
+msgid "Project Info Label"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:71
+msgid "Add project info label before project info element/s"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-project-info/portfolio-project-info.php:76
+msgid "Project Info Label Tag"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:52
+msgid "Set number of items for your portfolio slider. Enter -1 to show all"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:75
+msgid "Number of portfolios that are showing at the same time in slider (on smaller screens is responsive so there will be less items shown). Default value is Four"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:98
+msgid "Set image proportions for your portfolio slider."
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:146
+msgid "Gallery - Slide From Image Bottom"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:221
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:60
+#: shortcodes/clients-carousel/clients-carousel.php:48
+#: shortcodes/image-gallery/image-gallery.php:133
+#: shortcodes/team-carousel/team-carousel.php:54
+msgid "Enable Slider Loop"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:224
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:233
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:240
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:247
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:255
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:267
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:275
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:287
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:299
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:63
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:71
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:78
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:85
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:93
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:101
+#: shortcodes/image-gallery/image-gallery.php:128
+#: shortcodes/image-gallery/image-gallery.php:137
+#: shortcodes/image-gallery/image-gallery.php:146
+#: shortcodes/image-gallery/image-gallery.php:154
+#: shortcodes/image-gallery/image-gallery.php:162
+#: shortcodes/image-gallery/image-gallery.php:172
+#: shortcodes/image-gallery/image-gallery.php:181
+#: shortcodes/image-gallery/image-gallery.php:190
+msgid "Slider Settings"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:230
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:68
+#: shortcodes/clients-carousel/clients-carousel.php:55
+#: shortcodes/image-gallery/image-gallery.php:142
+#: shortcodes/team-carousel/team-carousel.php:61
+msgid "Enable Slider Autoplay"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:252
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:90
+#: shortcodes/clients-carousel/clients-carousel.php:74
+#: shortcodes/image-gallery/image-gallery.php:177
+#: shortcodes/team-carousel/team-carousel.php:80
+msgid "Enable Slider Navigation Arrows"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:260
+msgid "Navigation Skin"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:264
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:284
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:116
+msgid "Dark"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:272
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:98
+#: shortcodes/clients-carousel/clients-carousel.php:81
+#: shortcodes/image-gallery/image-gallery.php:186
+#: shortcodes/team-carousel/team-carousel.php:87
+msgid "Enable Slider Pagination"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:280
+msgid "Pagination Skin"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:292
+msgid "Pagination Position"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:294
+msgid "Below Slider"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider/portfolio-slider.php:295
+msgid "On Slider"
+msgstr ""
+
+#: post-types/portfolio/templates/single/media/self.php:9
+msgid "No video playback capabilities"
+msgstr ""
+
+#: post-types/portfolio/templates/single/media/self.php:9
+msgid "video thumb"
+msgstr ""
+
+#: post-types/portfolio/templates/single/parts/categories.php:6
+msgid "Category:"
+msgstr ""
+
+#: post-types/portfolio/templates/single/parts/date.php:3
+msgid "Date:"
+msgstr ""
+
+#: post-types/portfolio/templates/single/parts/navigation.php:16
+#: post-types/portfolio/templates/single/parts/navigation.php:21
+msgid "prev"
+msgstr ""
+
+#: post-types/portfolio/templates/single/parts/navigation.php:40
+#: post-types/portfolio/templates/single/parts/navigation.php:45
+msgid "next"
+msgstr ""
+
+#: post-types/portfolio/templates/single/parts/social.php:9
+msgid "Share:"
+msgstr ""
+
+#: post-types/portfolio/templates/single/parts/tags.php:8
+msgid "Tags:"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:8
+#: post-types/testimonials/testimonials-register.php:46
+msgid "Testimonial"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:18
+msgid "Enter testimonial title"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:27
+#: shortcodes/button/button.php:80 shortcodes/counter/counter.php:104
+#: shortcodes/icon-with-text/icon-with-text.php:198
+#: shortcodes/image-with-text/image-with-text.php:115
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:130
+#: shortcodes/pie-chart/pie-chart.php:83
+#: shortcodes/section-title/section-title.php:158 shortcodes/team/team.php:115
+msgid "Text"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:28
+msgid "Enter testimonial text"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:38
+msgid "Enter author name"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:47
+msgid "Author Position"
+msgstr ""
+
+#: post-types/testimonials/admin/meta-boxes/testimonials-meta-boxes.php:48
+msgid "Enter author job position"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:30
+#: post-types/testimonials/testimonials-register.php:45
+msgid "Testimonials"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials/testimonials.php:49
+msgid "Number of Testimonials"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:44
+msgid "Cinerama Testimonials"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:47
+msgid "New Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:48
+msgid "Add New Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:49
+msgid "Edit Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:69
+#: post-types/testimonials/testimonials-register.php:79
+msgid "Testimonials Categories"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:70
+msgid "Testimonial Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:71
+msgid "Search Testimonials Categories"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:72
+msgid "All Testimonials Categories"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:73
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:74
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:75
+msgid "Edit Testimonials Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:76
+msgid "Update Testimonials Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:77
+msgid "Add New Testimonials Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:78
+msgid "New Testimonials Category Name"
+msgstr ""
+
+#: reviews/admin/reviews-map.php:8 reviews/reviews-functions.php:329
+msgid "Reviews"
+msgstr ""
+
+#: reviews/admin/reviews-map.php:19
+msgid "Reviews Section Title"
+msgstr ""
+
+#: reviews/admin/reviews-map.php:20
+msgid "Enter title that you want to show before average rating for each room"
+msgstr ""
+
+#: reviews/admin/reviews-map.php:29
+msgid "Reviews Section Subtitle"
+msgstr ""
+
+#: reviews/admin/reviews-map.php:30
+msgid "Enter subtitle that you want to show before average rating for each room"
+msgstr ""
+
+#: reviews/reviews-functions.php:25
+#: reviews/templates/front-list/details-per-mark.php:6
+msgid "Rating"
+msgstr ""
+
+#: reviews/reviews-functions.php:119
+msgid "Comment - Reviews"
+msgstr ""
+
+#: reviews/reviews-functions.php:226
+msgid "Error: You did not add a rating. Hit the Back button on your Web browser and resubmit your comment with a rating."
+msgstr ""
+
+#: reviews/reviews-functions.php:329
+msgid "Review"
+msgstr ""
+
+#: reviews/reviews-functions.php:449
+msgid "Poor"
+msgstr ""
+
+#: reviews/reviews-functions.php:450
+msgid "Good"
+msgstr ""
+
+#: reviews/reviews-functions.php:451
+msgid "Superb"
+msgstr ""
+
+#: reviews/shortcodes/top-reviews-carousel/top-reviews-carousel.php:25
+msgid "Top Reviews Carousel"
+msgstr ""
+
+#: reviews/shortcodes/top-reviews-carousel/top-reviews-carousel.php:40
+msgid "Number of Reviews"
+msgstr ""
+
+#: reviews/shortcodes/top-reviews-carousel/top-reviews-carousel.php:41
+msgid "Leave empty for all"
+msgstr ""
+
+#: reviews/shortcodes/top-reviews-carousel/top-reviews-carousel.php:46
+msgid "Order by Review Criteria"
+msgstr ""
+
+#: reviews/templates/admin/title-field.php:2
+msgid "Comment Title"
+msgstr ""
+
+#: reviews/templates/front-input/text-field.php:2
+msgid "Comment"
+msgstr ""
+
+#: reviews/templates/front-input/title-field.php:2
+msgid "Title of your Review"
+msgstr ""
+
+#: reviews/templates/front-list/details-per-mark.php:6
+msgid "Ratings"
+msgstr ""
+
+#: reviews/templates/front-list/details-per-mark.php:21
+msgid "Rated"
+msgstr ""
+
+#: reviews/templates/front-list/details-per-mark.php:21
+msgid "out of"
+msgstr ""
+
+#: reviews/templates/front-list/details-per-mark.php:31
+msgid " stars"
+msgstr ""
+
+#: shortcodes/accordions/accordion-tab.php:23
+msgid "Accordion Tab"
+msgstr ""
+
+#: shortcodes/accordions/accordion-tab.php:36
+msgid "Enter accordion section title"
+msgstr ""
+
+#: shortcodes/accordions/accordion.php:22
+#: shortcodes/accordions/accordion.php:52
+msgid "Accordion"
+msgstr ""
+
+#: shortcodes/accordions/accordion.php:34 shortcodes/banner/banner.php:32
+#: shortcodes/button/button.php:33
+#: shortcodes/call-to-action/call-to-action.php:32
+#: shortcodes/countdown/countdown.php:32 shortcodes/counter/counter.php:32
+#: shortcodes/custom-font/custom-font.php:33
+#: shortcodes/elements-holder/elements-holder-item.php:35
+#: shortcodes/elements-holder/elements-holder.php:32
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:34
+#: shortcodes/icon/icon.php:32 shortcodes/icon-list-item/icon-list-item.php:32
+#: shortcodes/icon-with-text/icon-with-text.php:33
+#: shortcodes/image-gallery/image-gallery.php:32
+#: shortcodes/image-with-text/image-with-text.php:32
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:32
+#: shortcodes/pie-chart/pie-chart.php:32
+#: shortcodes/progress-bar/progress-bar.php:31
+#: shortcodes/section-title/section-title.php:32
+#: shortcodes/separator/separator.php:33 shortcodes/tabs/tabs.php:33
+#: shortcodes/video-button/video-button.php:33
+msgid "Custom CSS Class"
+msgstr ""
+
+#: shortcodes/accordions/accordion.php:35 shortcodes/banner/banner.php:33
+#: shortcodes/button/button.php:34
+#: shortcodes/call-to-action/call-to-action.php:33
+#: shortcodes/countdown/countdown.php:33 shortcodes/counter/counter.php:33
+#: shortcodes/custom-font/custom-font.php:34
+#: shortcodes/elements-holder/elements-holder-item.php:36
+#: shortcodes/elements-holder/elements-holder.php:33
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:35
+#: shortcodes/icon/icon.php:33 shortcodes/icon-list-item/icon-list-item.php:33
+#: shortcodes/icon-with-text/icon-with-text.php:34
+#: shortcodes/image-gallery/image-gallery.php:33
+#: shortcodes/image-with-text/image-with-text.php:33
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:33
+#: shortcodes/pie-chart/pie-chart.php:33
+#: shortcodes/progress-bar/progress-bar.php:32
+#: shortcodes/section-title/section-title.php:33
+#: shortcodes/separator/separator.php:34 shortcodes/tabs/tabs.php:34
+#: shortcodes/video-button/video-button.php:34
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS"
+msgstr ""
+
+#: shortcodes/accordions/accordion.php:50 shortcodes/separator/separator.php:64
+msgid "Style"
+msgstr ""
+
+#: shortcodes/accordions/accordion.php:53
+msgid "Toggle"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:22
+msgid "Animation Holder"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:34
+#: shortcodes/elements-holder/elements-holder-item.php:77
+msgid "Animation Type"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:36
+#: shortcodes/elements-holder/elements-holder-item.php:80
+msgid "Element Grow In"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:37
+#: shortcodes/elements-holder/elements-holder-item.php:81
+msgid "Element Fade In Down"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:38
+#: shortcodes/elements-holder/elements-holder-item.php:82
+msgid "Element From Fade"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:39
+#: shortcodes/elements-holder/elements-holder-item.php:83
+msgid "Element From Left"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:40
+#: shortcodes/elements-holder/elements-holder-item.php:84
+msgid "Element From Right"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:41
+#: shortcodes/elements-holder/elements-holder-item.php:85
+msgid "Element From Top"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:42
+#: shortcodes/elements-holder/elements-holder-item.php:86
+msgid "Element From Bottom"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:43
+#: shortcodes/elements-holder/elements-holder-item.php:87
+msgid "Element Flip In"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:44
+#: shortcodes/elements-holder/elements-holder-item.php:88
+msgid "Element X Rotate"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:45
+#: shortcodes/elements-holder/elements-holder-item.php:89
+msgid "Element Z Rotate"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:46
+#: shortcodes/elements-holder/elements-holder-item.php:90
+msgid "Element Y Translate"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:47
+#: shortcodes/elements-holder/elements-holder-item.php:91
+msgid "Element Fade In X Rotate"
+msgstr ""
+
+#: shortcodes/animation-holder/animation-holder.php:54
+#: shortcodes/elements-holder/elements-holder-item.php:97
+msgid "Animation Delay (ms)"
+msgstr ""
+
+#: shortcodes/banner/banner.php:23
+msgid "Banner"
+msgstr ""
+
+#: shortcodes/banner/banner.php:39
+#: shortcodes/clients-carousel/clients-carousel-item.php:35
+#: shortcodes/image-with-text/image-with-text.php:39
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:39
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:76
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:92
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:62
+#: shortcodes/single-image/single-image.php:33
+#: shortcodes/video-button/video-button.php:45
+msgid "Select image from media library"
+msgstr ""
+
+#: shortcodes/banner/banner.php:44
+msgid "Image Overlay Color"
+msgstr ""
+
+#: shortcodes/banner/banner.php:49
+msgid "Hover Behavior"
+msgstr ""
+
+#: shortcodes/banner/banner.php:51
+msgid "Visible on Hover"
+msgstr ""
+
+#: shortcodes/banner/banner.php:52
+msgid "Visible on Default"
+msgstr ""
+
+#: shortcodes/banner/banner.php:53
+msgid "Disabled"
+msgstr ""
+
+#: shortcodes/banner/banner.php:60
+msgid "Info Position"
+msgstr ""
+
+#: shortcodes/banner/banner.php:63
+msgid "Centered"
+msgstr ""
+
+#: shortcodes/banner/banner.php:70
+msgid "Info Content Padding"
+msgstr ""
+
+#: shortcodes/banner/banner.php:71
+msgid "Please insert padding in format top right bottom left"
+msgstr ""
+
+#: shortcodes/banner/banner.php:76
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/banner/banner.php:81
+#: shortcodes/section-title/section-title.php:134
+msgid "Subtitle Tag"
+msgstr ""
+
+#: shortcodes/banner/banner.php:89
+#: shortcodes/section-title/section-title.php:143
+msgid "Subtitle Color"
+msgstr ""
+
+#: shortcodes/banner/banner.php:108
+msgid "Words with Light Font Weight"
+msgstr ""
+
+#: shortcodes/banner/banner.php:109
+msgid "Enter the positions of the words you would like to display in a \"light\" font weight. Separate the positions with commas (e.g. if you would like the first, third, and fourth word to have a light font weight, you would enter \"1,3,4\")"
+msgstr ""
+
+#: shortcodes/banner/banner.php:115 shortcodes/counter/counter.php:90
+#: shortcodes/icon-list-item/icon-list-item.php:68
+#: shortcodes/icon-with-text/icon-with-text.php:184
+#: shortcodes/image-with-text/image-with-text.php:103
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:116
+#: shortcodes/pie-chart/pie-chart.php:77
+#: shortcodes/progress-bar/progress-bar.php:65
+#: shortcodes/section-title/section-title.php:127
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/banner/banner.php:121
+#: shortcodes/icon-with-text/icon-with-text.php:191
+#: shortcodes/image-with-text/image-with-text.php:109
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:123
+msgid "Title Top Margin (px)"
+msgstr ""
+
+#: shortcodes/banner/banner.php:127 shortcodes/button/button.php:88
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:99
+#: shortcodes/icon/icon.php:140
+#: shortcodes/icon-with-text/icon-with-text.php:217
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:70
+msgid "Link"
+msgstr ""
+
+#: shortcodes/banner/banner.php:132 shortcodes/icon/icon.php:153
+#: shortcodes/icon-with-text/icon-with-text.php:223
+msgid "Target"
+msgstr ""
+
+#: shortcodes/banner/banner.php:139
+msgid "Link Text"
+msgstr ""
+
+#: shortcodes/banner/banner.php:145
+msgid "Link Text Color"
+msgstr ""
+
+#: shortcodes/banner/banner.php:151
+msgid "Link Text Top Margin (px)"
+msgstr ""
+
+#: shortcodes/button/button.php:23
+msgid "Button"
+msgstr ""
+
+#: shortcodes/button/button.php:39 shortcodes/counter/counter.php:38
+#: shortcodes/icon/icon.php:58 shortcodes/icon-with-text/icon-with-text.php:39
+#: shortcodes/section-title/section-title.php:38
+#: shortcodes/separator/separator.php:39
+#: shortcodes/social-share/social-share.php:45 shortcodes/tabs/tabs.php:39
+#: shortcodes/team/team.php:70
+msgid "Type"
+msgstr ""
+
+#: shortcodes/button/button.php:41
+#: shortcodes/call-to-action/call-to-action.php:83
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:165
+#: shortcodes/separator/separator.php:68
+msgid "Solid"
+msgstr ""
+
+#: shortcodes/button/button.php:42
+#: shortcodes/call-to-action/call-to-action.php:84
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:166
+msgid "Outline"
+msgstr ""
+
+#: shortcodes/button/button.php:43
+#: shortcodes/call-to-action/call-to-action.php:41 shortcodes/tabs/tabs.php:42
+msgid "Simple"
+msgstr ""
+
+#: shortcodes/button/button.php:50 shortcodes/icon/icon.php:41
+msgid "Size"
+msgstr ""
+
+#: shortcodes/button/button.php:56 shortcodes/icon/icon.php:47
+msgid "Huge"
+msgstr ""
+
+#: shortcodes/button/button.php:73
+msgid "Hover Animation"
+msgstr ""
+
+#: shortcodes/button/button.php:81
+#: shortcodes/call-to-action/call-to-action.php:67
+#: shortcodes/call-to-action/call-to-action.php:68
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:149
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:150
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/button/button.php:93
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:53
+msgid "Link Target"
+msgstr ""
+
+#: shortcodes/button/button.php:103 shortcodes/custom-font/custom-font.php:158
+#: shortcodes/separator/separator.php:59
+msgid "Color"
+msgstr ""
+
+#: shortcodes/button/button.php:104 shortcodes/button/button.php:110
+#: shortcodes/button/button.php:117 shortcodes/button/button.php:124
+#: shortcodes/button/button.php:131 shortcodes/button/button.php:138
+#: shortcodes/button/button.php:144 shortcodes/button/button.php:152
+#: shortcodes/button/button.php:166 shortcodes/button/button.php:174
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/button/button.php:109
+msgid "Hover Color"
+msgstr ""
+
+#: shortcodes/button/button.php:115
+#: shortcodes/elements-holder/elements-holder-item.php:41
+#: shortcodes/elements-holder/elements-holder.php:45
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:40
+#: shortcodes/icon/icon.php:99
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:41
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/button/button.php:122 shortcodes/icon/icon.php:116
+msgid "Hover Background Color"
+msgstr ""
+
+#: shortcodes/button/button.php:129 shortcodes/icon/icon.php:87
+msgid "Border Color"
+msgstr ""
+
+#: shortcodes/button/button.php:136 shortcodes/icon/icon.php:110
+msgid "Hover Border Color"
+msgstr ""
+
+#: shortcodes/button/button.php:143
+msgid "Font Size (px)"
+msgstr ""
+
+#: shortcodes/button/button.php:149 shortcodes/custom-font/custom-font.php:125
+msgid "Font Weight"
+msgstr ""
+
+#: shortcodes/button/button.php:157 shortcodes/custom-font/custom-font.php:144
+msgid "Text Transform"
+msgstr ""
+
+#: shortcodes/button/button.php:164 shortcodes/icon/icon.php:122
+msgid "Margin"
+msgstr ""
+
+#: shortcodes/button/button.php:165 shortcodes/custom-font/custom-font.php:177
+#: shortcodes/icon/icon.php:123 shortcodes/section-title/section-title.php:151
+#: shortcodes/section-title/section-title.php:203
+msgid "Insert margin in format: top right bottom left (e.g. 10px 5px 10px 5px)"
+msgstr ""
+
+#: shortcodes/button/button.php:171
+msgid "Button Padding"
+msgstr ""
+
+#: shortcodes/button/button.php:172
+msgid "Insert padding in format: top right bottom left (e.g. 10px 5px 10px 5px)"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:23
+msgid "Call To Action"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:38
+#: shortcodes/cards-gallery/cards-gallery.php:31
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:40 shortcodes/icon/icon.php:60
+#: shortcodes/icon-with-text/icon-with-text.php:60
+#: shortcodes/section-title/section-title.php:77
+#: shortcodes/separator/separator.php:41
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:48
+msgid "Set Content In Grid"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:55
+msgid "Content Elements Proportion"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:57
+msgid "80/20"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:58
+msgid "75/25"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:59
+msgid "66/33"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:60
+msgid "50/50"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:74
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:156
+msgid "Button Top Margin (px)"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:76
+#: shortcodes/call-to-action/call-to-action.php:87
+#: shortcodes/call-to-action/call-to-action.php:101
+#: shortcodes/call-to-action/call-to-action.php:107
+#: shortcodes/call-to-action/call-to-action.php:114
+#: shortcodes/call-to-action/call-to-action.php:120
+#: shortcodes/call-to-action/call-to-action.php:126
+#: shortcodes/call-to-action/call-to-action.php:133
+#: shortcodes/call-to-action/call-to-action.php:139
+#: shortcodes/call-to-action/call-to-action.php:145
+#: shortcodes/call-to-action/call-to-action.php:151
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:158
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:169
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:181
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:190
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:204
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:210
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:217
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:223
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:229
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:236
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:242
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:248
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:254
+msgid "Button Style"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:81
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:163
+msgid "Button Type"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:92
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:195
+msgid "Button Size"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:106
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:209
+msgid "Button Link"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:112
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:215
+msgid "Button Link Target"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:119
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:222
+msgid "Button Color"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:125
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:228
+msgid "Button Hover Color"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:131
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:234
+msgid "Button Background Color"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:138
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:241
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:144
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:247
+msgid "Button Border Color"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:150
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:253
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:156
+msgid "Content"
+msgstr ""
+
+#: shortcodes/call-to-action/call-to-action.php:157
+msgid "I am test text for Call to Action shortcode content"
+msgstr ""
+
+#: shortcodes/cards-gallery/cards-gallery.php:23
+msgid "Cards Gallery"
+msgstr ""
+
+#: shortcodes/cards-gallery/cards-gallery.php:33
+msgid "Shuffled right"
+msgstr ""
+
+#: shortcodes/cards-gallery/cards-gallery.php:34
+msgid "Shuffled left"
+msgstr ""
+
+#: shortcodes/cards-gallery/cards-gallery.php:41
+#: shortcodes/image-gallery/image-gallery.php:51
+msgid "Images"
+msgstr ""
+
+#: shortcodes/cards-gallery/cards-gallery.php:42
+#: shortcodes/image-gallery/image-gallery.php:52
+msgid "Select images from media library"
+msgstr ""
+
+#: shortcodes/cards-gallery/cards-gallery.php:47
+msgid "Bundle Animation"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel-item.php:23
+msgid "Clients Carousel Item"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel-item.php:40
+msgid "Hover Image"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel-item.php:41
+msgid "Select image from media library. This option will only work for Roll Over and Switch Images Hover types"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel-item.php:47
+#: shortcodes/image-gallery/image-gallery.php:58
+#: shortcodes/image-with-text/image-with-text.php:53
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:53
+#: shortcodes/single-image/single-image.php:39
+msgid "Enter image size. Example: thumbnail, medium, large, full or other sizes defined by current theme. Alternatively enter image size in pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel-item.php:52
+#: shortcodes/image-with-text/image-with-text.php:77
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:58
+#: shortcodes/single-image/single-image.php:81
+msgid "Custom Link"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel-item.php:57
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:105
+#: shortcodes/image-gallery/image-gallery.php:89
+#: shortcodes/image-with-text/image-with-text.php:83
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:63
+#: shortcodes/single-image/single-image.php:87
+msgid "Custom Link Target"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:23
+msgid "Clients Carousel"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:34
+#: shortcodes/image-gallery/image-gallery.php:117
+msgid "Number Of Visible Items"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:41
+#: shortcodes/image-gallery/image-gallery.php:102
+#: shortcodes/image-gallery/image-gallery.php:124
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:37
+#: shortcodes/team-carousel/team-carousel.php:40
+msgid "Six"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:88
+msgid "Items Hover Animation"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:90
+msgid "Switch Images"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:91
+msgid "Roll Over"
+msgstr ""
+
+#: shortcodes/clients-carousel/clients-carousel.php:92
+msgid "Raising"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:23
+msgid "Countdown"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:48
+msgid "Year"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:62
+msgid "Month"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:64
+msgid "January"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:65
+msgid "February"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:66
+msgid "March"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:67
+msgid "April"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:68
+msgid "May"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:69
+msgid "June"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:70
+msgid "July"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:71
+msgid "August"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:72
+msgid "September"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:73
+msgid "October"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:74
+msgid "November"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:75
+msgid "December"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:82
+msgid "Day"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:121
+msgid "Hour"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:154
+msgid "Minute"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:223
+msgid "Month Label"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:228
+msgid "Day Label"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:233
+msgid "Hour Label"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:238
+msgid "Minute Label"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:243
+msgid "Second Label"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:248 shortcodes/counter/counter.php:65
+msgid "Digit Font Size (px)"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:253
+msgid "Label Font Size (px)"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:306
+msgid "Months"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:307
+msgid "Days"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:308
+msgid "Hours"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:309
+msgid "Minutes"
+msgstr ""
+
+#: shortcodes/countdown/countdown.php:310
+msgid "Seconds"
+msgstr ""
+
+#: shortcodes/counter/counter.php:23
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/counter/counter.php:40
+msgid "Zero Counter"
+msgstr ""
+
+#: shortcodes/counter/counter.php:41
+msgid "Random Counter"
+msgstr ""
+
+#: shortcodes/counter/counter.php:48
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/counter/counter.php:51 shortcodes/custom-font/custom-font.php:166
+#: shortcodes/elements-holder/elements-holder-item.php:59
+#: shortcodes/elements-holder/elements-holder.php:89
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:90
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:76
+#: shortcodes/section-title/section-title.php:90
+#: shortcodes/separator/separator.php:51
+#: shortcodes/single-image/single-image.php:46
+msgid "Left"
+msgstr ""
+
+#: shortcodes/counter/counter.php:52 shortcodes/custom-font/custom-font.php:167
+#: shortcodes/elements-holder/elements-holder-item.php:61
+#: shortcodes/elements-holder/elements-holder.php:90
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:91
+#: shortcodes/section-title/section-title.php:91
+#: shortcodes/separator/separator.php:50
+#: shortcodes/single-image/single-image.php:47
+msgid "Center"
+msgstr ""
+
+#: shortcodes/counter/counter.php:53 shortcodes/custom-font/custom-font.php:168
+#: shortcodes/elements-holder/elements-holder-item.php:60
+#: shortcodes/elements-holder/elements-holder.php:91
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:92
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:77
+#: shortcodes/section-title/section-title.php:92
+#: shortcodes/separator/separator.php:52
+#: shortcodes/single-image/single-image.php:48
+msgid "Right"
+msgstr ""
+
+#: shortcodes/counter/counter.php:60
+msgid "Digit"
+msgstr ""
+
+#: shortcodes/counter/counter.php:71
+msgid "Digit Color"
+msgstr ""
+
+#: shortcodes/counter/counter.php:96
+msgid "Title Font Weight"
+msgstr ""
+
+#: shortcodes/counter/counter.php:109
+#: shortcodes/icon-with-text/icon-with-text.php:203
+#: shortcodes/image-with-text/image-with-text.php:120
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:135
+#: shortcodes/pie-chart/pie-chart.php:88
+#: shortcodes/section-title/section-title.php:172 shortcodes/team/team.php:120
+msgid "Text Color"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:24
+msgid "Custom Font"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:39
+msgid "Title Text"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:44
+msgid "Enable Type Out Effect"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:45
+msgid "Adds a type out effect inside custom font content"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:51
+msgid "Position of Type Out Effect"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:52
+msgid "Enter the position of the word after which you would like to display type out effect (e.g. if you would like the type out effect after the 3rd word, you would enter \"3\")"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:58
+msgid "Typed Color"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:64
+msgid "Typed Ending Number 1"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:70
+msgid "Typed Ending Number 2"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:76
+msgid "Typed Ending Number 3"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:82
+msgid "Typed Ending Number 4"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:88
+msgid "Position of Line Break"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:89
+msgid "Enter the positions of the words after which you would like to create a line break (e.g. if you would like the line break after the 3rd and 8th words, you would enter \"3,8\")"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:95
+msgid "Disable Line Break for Smaller Screens"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:110
+msgid "Font Family"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:115
+#: shortcodes/custom-font/custom-font.php:182
+#: shortcodes/custom-font/custom-font.php:194
+#: shortcodes/custom-font/custom-font.php:206
+#: shortcodes/custom-font/custom-font.php:218
+msgid "Font Size (px or em)"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:120
+#: shortcodes/custom-font/custom-font.php:188
+#: shortcodes/custom-font/custom-font.php:200
+#: shortcodes/custom-font/custom-font.php:212
+#: shortcodes/custom-font/custom-font.php:224
+msgid "Line Height (px or em)"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:132
+msgid "Font Style"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:139
+msgid "Letter Spacing (px or em)"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:151
+msgid "Text Decoration"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:163
+msgid "Text Align"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:169
+msgid "Justify"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:176
+msgid "Margin (px or %)"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:183
+#: shortcodes/custom-font/custom-font.php:189
+msgid "Laptops"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:195
+#: shortcodes/custom-font/custom-font.php:201
+msgid "Tablets Landscape"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:207
+#: shortcodes/custom-font/custom-font.php:213
+msgid "Tablets Portrait"
+msgstr ""
+
+#: shortcodes/custom-font/custom-font.php:219
+#: shortcodes/custom-font/custom-font.php:225
+msgid "Mobiles"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:22
+msgid "Elements Holder Item"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:46
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:45
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:51
+msgid "Padding"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:52
+#: shortcodes/elements-holder/elements-holder-item.php:117
+#: shortcodes/elements-holder/elements-holder-item.php:124
+#: shortcodes/elements-holder/elements-holder-item.php:131
+msgid "Please insert padding in format 0px 10px 0px 10px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:57
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:67
+msgid "Vertical Alignment"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:69
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:79
+msgid "Middle"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:70
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:78
+msgid "Top"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:71
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:80
+msgid "Bottom"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:79
+msgid "Default (No Animation)"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:102
+msgid "Padding on screen size between 1366px-1600px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:103
+#: shortcodes/elements-holder/elements-holder-item.php:110
+msgid "Please insert padding in format top right bottom left. For example 10px 0 10px 0"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:104
+#: shortcodes/elements-holder/elements-holder-item.php:111
+#: shortcodes/elements-holder/elements-holder-item.php:118
+#: shortcodes/elements-holder/elements-holder-item.php:125
+#: shortcodes/elements-holder/elements-holder-item.php:132
+msgid "Width & Responsiveness"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:109
+msgid "Padding on screen size between 1024px-1366px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:116
+msgid "Padding on screen size between 768px-1024px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:123
+msgid "Padding on screen size between 680px-768px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder-item.php:130
+msgid "Padding on screen size bellow 680px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:22
+msgid "Elements Holder"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:38
+msgid "Enable Holder Full Height"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:50
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:52
+msgid "1 Column"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:57
+msgid "6 Columns"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:64
+msgid "Items Float Left"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:70
+msgid "Switch to One Column"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:73
+msgid "Below 1366px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:74
+msgid "Below 1024px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:75
+msgid "Below 768px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:76
+msgid "Below 680px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:77
+msgid "Below 480px"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:78
+msgid "Never"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:80
+msgid "Choose on which stage item will be in one column"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:86
+msgid "Choose Alignment In Responsive Mode"
+msgstr ""
+
+#: shortcodes/elements-holder/elements-holder.php:93
+msgid "Alignment When Items are in One Column"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:22
+msgid "Full Screen Sections Item"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:50
+msgid "Background Image Position"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:51
+msgid "Please insert position in format horizontal vertical position, example - center center"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:57
+msgid "Background Image Size"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:59
+msgid "Cover"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:60
+msgid "Contain"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:61
+msgid "Inherit"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:69
+msgid "Content Padding"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:70
+msgid "Please insert padding in format top right bottom left. You can use px or %"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:75
+msgid "Content Vertical Alignment"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:87
+msgid "Content Horizontal Alignment"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:100
+msgid "Set custom link around item"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:112
+msgid "Header and Navigation Skin"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:119
+msgid "Choose a predefined header style for header elements and for full screen sections navigation/pagination"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:124
+msgid "Background Image for Laptops"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:125
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:131
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:137
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:143
+msgid "Responsiveness"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:130
+msgid "Background Image for Tablets - Landscape"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:136
+msgid "Background Image for Tablets - Portrait"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections-item.php:142
+msgid "Background Image for Mobiles"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections.php:22
+msgid "Full Screen Sections"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections.php:32
+msgid "Enable Continuous Scrolling"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections.php:33
+msgid "Defines whether scrolling down in the last section or should scroll down to the first one and if scrolling up in the first section should scroll up to the last one"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections.php:40
+msgid "Enable Navigation Arrows"
+msgstr ""
+
+#: shortcodes/full-screen-sections/full-screen-sections.php:47
+msgid "Enable Pagination Dots"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:22
+msgid "Google Map"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:31
+msgid "Address 1"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:36
+msgid "Address 2"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:42
+msgid "Address 3"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:48
+msgid "Address 4"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:54
+msgid "Address 5"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:60
+msgid "Snazzy Map Style"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:62
+msgid "Enabling this option will set predefined snazzy map style"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:67
+msgid "Snazzy Map Code"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:68
+msgid "Fill code from snazzy map site %s to add predefined style for your google map"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:74
+msgid "Custom Map Style"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:76
+msgid "Enabling this option will allow Map editing"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:82
+msgid "Color Overlay"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:83
+msgid "Choose a Map color overlay"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:89
+msgid "Saturation"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:90
+msgid "Choose a level of saturation (-100 = least saturated, 100 = most saturated)"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:96
+msgid "Lightness"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:97
+msgid "Choose a level of lightness (-100 = darkest, 100 = lightest)"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:103
+msgid "Pin"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:104
+msgid "Select a pin image to be used on Google Map"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:109
+msgid "Map Zoom"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:110
+msgid "Enter a zoom factor for Google Map (0 = whole worlds, 19 = individual buildings)"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:115
+msgid "Zoom Map on Mouse Wheel"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:117
+msgid "Enabling this option will allow users to zoom in on Map using mouse wheel"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:122
+msgid "Map Height"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline-item.php:24
+msgid "Elated Horizontal Timeline Item"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline-item.php:26
+msgid "by ELATED"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline-item.php:36
+msgid "Timeline Date"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline-item.php:37
+msgid "Enter date in format dd/mm/yyyy."
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline-item.php:42
+msgid "Content Image"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:23
+msgid "Horizontal Timeline"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:35
+msgid "Timeline displays?"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:37
+msgid "Only Years"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:38
+msgid "Years and Months"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:39
+msgid "Years, Months and Days"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:40
+msgid "Months and Days"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:48
+msgid "Minimal Distance Between Dates?"
+msgstr ""
+
+#: shortcodes/horizontal-timeline/horizontal-timeline.php:49
+msgid "Default value is 60"
+msgstr ""
+
+#: shortcodes/icon/icon.php:22
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/icon/icon.php:43 shortcodes/icon-with-text/icon-with-text.php:72
+#: shortcodes/section-title/section-title.php:79
+msgid "Tiny"
+msgstr ""
+
+#: shortcodes/icon/icon.php:53
+msgid "Custom Size (px)"
+msgstr ""
+
+#: shortcodes/icon/icon.php:61 shortcodes/icon-with-text/icon-with-text.php:61
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/icon/icon.php:69
+msgid "Border Radius"
+msgstr ""
+
+#: shortcodes/icon/icon.php:70
+msgid "Please insert border radius(Rounded corners) in px. For example: 4 "
+msgstr ""
+
+#: shortcodes/icon/icon.php:76 shortcodes/icon-with-text/icon-with-text.php:88
+msgid "Shape Size (px)"
+msgstr ""
+
+#: shortcodes/icon/icon.php:82 shortcodes/icon-list-item/icon-list-item.php:52
+#: shortcodes/icon-with-text/icon-with-text.php:94
+msgid "Icon Color"
+msgstr ""
+
+#: shortcodes/icon/icon.php:93
+msgid "Border Width"
+msgstr ""
+
+#: shortcodes/icon/icon.php:105
+msgid "Hover Icon Color"
+msgstr ""
+
+#: shortcodes/icon/icon.php:128
+#: shortcodes/icon-with-text/icon-with-text.php:156
+msgid "Icon Animation"
+msgstr ""
+
+#: shortcodes/icon/icon.php:134
+#: shortcodes/icon-with-text/icon-with-text.php:163
+msgid "Icon Animation Delay (ms)"
+msgstr ""
+
+#: shortcodes/icon/icon.php:145
+msgid "Use Link as Anchor"
+msgstr ""
+
+#: shortcodes/icon/icon.php:147
+msgid "Check this box to use icon as anchor link (eg. #contact)"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:23
+msgid "Icon List Item"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:38
+msgid "Icon List Item Bottom Margin (px)"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:39
+msgid "Set bottom margin for your Icon List Item element. Default value is 8"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:47
+msgid "Icon Size (px)"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:62
+msgid "Title Size (px)"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:74
+msgid "Title Left Padding (px)"
+msgstr ""
+
+#: shortcodes/icon-list-item/icon-list-item.php:75
+msgid "Set left padding for your text element to adjust space between icon and text. Default value is 13"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:23
+msgid "Icon With Text"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:41
+msgid "Icon Left From Text"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:42
+msgid "Icon Left From Title"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:43
+msgid "Icon Top"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:53
+msgid "Custom Icon"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:58
+msgid "Icon Type"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:64
+#: shortcodes/icon-with-text/icon-with-text.php:77
+#: shortcodes/icon-with-text/icon-with-text.php:83
+#: shortcodes/icon-with-text/icon-with-text.php:89
+#: shortcodes/icon-with-text/icon-with-text.php:95
+#: shortcodes/icon-with-text/icon-with-text.php:101
+#: shortcodes/icon-with-text/icon-with-text.php:111
+#: shortcodes/icon-with-text/icon-with-text.php:121
+#: shortcodes/icon-with-text/icon-with-text.php:131
+#: shortcodes/icon-with-text/icon-with-text.php:141
+#: shortcodes/icon-with-text/icon-with-text.php:151
+#: shortcodes/icon-with-text/icon-with-text.php:158
+#: shortcodes/icon-with-text/icon-with-text.php:165
+msgid "Icon Settings"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:69
+msgid "Icon Size"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:75
+msgid "Very Large"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:82
+msgid "Custom Icon Size (px)"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:100
+msgid "Icon Hover Color"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:106
+msgid "Icon Background Color"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:116
+msgid "Icon Hover Background Color"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:126
+msgid "Icon Border Color"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:136
+msgid "Icon Border Hover Color"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:146
+msgid "Border Width (px)"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:179
+#: shortcodes/icon-with-text/icon-with-text.php:186
+#: shortcodes/icon-with-text/icon-with-text.php:193
+#: shortcodes/icon-with-text/icon-with-text.php:205
+#: shortcodes/icon-with-text/icon-with-text.php:212
+#: shortcodes/icon-with-text/icon-with-text.php:233
+msgid "Text Settings"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:210
+#: shortcodes/image-with-text/image-with-text.php:126
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:142
+msgid "Text Top Margin (px)"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:218
+msgid "Set link around icon and title"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:230
+msgid "Text Padding (px)"
+msgstr ""
+
+#: shortcodes/icon-with-text/icon-with-text.php:231
+msgid "Set left or top padding dependence of type for your text holder. Default value is 13 for left type and 25 for top icon with text type"
+msgstr ""
+
+#: shortcodes/image-gallery/functions.php:38
+msgid "Choose image size for Image Gallery shortcode item - Masonry layout"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:23
+msgid "Image Gallery"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:38
+msgid "Gallery Type"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:40
+msgid "Image Grid"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:42
+msgid "Slider"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:43
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:70
+#: shortcodes/image-with-text/image-with-text.php:65
+#: shortcodes/single-image/single-image.php:68
+msgid "Image Behavior"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:73
+#: shortcodes/image-with-text/image-with-text.php:68
+#: shortcodes/single-image/single-image.php:71
+msgid "Open Lightbox"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:74
+#: shortcodes/image-with-text/image-with-text.php:69
+#: shortcodes/single-image/single-image.php:72
+msgid "Open Custom Link"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:75
+#: shortcodes/image-with-text/image-with-text.php:70
+#: shortcodes/single-image/single-image.php:73
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:76
+#: shortcodes/image-with-text/image-with-text.php:71
+#: shortcodes/single-image/single-image.php:74
+msgid "Grayscale"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:82
+msgid "Custom Links"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:83
+msgid "Delimit links by comma"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:167
+msgid "Enable Slider Padding"
+msgstr ""
+
+#: shortcodes/image-gallery/image-gallery.php:168
+msgid "Padding left and right on stage (can see neighbours)."
+msgstr ""
+
+#: shortcodes/image-with-text/image-with-text.php:23
+msgid "Image With Text"
+msgstr ""
+
+#: shortcodes/image-with-text/image-with-text.php:44
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:44
+msgid "Enable Animation"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:23
+msgid "Interactive Image With Text"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:69
+msgid "Prefix Text"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:74
+msgid "Prefix Text Position"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:85
+msgid "Prefix Text Size"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:96
+msgid "Prefix Text Color"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:108
+msgid "Custom Heading"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:111
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:118
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:125
+#: shortcodes/section-title/section-title.php:122
+#: shortcodes/section-title/section-title.php:129
+msgid "Title Style"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:137
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:144
+#: shortcodes/section-title/section-title.php:167
+#: shortcodes/section-title/section-title.php:174
+#: shortcodes/section-title/section-title.php:181
+#: shortcodes/section-title/section-title.php:188
+#: shortcodes/section-title/section-title.php:197
+#: shortcodes/section-title/section-title.php:205
+msgid "Text Style"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:174
+msgid "Button Skin"
+msgstr ""
+
+#: shortcodes/interactive-image-with-text/interactive-image-with-text.php:186
+msgid "Button Hover Animation"
+msgstr ""
+
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:23
+msgid "Interactive Link Showcase"
+msgstr ""
+
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:31
+msgid "Link Skin"
+msgstr ""
+
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:46
+msgid "Set Link as Lightbox"
+msgstr ""
+
+#: shortcodes/interactive-link-showcase/interactive-link-showcase.php:60
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:81
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:51
+msgid "Link Items"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:23
+msgid "Lightbox Image Carousel"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:39
+msgid "Default value is 4000 (ms)"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:45
+msgid "Speed of slide animation in milliseconds. Default value is 800."
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:57
+msgid "Enable Custom Carousel Navigation Arrows"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:86
+msgid "Slide Title"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:91
+msgid "Slide Image"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:97
+msgid "Slide Lightbox Link"
+msgstr ""
+
+#: shortcodes/lightbox-image-carousel/lightbox-image-carousel.php:102
+msgid "Lightbox Link is Video"
+msgstr ""
+
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:23
+msgid "Lightbox Image Gallery"
+msgstr ""
+
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:67
+msgid "Lightbox Link"
+msgstr ""
+
+#: shortcodes/lightbox-image-gallery/lightbox-image-gallery.php:68
+msgid "If you leave empty this field lightbox link will be the same as image url"
+msgstr ""
+
+#: shortcodes/pie-chart/pie-chart.php:23
+msgid "Pie Chart"
+msgstr ""
+
+#: shortcodes/pie-chart/pie-chart.php:38
+#: shortcodes/progress-bar/progress-bar.php:37
+msgid "Percentage"
+msgstr ""
+
+#: shortcodes/pie-chart/pie-chart.php:43
+msgid "Percentage Color"
+msgstr ""
+
+#: shortcodes/pie-chart/pie-chart.php:49
+msgid "Pie Chart Active Color"
+msgstr ""
+
+#: shortcodes/pie-chart/pie-chart.php:54
+msgid "Pie Chart Inactive Color"
+msgstr ""
+
+#: shortcodes/pie-chart/pie-chart.php:59
+msgid "Pie Chart Size (px)"
+msgstr ""
+
+#: shortcodes/progress-bar/progress-bar.php:22
+msgid "Progress Bar"
+msgstr ""
+
+#: shortcodes/progress-bar/progress-bar.php:42
+msgid "Percentage Type"
+msgstr ""
+
+#: shortcodes/progress-bar/progress-bar.php:45
+msgid "Floating"
+msgstr ""
+
+#: shortcodes/progress-bar/progress-bar.php:71
+msgid "Active Color"
+msgstr ""
+
+#: shortcodes/progress-bar/progress-bar.php:76
+msgid "Inactive Color"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:23
+msgid "Section Title"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:41
+msgid "Reverse"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:42
+msgid "Two Columns"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:49
+msgid "Title - Text Position"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:51
+msgid "Title Left - Text Right"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:52
+msgid "Title Right - Text Left"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:60
+msgid "Title - Text Width Ratio"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:62
+msgid "1:1"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:63
+msgid "1:2"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:64
+msgid "1:3"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:65
+msgid "1:4"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:73
+msgid "Space Between Columns"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:87
+msgid "Horizontal Position"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:100
+msgid "Holder Side Padding (px or %)"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:111
+msgid "Subitle"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:138
+#: shortcodes/section-title/section-title.php:145
+#: shortcodes/section-title/section-title.php:153
+msgid "Subtitle Style"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:150
+msgid "Subtitle Margin"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:163
+msgid "Text Tag"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:179
+msgid "Text Font Size (px)"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:186
+msgid "Text Line Height (px)"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:193
+msgid "Text Font Weight"
+msgstr ""
+
+#: shortcodes/section-title/section-title.php:202
+msgid "Text Margin"
+msgstr ""
+
+#: shortcodes/separator/separator.php:22
+msgid "Separator"
+msgstr ""
+
+#: shortcodes/separator/separator.php:42
+msgid "Full Width"
+msgstr ""
+
+#: shortcodes/separator/separator.php:48 shortcodes/team/team.php:104
+msgid "Position"
+msgstr ""
+
+#: shortcodes/separator/separator.php:67
+msgid "Dashed"
+msgstr ""
+
+#: shortcodes/separator/separator.php:69
+msgid "Dotted"
+msgstr ""
+
+#: shortcodes/separator/separator.php:76
+msgid "Width (px or %)"
+msgstr ""
+
+#: shortcodes/separator/separator.php:82
+msgid "Thickness (px)"
+msgstr ""
+
+#: shortcodes/separator/separator.php:87
+msgid "Top Margin (px or %)"
+msgstr ""
+
+#: shortcodes/separator/separator.php:92
+msgid "Bottom Margin (px or %)"
+msgstr ""
+
+#: shortcodes/single-image/single-image.php:23
+msgid "Single Image"
+msgstr ""
+
+#: shortcodes/single-image/single-image.php:44
+msgid "Image Alignment"
+msgstr ""
+
+#: shortcodes/single-image/single-image.php:54
+msgid "Enable Image Border"
+msgstr ""
+
+#: shortcodes/single-image/single-image.php:75
+msgid "Moving on Hover"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:36
+msgid "Social Share"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:47
+msgid "List"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:48
+msgid "Dropdown"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:54
+msgid "Icons Type"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:56
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:57
+msgid "Font Elegant"
+msgstr ""
+
+#: shortcodes/social-share/social-share.php:63
+msgid "Social Share Title"
+msgstr ""
+
+#: shortcodes/social-share/templates/dropdown.php:3
+msgid "Share this"
+msgstr ""
+
+#: shortcodes/tabs/tabs-item.php:22
+msgid "Tabs Item"
+msgstr ""
+
+#: shortcodes/tabs/tabs.php:22
+msgid "Tabs"
+msgstr ""
+
+#: shortcodes/team/team.php:28 shortcodes/team/team.php:37
+#: shortcodes/team/team.php:47
+msgid "Social Icon "
+msgstr ""
+
+#: shortcodes/team/team.php:37
+msgid " Link"
+msgstr ""
+
+#: shortcodes/team/team.php:47
+msgid " Target"
+msgstr ""
+
+#: shortcodes/team/team.php:50
+msgid "Same Window"
+msgstr ""
+
+#: shortcodes/team/team.php:51
+msgid "New Window"
+msgstr ""
+
+#: shortcodes/team/team.php:60
+msgid "Team"
+msgstr ""
+
+#: shortcodes/team/team.php:72
+msgid "Info Below Image"
+msgstr ""
+
+#: shortcodes/team/team.php:73
+msgid "Info On Image Hover"
+msgstr ""
+
+#: shortcodes/team/team.php:90
+msgid "Name Tag"
+msgstr ""
+
+#: shortcodes/team/team.php:98
+msgid "Name Color"
+msgstr ""
+
+#: shortcodes/team/team.php:109
+msgid "Position Color"
+msgstr ""
+
+#: shortcodes/team/team.php:126
+msgid "Social Icon Pack"
+msgstr ""
+
+#: shortcodes/team-carousel/team-carousel.php:23
+msgid "Team Carousel"
+msgstr ""
+
+#: shortcodes/team-carousel/team-carousel.php:33
+msgid "Number of Visible Items"
+msgstr ""
+
+#: shortcodes/video-button/video-button.php:24
+msgid "Video Button"
+msgstr ""
+
+#: shortcodes/video-button/video-button.php:39
+msgid "Video Link"
+msgstr ""
+
+#: shortcodes/video-button/video-button.php:44
+msgid "Video Image"
+msgstr ""
+
+#: shortcodes/video-button/video-button.php:50
+msgid "Play Button Custom Image"
+msgstr ""
+
+#: shortcodes/video-button/video-button.php:51
+#: shortcodes/video-button/video-button.php:57
+msgid "Select image from media library. If you use this field then play button color and button size options will not work"
+msgstr ""
+
+#: shortcodes/video-button/video-button.php:56
+msgid "Play Button Custom Hover Image"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Cinerama Core"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds all post types needed by our theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Edge Themes"
+msgstr ""

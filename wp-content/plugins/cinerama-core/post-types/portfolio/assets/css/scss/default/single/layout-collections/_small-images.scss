@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Portfolio Single - Small Images layout style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-single-holder {
+    
+    &.edgtf-ps-small-images-layout {
+    
+        .edgtf-ps-image-holder {
+        
+            .edgtf-ps-image {
+                margin: 0 0 40px;
+            
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+
+        .edgtf-ps-info-holder {
+
+            .edgtf-ps-info-title,
+            .edgtf-social-title {
+                width: 110px;
+            }
+
+            &.edgtf-ps-info-holder-with-border-top {
+                padding-top: 48px;
+            }
+        }
+
+        .edgtf-ps-content-item {
+            margin: 0 0 47px;
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Small Images layout style - end
+   ========================================================================== */

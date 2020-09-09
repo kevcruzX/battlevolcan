@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Single Image shortcode style - begin
+   ========================================================================== */
+
+.edgtf-single-image-holder {
+    @include edgtfRelativeHolderLayout();
+	
+	&.edgtf-image-align-center {
+		.edgtf-si-inner img {
+			margin: 0 auto;
+		}
+	}
+	
+	&.edgtf-image-align-right {
+		.edgtf-si-inner img {
+			float: right;
+		}
+	}
+
+	&.edgtf-has-border {
+
+		.edgtf-si-inner {
+			border: 1px solid #eaeaea;
+		}
+	}
+	
+	&.edgtf-has-shadow {
+
+		.edgtf-si-inner {
+			box-shadow: $default-box-shadow;
+		}
+	}
+	
+	.edgtf-si-inner {
+		@include edgtfRelativeHolderLayout();
+		box-sizing: border-box;
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+
+	.edgtf-si-caption {
+        position: absolute;
+        bottom: -27px;
+        left: 0;
+        font-size: 15px;
+        line-height: 1;
+        color: $default-heading-color;
+	}
+	
+	/***** Custom Link Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-custom-link {
+		
+		@include edgtfTransform(translateY(0));
+		@include edgtfTransitionTransform(.3s ease);
+		
+		&:hover{
+			@include edgtfTransform(translateY(-5px));
+		}
+	}
+	
+	/***** Custom Link Behavior Style - end *****/
+	
+	/***** Lightbox Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-lightbox {
+		
+		.edgtf-si-inner {
+			
+			a {
+				@include edgtfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Lightbox Behavior Style - end *****/
+	
+	/***** Zoom Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-zoom {
+		
+		.edgtf-si-inner {
+			overflow: hidden;
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					@include edgtfTransform(scale(1.04));
+				}
+			}
+			
+			img {
+				@include edgtfTransform(scale(1));
+				@include edgtfTransitionTransform(.3s ease-in-out);
+			}
+		}
+	}
+	
+	/***** Zoom Behavior Style - end *****/
+	
+	/***** Grayscale Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-grayscale {
+		
+		.edgtf-si-inner {
+			overflow: hidden;
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					-webkit-filter: grayscale(0);
+					filter: none;
+				}
+			}
+			
+			img {
+				filter: url('img/desaturate.svg#grayscale');
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				filter: gray;
+				filter: grayscale(100%);
+				@include edgtfTransition(all .3s ease-in-out);
+			}
+		}
+	}
+	
+	/***** Grayscale Behavior Style - end *****/
+	
+	/***** Moving Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-moving {
+		
+		.edgtf-si-inner {
+			overflow: hidden;
+			padding: 10% 0;
+			background-repeat: no-repeat;
+			background-position: 0 center;
+			background-size: 120%;
+			@include edgtfTransition(background .7s ease-out);
+			
+			&:hover {
+				background-position: 90% center;
+			}
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			img {
+				z-index: -1;
+				max-width: 80%;
+			}
+			
+			@include ipad-landscape {
+				padding: 0;
+				background: none;
+				
+				img {
+					z-index: inherit;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+	
+	/***** Moving Behavior Style - end *****/
+}
+/* ==========================================================================
+   Single Image shortcode style - end
+   ========================================================================== */

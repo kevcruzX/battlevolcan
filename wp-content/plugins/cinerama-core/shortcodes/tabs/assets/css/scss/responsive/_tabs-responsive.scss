@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+
+	.edgtf-tabs {
+
+		&.edgtf-tabs-simple {
+
+			.edgtf-tabs-nav {
+
+				li {
+
+					a {
+					    padding: 11px 42px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include ipad-portrait {
+	
+	.edgtf-tabs {
+
+		&.edgtf-tabs-standard,
+		&.edgtf-tabs-simple {
+
+			.edgtf-tabs-nav {
+
+				li {
+					display: block;
+					float: none;
+
+					a {
+						width: 100%;
+					}
+				}
+			}
+		}
+		
+		&.edgtf-tabs-simple {
+			
+			.edgtf-tabs-nav {
+
+				li {
+
+					a {
+						padding: 13px 26px 8px;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */

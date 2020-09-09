@@ -1,0 +1,176 @@
+/* ==========================================================================
+   Image With Text shortcode style - begin
+   ========================================================================== */
+
+.edgtf-image-with-text-holder {
+    @include edgtfRelativeHolderLayout();
+	
+	&.edgtf-iwt-animation {
+		opacity: 0;
+		@include edgtfTransform(translateY(15px));
+		@include edgtfTransitionTransform(.5s ease .1s, opacity .5s ease .1s);
+		
+		&:hover {
+			
+			.edgtf-iwt-image,
+			.edgtf-iwt-title,
+			.edgtf-iwt-text {
+				@include edgtfTransform(translateY(-5px));
+			}
+			
+			.edgtf-iwt-image {
+				transition-delay: .1s;
+			}
+			
+			.edgtf-iwt-title {
+				transition-delay: .2s;
+			}
+			
+			.edgtf-iwt-text {
+				transition-delay: .3s;
+			}
+		}
+		
+		&.edgtf-iwt-appear {
+			opacity: 1;
+			@include edgtfTransform(translateY(0));
+		}
+		
+		.edgtf-iwt-image,
+		.edgtf-iwt-title,
+		.edgtf-iwt-text {
+			@include edgtfTransform(translateY(0));
+			@include edgtfTransitionTransform(.3s ease);
+		}
+		
+		.edgtf-iwt-image {
+			transition-delay: .3s;
+		}
+		
+		.edgtf-iwt-title {
+			transition-delay: .2s;
+		}
+		
+		.edgtf-iwt-text {
+			transition-delay: .1s;
+		}
+	}
+	
+	&.edgtf-has-shadow {
+		
+		.edgtf-iwt-image {
+			box-shadow: $default-box-shadow;
+		}
+	}
+	
+	.edgtf-iwt-image {
+		@include edgtfRelativeHolderLayout();
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	.edgtf-iwt-text-holder {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-iwt-title {
+		margin: 32px 0 0;
+	}
+	
+	.edgtf-iwt-text {
+		margin: 0;
+	}
+	
+	/***** Custom Link Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-custom-link {
+		
+		.edgtf-iwt-image {
+			
+			a {
+				@include edgtfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Custom Link Behavior Style - end *****/
+	
+	/***** Lightbox Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-lightbox {
+		
+		.edgtf-iwt-image {
+			
+			a {
+				@include edgtfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Lightbox Behavior Style - end *****/
+	
+	/***** Zoom Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-zoom {
+		
+		.edgtf-iwt-image {
+			overflow: hidden;
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					@include edgtfTransform(scale(1.04));
+				}
+			}
+			
+			img {
+				@include edgtfTransform(scale(1));
+				@include edgtfTransitionTransform(.3s ease-in-out);
+			}
+		}
+	}
+	
+	/***** Zoom Behavior Style - end *****/
+	
+	/***** Grayscale Behavior Style - begin *****/
+	
+	&.edgtf-image-behavior-grayscale {
+		
+		.edgtf-iwt-image {
+			overflow: hidden;
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					-webkit-filter: grayscale(0);
+					filter: none;
+				}
+			}
+			
+			img {
+				filter: url('img/desaturate.svg#grayscale');
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				filter: gray;
+				filter: grayscale(100%);
+				@include edgtfTransition(all .3s ease-in-out);
+			}
+		}
+	}
+	
+	/***** Grayscale Behavior Style - end *****/
+}
+/* ==========================================================================
+   Image With Text shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Button shortcode responsive style - begin
+   ========================================================================== */
+
+@media only screen and (max-width: $laptop-landscape) {
+
+	.edgtf-btn {
+
+		&.edgtf-btn-large,
+		&.edgtf-btn-huge {
+			@include edgtfButtonMediumParams();
+		}
+	}
+}
+/* ==========================================================================
+   Button shortcode responsive style - end
+   ========================================================================== */

@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Portfolio Item Layout - Standard Video Preview style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-list-holder {
+	
+	&.edgtf-pl-standard-video-preview {
+		opacity: 0;
+		z-index: -1;
+		
+		&.edgtf-pl-svp-init {
+			opacity: 1;
+			z-index: auto;
+		}
+		
+		article {
+			
+			&:hover {
+				.edgtf-pli-text {
+					
+					.edgtf-pli-title,
+					.edgtf-pli-category-holder {
+						@include edgtfTransform(translateY(-5px) translateZ(0));
+						@include edgtfTransitionTransform(.3s ease);
+						backface-visibility: hidden;
+					}
+					
+					.edgtf-pli-category-holder {
+						transition-delay: .1s;
+					}
+				}
+			}
+			
+			.edgtf-pli-link {
+				display: none;
+				
+				@include ipad-landscape {
+					display: block;
+				}
+			}
+			
+			.edgtf-pli-text {
+				
+				.edgtf-pli-title,
+				.edgtf-pli-category-holder {
+					@include edgtfTransform(translateY(0) translateZ(0));
+					@include edgtfTransitionTransform(.3s ease);
+					backface-visibility: hidden;
+				}
+				
+				.edgtf-pli-title {
+					transition-delay: .1s;
+				}
+				
+				.edgtf-pli-category-holder {
+					margin-top: -6px;
+				}
+			}
+		}
+		
+		.edgtf-pli-video-holder {
+			@include edgtfRelativeHolderLayout();
+			z-index: 100;
+		}
+		
+		.edgtf-pli-video-cover-image {
+			@include edgtfAbsoluteHolderLayout();
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0;
+			
+			@include ipad-landscape {
+				opacity: 1;
+			}
+		}
+		
+		iframe {
+			display: block;
+			
+			@include ipad-landscape {
+				z-index: -1;
+			}
+			
+			.vp-player-layout {
+				top: 0 !important;
+				height: 100% !important;
+			}
+		}
+		
+		.edgtf-self-hosted-video-holder {
+			@include edgtfRelativeHolderLayout();
+			
+			@include ipad-landscape {
+				z-index: -1;
+			}
+			
+			video {
+				object-fit: inherit;
+			}
+			
+			.mejs-layers,
+			.mejs-controls,
+			.mejs-offscreen {
+				display: none !important;
+			}
+		}
+		
+		.edgtf-pli-text-holder {
+			@include edgtfRelativeHolderLayout();
+			margin: 19px 0 0;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Standard Video Preview style - end
+   ========================================================================== */

@@ -1,0 +1,61 @@
+/* ==========================================================================
+   Social Icons Group widget style - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+.edgtf-social-icons-group-widget.edgtf-square-icons .edgtf-social-icon-widget-holder {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 0 7px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #000;
+}
+
+.edgtf-social-icons-group-widget.edgtf-square-icons .edgtf-social-icon-widget-holder:hover {
+  color: #000;
+  background-color: #000;
+}
+
+.edgtf-social-icons-group-widget.edgtf-square-icons .edgtf-social-icon-widget-holder .edgtf-social-icon-widget {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.edgtf-social-icons-group-widget.edgtf-square-icons.edgtf-light-skin .edgtf-social-icon-widget-holder {
+  color: #000;
+  background-color: #fff;
+}
+
+.edgtf-social-icons-group-widget.edgtf-square-icons.edgtf-light-skin .edgtf-social-icon-widget-holder:hover {
+  color: #000;
+  background-color: #000;
+}
+
+.edgtf-social-icons-group-widget .edgtf-social-icon-widget-holder {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  text-align: center;
+}
+
+.edgtf-social-icons-group-widget .edgtf-social-icon-widget-holder:first-child {
+  margin-left: 0;
+}
+
+.edgtf-social-icons-group-widget .edgtf-social-icon-widget-holder:last-child {
+  margin-right: 0;
+}
+
+/* ==========================================================================
+   Social Icons Group widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=social-icons-group-widget-map.css.map */

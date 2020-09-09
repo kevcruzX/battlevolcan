@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-title-holder.edgtf-has-bg-image {
+    height: auto !important;
+    background-image: none !important;
+  }
+  .edgtf-title-holder.edgtf-has-bg-image .edgtf-title-image {
+    display: block;
+  }
+  .edgtf-title-holder.edgtf-has-bg-image .edgtf-title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100% !important;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .edgtf-title-holder.edgtf-title-va-header-bottom {
+    height: auto !important;
+  }
+  .edgtf-title-holder.edgtf-title-va-header-bottom .edgtf-title-wrapper {
+    padding-top: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-title-holder.edgtf-centered-type .edgtf-page-subtitle {
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-title-holder.edgtf-standard-with-breadcrumbs-type .edgtf-title-info,
+  .edgtf-title-holder.edgtf-standard-with-breadcrumbs-type .edgtf-breadcrumbs-info {
+    display: block;
+    width: 100%;
+  }
+  .edgtf-title-holder.edgtf-standard-with-breadcrumbs-type .edgtf-breadcrumbs-info {
+    margin: 10px 0 0;
+    text-align: initial;
+    white-space: inherit;
+  }
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */

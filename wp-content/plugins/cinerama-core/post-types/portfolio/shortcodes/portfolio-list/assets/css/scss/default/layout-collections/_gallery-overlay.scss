@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Overlay style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-list-holder {
+	
+	&.edgtf-pl-gallery-overlay {
+		
+		&.edgtf-pl-has-shadow {
+			
+			.edgtf-pl-item-inner {
+				box-shadow: $default-box-shadow;
+			}
+		}
+		
+		article {
+			
+			&:hover {
+				
+				.edgtf-pli-text-holder {
+					opacity: 1;
+				}
+				
+				.edgtf-pli-image {
+					
+					img {
+						@include edgtfTransform(scale(1));
+					}
+				}
+				
+				.edgtf-pli-text {
+					
+					.edgtf-pli-title,
+					.edgtf-pli-category-holder {
+						@include edgtfTransform(translateY(-5px));
+						@include edgtfTransitionTransform(.3s ease);
+					}
+					
+					.edgtf-pli-title {
+						transition-delay: .1s;
+					}
+					
+					.edgtf-pli-category-holder {
+						transition-delay: .2s;
+					}
+				}
+			}
+			
+			.edgtf-pl-item-inner {
+				overflow: hidden;
+			}
+			
+			.edgtf-pli-image {
+				overflow: hidden;
+				
+				img {
+					@include edgtfTransform(scale(1.03));
+					@include edgtfTransitionTransform(1s ease);
+				}
+			}
+			
+			.edgtf-pli-text {
+				
+				.edgtf-pli-title,
+				.edgtf-pli-excerpt {
+					color: #fff;
+				}
+				
+				.edgtf-pli-title {
+					transition-delay: .2s;
+				}
+				
+				.edgtf-pli-title,
+				.edgtf-pli-category-holder {
+					@include edgtfTransform(translateY(0));
+					@include edgtfTransitionTransform(.3s ease);
+				}
+				
+				.edgtf-pli-category-holder {
+					transition-delay: .1s;
+					
+					a {
+						color: #fff;
+						
+						&:hover {
+							color: rgba(#fff, .8);
+						}
+					}
+				}
+			}
+		}
+		
+		.edgtf-pli-text-holder {
+			@include edgtfAbsoluteHolderLayout();
+			padding: 20px;
+			background-color: rgba($default-heading-color, 0.5);
+			opacity: 0;
+			text-align: center;
+			box-sizing: border-box;
+			@include edgtfTransition(opacity .5s ease);
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Overlay style - end
+   ========================================================================== */

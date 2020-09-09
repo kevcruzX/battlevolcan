@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Portfolio Project Info shortcode style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-project-info {
+    position: relative;
+	display: inline-block;
+	vertical-align: middle;
+
+	.edgtf-ppi-label {
+		margin: 0;
+		padding: 0;
+	}
+
+	> div {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+
+		a {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 5px 0 0;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+
+	.edgtf-ppi-title {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+	}
+	
+	.edgtf-ppi-image {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+		
+		img {
+			display: block;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Project Info shortcode style - end
+   ========================================================================== */

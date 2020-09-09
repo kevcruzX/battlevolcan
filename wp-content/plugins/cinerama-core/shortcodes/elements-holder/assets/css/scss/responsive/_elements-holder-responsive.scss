@@ -1,0 +1,250 @@
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+
+.edgtf-elements-holder {
+	
+	$columns_label: ('two', 'three', 'four', 'five', 'six');
+	
+	@include laptop-landscape-mac {
+		
+		&.edgtf-responsive-mode-1366 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.edgtf-#{nth($columns_label,$i+1)}-columns {
+					
+					.edgtf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-left {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-right {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-center {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include ipad-landscape {
+		
+		&.edgtf-responsive-mode-1024 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.edgtf-#{nth($columns_label,$i+1)}-columns {
+					
+					.edgtf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-left {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-right {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-center {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include ipad-portrait {
+		
+		&.edgtf-responsive-mode-768 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.edgtf-#{nth($columns_label,$i+1)}-columns {
+					
+					.edgtf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-left {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-right {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-center {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include phone-landscape {
+		
+		&.edgtf-responsive-mode-680 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.edgtf-#{nth($columns_label,$i+1)}-columns {
+					
+					.edgtf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-left {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-right {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-center {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	
+	@include phone-portrait {
+		
+		&.edgtf-responsive-mode-480 {
+			
+			@for $i from 0 to length($columns_label) {
+				&.edgtf-#{nth($columns_label,$i+1)}-columns {
+					
+					.edgtf-eh-item {
+						width: 100%;
+						height: auto;
+						display: inline-block;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-left {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: left;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-right {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: right;
+					}
+				}
+			}
+			
+			&.edgtf-one-column-alignment-center {
+				
+				.edgtf-eh-item {
+					
+					.edgtf-eh-item-content {
+						text-align: center;
+					}
+				}
+			}
+		}
+		
+		.edgtf-eh-item-content{
+			padding: 0 10px;
+		}
+	}
+}
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */

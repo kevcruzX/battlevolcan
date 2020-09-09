@@ -1,0 +1,203 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Shortcodes styles
+   ========================================================================== */
+.edgtf-twitter-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+
+.edgtf-twitter-list-holder:not(.edgtf-tl-one-column) .edgtf-tl-item {
+  float: left;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-list {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.edgtf-twitter-list-holder .edgtf-tl-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.edgtf-twitter-list-holder .edgtf-tli-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #ffffff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.edgtf-twitter-list-holder .edgtf-tli-inner:hover {
+  box-shadow: -2px 4px 13px 0 rgba(81, 137, 162, 0.05);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.edgtf-twitter-list-holder .edgtf-tli-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 35px 23px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-content-top {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-link-over {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-user {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-user .edgtf-twitter-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 56px;
+  height: 56px;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-user .edgtf-twitter-image img {
+  border-radius: 50%;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-user .edgtf-twitter-name {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: calc(100% - 56px);
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-user .edgtf-twitter-name * {
+  margin: 0;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-icon {
+  position: absolute;
+  top: -7px;
+  right: 3px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: top;
+  color: #000;
+  font-size: 24px;
+  text-align: right;
+}
+
+.edgtf-twitter-list-holder .edgtf-tweet-text {
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.edgtf-twitter-list-holder .edgtf-tweet-text a {
+  position: relative;
+  color: #808080;
+  z-index: 2;
+}
+
+.edgtf-twitter-list-holder .edgtf-tweet-text a:hover {
+  color: #000;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-profile a {
+  position: relative;
+  color: #808080;
+  z-index: 2;
+}
+
+.edgtf-twitter-list-holder .edgtf-twitter-profile a:hover {
+  color: #000;
+}
+
+.edgtf-twitter-list-holder.edgtf-tl-two-columns .edgtf-tl-item {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .edgtf-twitter-list-holder.edgtf-tl-two-columns .edgtf-tl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.edgtf-twitter-list-holder.edgtf-tl-three-columns .edgtf-tl-item {
+  width: 33.33333%;
+}
+
+@media only screen and (min-width: 1201px) {
+  .edgtf-twitter-list-holder.edgtf-tl-three-columns .edgtf-tl-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.edgtf-twitter-list-holder.edgtf-tl-four-columns .edgtf-tl-item {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .edgtf-twitter-list-holder.edgtf-tl-four-columns .edgtf-tl-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.edgtf-twitter-list-holder.edgtf-tl-five-columns .edgtf-tl-item {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .edgtf-twitter-list-holder.edgtf-tl-five-columns .edgtf-tl-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/cinerama-twitter-feed/assets/css/shortcodes-map.css.map */

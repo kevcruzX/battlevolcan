@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Author Info widget style - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+.edgtf-author-info-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.edgtf-author-info-widget .edgtf-aiw-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.edgtf-author-info-widget .edgtf-aiw-image img {
+  display: block;
+}
+
+.edgtf-author-info-widget .edgtf-aiw-title {
+  margin: 28px 0 0;
+}
+
+.edgtf-author-info-widget .edgtf-aiw-text {
+  display: block;
+  margin: 10px 0 0;
+}
+
+/* ==========================================================================
+   Author Info widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=author-info-widget-map.css.map */

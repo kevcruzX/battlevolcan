@@ -1,0 +1,160 @@
+/* ==========================================================================
+   Team shortcode style - begin
+   ========================================================================== */
+
+.edgtf-team-holder {
+    @include edgtfRelativeHolderLayout();
+	margin: 0 0 21px;
+	text-align: center;
+	
+	&:hover {
+		
+		.edgtf-team-social-wrapper {
+			
+			.edgtf-team-social-outer {
+				opacity: 1;
+				@include edgtfTransform(translateZ(0) translateY(0));
+			}
+		}
+		
+		.edgtf-team-image {
+			
+			img {
+				@include edgtfTransform(scale(1) translateZ(0));
+			}
+		}
+		
+		.edgtf-team-name,
+		.edgtf-team-position {
+			@include edgtfTransform(translateY(-5px));
+		}
+		
+		.edgtf-team-name {
+			transition-delay: .1s;
+		}
+		
+		.edgtf-team-position {
+			transition-delay: .2s;
+		}
+	}
+
+	&.edgtf-team-info-on-image {
+
+		.edgtf-team-name,
+		.edgtf-team-position,
+		.edgtf-team-text,
+		.edgtf-team-icon a {
+			color: #fff;
+			
+			&:hover {
+				color: rgba(255,255,255,.8);
+			}
+		}
+
+		.edgtf-team-name {
+	        margin: 0 0 4px;
+	    }
+
+		.edgtf-team-position {
+			margin: 0 0 3px;
+		}
+	}
+
+	&.edgtf-team-info-below-image {
+
+		.edgtf-team-text,
+		.edgtf-team-icon a {
+			color: #fff;
+		}
+	}
+		
+	.edgtf-team-image {
+        @include edgtfRelativeHolderLayout();
+		overflow: hidden;
+
+        img {
+            display: block;
+	        @include edgtfTransform(scale(1.03) translateZ(0));
+	        @include edgtfTransitionTransform(1s ease);
+        }
+    }
+	
+	.edgtf-team-info {
+		@include edgtfRelativeHolderLayout();
+		margin: 30px 0 0;
+	}
+
+    .edgtf-team-name {
+        margin: 0;
+	    transition-delay: .2s;
+    }
+	
+	.edgtf-team-name,
+	.edgtf-team-position {
+		@include edgtfTransform(translateY(0));
+		@include edgtfTransitionTransform(.3s ease);
+	}
+
+    .edgtf-team-position {
+        margin: 0;
+	    line-height: 23px;
+	    color: $default-heading-color;
+	    transition-delay: .1s;
+    }
+	
+	.edgtf-team-text {
+		margin: 0 0 23px;
+	}
+	
+	.edgtf-team-social-wrapper {
+		@include edgtfAbsoluteHolderLayout();
+		padding: 15px 15px;
+		box-sizing: border-box;
+		z-index: 1;
+	}
+	
+	.edgtf-team-social-outer {
+		@include edgtfTableLayout();
+		background-color: rgba($default-heading-color, .5);
+		opacity: 0;
+		@include edgtfTransform(translateZ(0) translateY(10px));
+		@include edgtfTransitionTransform(.5s ease, opacity .5s ease);
+	}
+	
+	.edgtf-team-social-inner {
+		position: relative;
+		display: table-cell;
+		height: 100%;
+		width: 100%;
+		padding: 0 10%;
+		vertical-align: middle;
+		box-sizing: border-box;
+	}
+	
+	.edgtf-team-social-holder {
+		@include edgtfRelativeHolderLayout();
+		margin: 0;
+		
+		.edgtf-team-icon {
+			font-size: 14px;
+			margin: 0 22px 0 0;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			.edgtf-icon-element {
+				font-size: inherit;
+				@include edgtfTransition(none);
+			}
+		}
+	}
+
+	.touch & {
+		cursor: pointer;
+	}
+}
+
+/* ==========================================================================
+   Team shortcode style - end
+   ========================================================================== */

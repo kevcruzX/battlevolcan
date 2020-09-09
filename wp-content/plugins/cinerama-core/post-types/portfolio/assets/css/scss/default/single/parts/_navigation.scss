@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Portfolio Single navigation style - begin
+   ========================================================================== */
+
+.edgtf-ps-navigation-holder {
+	margin: 94px 0 0;
+	padding: 100px 0 50px;
+	border-top: 1px solid $default-border-color;
+	
+	.edgtf-ps-full-width-custom-layout & {
+		margin-top: 0;
+		border-top: 0;
+	}
+
+	.edgtf-ps-navigation {
+		position: relative;
+		display: table;
+		width: 100%;
+		vertical-align: middle;
+		padding: 0;
+		margin: 0;
+		clear: both;
+		box-sizing: border-box;
+
+		.edgtf-ps-back-btn {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			display: inline-block;
+			vertical-align: middle;
+			@include edgtfTransform(translateX(-50%) translateY(-50%));
+
+			a {
+				position: relative;
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+				vertical-align: middle;
+				cursor: pointer;
+				font-size: 25px;
+				line-height: 1;
+
+				span {
+					display: block;
+					line-height: inherit;
+				}
+			}
+		}
+
+		.edgtf-ps-prev,
+		.edgtf-ps-next {
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+			width: 49%;
+			padding: 0;
+			box-sizing: border-box;
+
+			a {
+				position: relative;
+				display: table;
+
+				.edgtf-ps-nav-image,
+				.edgtf-ps-nav-label {
+					position: relative;
+					display: table-cell;
+					vertical-align: baseline;
+				}
+
+				.edgtf-ps-nav-image {
+					margin: 0;
+					width: 80px;
+
+					img {
+						display: block;
+					}
+					
+					@include phone-landscape {
+						display: none;
+					}
+				}
+
+				.edgtf-ps-nav-label {
+					font-size: 12px;
+					line-height: 1;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: .35em;
+				}
+			}
+		}
+
+		.edgtf-ps-prev {
+
+			a {
+				float: left;
+
+				.edgtf-ps-nav-label {
+					left: 19px;
+					
+					@include phone-landscape {
+						left: 0;
+					}
+				}
+			}
+		}
+
+		.edgtf-ps-next {
+
+			a {
+				float: right;
+
+				.edgtf-ps-nav-label {
+					right: 14px;
+					
+					@include phone-landscape {
+						right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.edgtf-ps-navigation-light {
+		border-color: #3a3c3c;
+		
+		.edgtf-ps-navigation {
+
+			.edgtf-ps-back-btn {
+
+				a {
+					color: #fff;
+				}
+			}
+
+			.edgtf-ps-prev,
+			.edgtf-ps-next {
+
+				a {
+
+					.edgtf-ps-nav-label {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single navigation style - end
+   ========================================================================== */

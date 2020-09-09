@@ -1,0 +1,128 @@
+# Copyright (C) 2019 Cinerama Instagram Feed
+# This file is distributed under the same license as the Cinerama Instagram Feed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cinerama Instagram Feed 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cinerama-instagram-feed\n"
+"POT-Creation-Date: 2019-05-21 08:29:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/cinerama-instagram-api.php:228
+msgid "Can't connect with Instagram"
+msgstr ""
+
+#: lib/cinerama-instagram-api.php:248
+msgid "Success"
+msgstr ""
+
+#: lib/cinerama-instagram-api.php:264
+msgid "User hasn't connected with Instagram"
+msgstr ""
+
+#: lib/cinerama-instagram-api.php:284
+msgid "Can't connect with Instagram API"
+msgstr ""
+
+#: lib/cinerama-instagram-api.php:300
+msgid "Can't get Instagram access token"
+msgstr ""
+
+#: lib/cinerama-instagram-api.php:308
+msgid "Stored access token"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:13
+msgid "Cinerama Instagram Widget"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:15
+msgid "Display your Instagram feed"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:27
+msgid "Title"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:32
+msgid "Type"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:34
+msgid "Gallery"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:35
+msgid "Carousel"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:41
+msgid "Number of Columns"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:43
+msgid "Two"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:44
+msgid "Three"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:45
+msgid "Four"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:46
+msgid "Six"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:47
+msgid "Nine"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:53
+msgid "Number of Photos"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:58
+msgid "Image Size"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:60
+msgid "Small"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:61
+msgid "Medium"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:62
+msgid "Large"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:68
+msgid "Space Between Items"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:74
+msgid "Show Instagram Icon"
+msgstr ""
+
+#: widgets/cinerama-instagram-widget.php:80
+msgid "Images Cache Time"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Cinerama Instagram Feed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds Instagram feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Edge Themes"
+msgstr ""

@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Widgets responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Instagram widget responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .edgtf-instagram-feed:not(.edgtf-instagram-carousel) li img {
+    width: 100%;
+  }
+  .edgtf-instagram-feed:not(.edgtf-instagram-carousel).edgtf-col-6 li {
+    width: 25%;
+  }
+  .edgtf-instagram-feed:not(.edgtf-instagram-carousel).edgtf-col-9 li {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-instagram-feed:not(.edgtf-instagram-carousel).edgtf-col-6 li {
+    width: 33.33333%;
+  }
+  .edgtf-instagram-feed:not(.edgtf-instagram-carousel).edgtf-col-9 li {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-instagram-feed:not(.edgtf-instagram-carousel) li {
+    width: 50% !important;
+  }
+}
+
+/* ==========================================================================
+   Instagram widget responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/cinerama-instagram-feed/assets/css/widget-map-responsive.css.map */

@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-single-holder {
+	
+    .edgtf-ps-image-holder {
+	    
+	    &.edgtf-ps-gallery-images {
+		
+		    /***** Columns Layout - begin *****/
+		
+		    @include laptop-landscape {
+			
+			    $columns_number: ('four');
+			
+			    @for $i from 0 to length($columns_number) {
+				    &.edgtf-ps-#{nth($columns_number,$i+1)}-columns {
+					    $item_size: 100% / 3;
+					
+					    .edgtf-ps-image {
+						    width: $item_size;
+					    }
+					
+					    @media only screen and (min-width: $ipad-landscape-plus-pixel) {
+						
+						    .edgtf-ps-image {
+							
+							    &:nth-child(3n+1) {
+								    clear: both;
+							    }
+						    }
+					    }
+				    }
+			    }
+		    }
+		
+		    @include ipad-landscape {
+			
+			    $columns_number: ('three', 'four');
+			
+			    @for $i from 0 to length($columns_number) {
+				    &.edgtf-ps-#{nth($columns_number,$i+1)}-columns {
+					
+					    .edgtf-ps-image {
+						    width: 50%;
+					    }
+					
+					    @media only screen and (min-width: $phone-landscape-plus-pixel) {
+						
+						    .edgtf-ps-image {
+							
+							    &:nth-child(2n+1) {
+								    clear: both;
+							    }
+						    }
+					    }
+				    }
+			    }
+		    }
+		
+		    @include phone-landscape {
+			
+			    .edgtf-ps-image {
+				    width: 100% !important; // !important is set to override all other stronger selectors
+			    }
+		    }
+		
+		    /***** Columns Layout - end *****/
+	    }
+	    
+	    &.edgtf-ps-masonry-images {
+		
+		    @include laptop-landscape {
+			    
+			    $masonry_columns_number: ('four', 'five');
+			
+			    @for $i from 0 to length($masonry_columns_number) {
+				    &.edgtf-ps-#{nth($masonry_columns_number,$i+1)}-columns {
+					    $column_width: 100% / 3;
+					
+					    .edgtf-ps-image,
+					    .edgtf-ps-grid-sizer {
+						    width: $column_width;
+					    }
+					
+					    .edgtf-ps-image.edgtf-masonry-size-large-width,
+					    .edgtf-ps-image.edgtf-masonry-size-large-width-height {
+						    width: $column_width * 2;
+					    }
+				    }
+			    }
+		    }
+		
+		    @include ipad-landscape {
+			    
+			    $masonry_columns_number: ('three', 'four', 'five');
+			
+			    @for $i from 0 to length($masonry_columns_number) {
+				    &.edgtf-ps-#{nth($masonry_columns_number,$i+1)}-columns {
+					
+					    .edgtf-ps-image,
+					    .edgtf-ps-grid-sizer {
+						    width: 50%;
+					    }
+					
+					    .edgtf-ps-image.edgtf-masonry-size-large-width,
+					    .edgtf-ps-image.edgtf-masonry-size-large-width-height {
+						    width: 100%;
+					    }
+				    }
+			    }
+		    }
+		    
+		    @include phone-landscape {
+				
+			    $masonry_columns_number: ('two', 'three', 'four');
+			
+			    @for $i from 0 to length($masonry_columns_number) {
+				    &.edgtf-ps-#{nth($masonry_columns_number,$i+1)}-columns {
+					
+					    .edgtf-ps-image,
+					    .edgtf-ps-grid-sizer {
+						    width: 100%;
+					    }
+				    }
+			    }
+		    }
+	    }
+    }
+	
+	@include ipad-landscape {
+		
+		.edgtf-ps-info-holder {
+			margin: 30px 0 0 !important; // can be set inline in option
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */

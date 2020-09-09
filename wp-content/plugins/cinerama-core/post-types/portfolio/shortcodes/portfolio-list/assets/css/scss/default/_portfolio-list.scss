@@ -1,0 +1,620 @@
+/* ==========================================================================
+   Portfolio shortcode style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-list-holder {
+    @include edgtfRelativeHolderLayout();
+
+	/***** Article Global Style - begin *****/
+
+    article {
+	    @include edgtfRelativeHolderLayout();
+        box-sizing: border-box;
+
+	    .touch & {
+		    cursor: pointer;
+	    }
+	    
+	    &:hover {
+		    &.edgtf-pl-has-video {
+			
+			    .edgtf-pli-image {
+				
+				    &:before {
+					    -webkit-animation: move-right .5s ease 1;
+					    -moz-animation: move-right .5s ease 1;
+					    -o-animation: move-right .5s ease 1;
+					    animation: move-right .5s ease 1;
+				    }
+			    }
+		    }
+	    }
+	    
+	    &.edgtf-pl-has-video {
+		
+		    .edgtf-pli-image {
+			   
+			    &:before {
+				    content: '';
+				    position: absolute;
+				    top: calc(50% - 22px);
+				    left: calc(50% - 24px);
+				    width: 44px;
+				    height: 48px;
+				    background-image: url('../img/play.svg');
+				    background-size: 44px 48px;
+				    background-repeat: no-repeat;
+				    z-index: 9;
+			    }
+		    }
+	    }
+
+	    .edgtf-pl-item-inner {
+		    @include edgtfRelativeHolderLayout();
+	    }
+	    
+	    .edgtf-pli-image {
+		    @include edgtfRelativeHolderLayout();
+		    
+		    img {
+			    display: block;
+			    width: 100%;
+		    }
+	    }
+
+	    .edgtf-pli-link {
+		    @include edgtfAbsoluteHolderLayout();
+		    z-index: 10;
+	    }
+
+	    .edgtf-pli-text-wrapper {
+	        @include edgtfTableLayout();
+	    }
+
+	    .edgtf-pli-text {
+		    @include edgtfTableCellLayout();
+
+		    .edgtf-pli-title {
+				margin: 0;
+		    }
+
+		    .edgtf-pli-category-holder {
+			    position: relative;
+			    display: block;
+			    margin: 2px 0 0;
+
+			    a {
+				    position: relative;
+				    display: inline-block;
+				    vertical-align: top;
+				    padding: 0 6px 0 0;
+				    margin: 0 3px 0 0;
+				    color: $default-text-color;
+				    z-index: 8;
+				    
+				    &:after {
+					    position: absolute;
+					    top: 0;
+					    right: -4px;
+					    content: '/';
+					    color: inherit;
+					    font-size: 12px;
+					    line-height: inherit;
+				    }
+
+				    &:last-child {
+					    margin: 0;
+					    padding: 0;
+					    
+					    &:after {
+						    display: none;
+					    }
+				    }
+			    }
+		    }
+
+		    .edgtf-pli-excerpt {
+			    margin: 2px 0 0;
+		    }
+	    }
+    }
+
+	/***** Article Global Style - end *****/
+	
+	/***** Specific Global Style - begin *****/
+	
+	&.edgtf-pl-has-shadow {
+		
+		article {
+			
+			.edgtf-pli-image {
+				box-shadow: $default-box-shadow;
+			}
+		}
+	}
+	
+	&.edgtf-pl-has-filter {
+		
+		.edgtf-pl-inner {
+			overflow: hidden;
+		}
+	}
+	
+	&.edgtf-pl-no-content {
+		
+		.edgtf-pli-text-holder {
+			display: none;
+		}
+	}
+	/***** Specific Global Style - end *****/
+	
+	/***** Portfolio Types - begin *****/
+	
+	&.edgtf-pl-gallery {
+		
+		&:not(.edgtf-pl-one-column) {
+			
+			article {
+				float: left;
+			}
+		}
+		
+		$gallery_columns_number: ('two', 'three', 'four', 'five');
+		
+		@for $i from 0 to length($gallery_columns_number) {
+			&.edgtf-pl-#{nth($gallery_columns_number,$i+1)}-columns {
+				
+				article {
+					width: 100% / ($i+2);
+				}
+				
+				@if ($i == 3) { // set different break point for five columns
+					@media only screen and (min-width: $laptop-landscape-large-plus-pixel) {
+						
+						article {
+							
+							&:nth-child(#{$i+2}n+1) {
+								clear: both;
+							}
+						}
+					}
+				} @else if ($i == 2) { // set different break point for four columns
+					@media only screen and (min-width:  $ipad-landscape-plus-pixel) {
+						
+						article {
+							
+							&:nth-child(#{$i+2}n+1) {
+								clear: both;
+							}
+						}
+					}
+				} @else {
+					@media only screen and (min-width: $ipad-portrait-plus-pixel) {
+						
+						article {
+							
+							&:nth-child(#{$i+2}n+1) {
+								clear: both;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	&.edgtf-pl-masonry {
+		
+		.edgtf-pl-inner {
+			opacity: 0;
+		}
+		
+		article,
+		.edgtf-pl-grid-sizer {
+			width: 100%;
+		}
+		
+		.edgtf-pl-grid-gutter {
+			width: 0;
+		}
+		
+		$masonry_columns_number: ('two', 'three', 'four', 'five');
+		
+		@for $i from 0 to length($masonry_columns_number) {
+			&.edgtf-pl-#{nth($masonry_columns_number,$i+1)}-columns {
+				$column_width: 100%/($i+2);
+				
+				article,
+				.edgtf-pl-grid-sizer {
+					width: $column_width;
+				}
+				
+				article {
+					
+					&.edgtf-masonry-size-large-width,
+                    &.edgtf-masonry-size-large-width-height {
+						width: $column_width * 2;
+					}
+				}
+			}
+		}
+
+        &.edgtf-masonry-images-fixed {
+	        
+            article {
+	            
+                .edgtf-pl-item-inner {
+                    height: 100%;
+                }
+	
+	            .edgtf-pli-image {
+		            height: 100%;
+		
+		            img {
+			            height: 100%;
+		            }
+	            }
+            }
+        }
+	}
+
+	/***** Portfolio Types - end *****/
+
+	/***** Portfolio Skin - begin *****/
+
+	&.edgtf-pl-light {
+
+		.edgtf-pli-text-holder {
+
+			.edgtf-pli-text {
+
+				* {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	/***** Portfolio Skin - end *****/
+
+	/***** Additional Features - begin *****/
+
+	&.edgtf-pl-has-animation {
+
+		article {
+			opacity: 0;
+			@include edgtfTransform(translateY(80px));
+			@include edgtfTransition(opacity .8s cubic-bezier(0.34, 0.52, 0.57, 1.04), transform .8s cubic-bezier(0.34, 0.52, 0.57, 1.04));
+
+			&.edgtf-item-show {
+				opacity: 1;
+				@include edgtfTransform(translateY(0));
+
+				&.edgtf-item-shown {
+					@include edgtfTransition(none);
+				}
+			}
+			
+			.touch & {
+				opacity: 1;
+				@include edgtfTransform(translateY(0));
+			}
+		}
+	}
+
+	/***** Additional Features - end *****/
+}
+
+/* ==========================================================================
+   Portfolio shortcode style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio filter style - begin
+   ========================================================================== */
+
+.edgtf-pl-filter-holder {
+    @include edgtfRelativeHolderLayout();
+    margin: 0 0 30px;
+    text-align: center;
+
+    ul {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0 10px;
+	        padding: 0 20px;
+            cursor: pointer;
+	
+	        @include ipad-landscape {
+		        padding: 0 14px;
+	        }
+
+            span {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                color: $default-heading-color;
+                white-space: nowrap;
+                @include edgtfTransition(color .2s ease-out);
+	            
+	            &:after {
+		            position: absolute;
+		            content: '';
+		            right: 0;
+		            bottom: 0;
+		            width: 0;
+		            height: 2px;
+		            background-color: $first-main-color;
+		            @include edgtfTransition(width .3s ease);
+	            }
+            }
+	        
+
+            &.edgtf-pl-current,
+            &:hover {
+
+                span {
+                    color: $first-main-color;
+	
+	                &:after {
+		                right: auto;
+		                left: 0;
+		                width: 100%;
+	                }
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio filter style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio standard pagination style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-list-holder {
+	
+	&.edgtf-pl-pag-standard {
+		
+		.edgtf-pl-inner {
+			opacity: 1;
+			@include edgtfTransition(opacity .2s ease-out);
+		}
+		
+		&.edgtf-pl-pag-standard-animate {
+			
+			.edgtf-pl-inner {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+.edgtf-pl-standard-pagination {
+	@include edgtfRelativeHolderLayout();
+	margin: 20px 0 0;
+	clear: both;
+	
+	ul {
+		@include edgtfRelativeHolderLayout();
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: center;
+		
+		li {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 12px;
+			padding: 0;
+			
+			a {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0;
+				padding: 0;
+			}
+			
+			&.edgtf-pl-pag-active {
+				
+				a {
+					color: $first-main-color;
+				}
+			}
+			
+			&.edgtf-pl-pag-prev,
+			&.edgtf-pl-pag-next {
+				position: absolute;
+				top: 0;
+				
+				a {
+					font-size: 30px;
+					@include edgtfTransition(color .2s ease-out, opacity .2s ease-out);
+					
+					span {
+						display: block;
+						line-height: inherit;
+						
+						&:before {
+							display: block;
+							line-height: inherit;
+						}
+					}
+				}
+			}
+			
+			&.edgtf-pl-pag-prev {
+				left: 0;
+				
+				a {
+					opacity: 0;
+				}
+			}
+			
+			&.edgtf-pl-pag-next {
+				right: 0;
+				
+				a {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio standard pagination style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio load more pagination style - begin
+   ========================================================================== */
+
+.edgtf-pl-load-more-holder {
+	@include edgtfRelativeHolderLayout();
+
+    .edgtf-pl-load-more {
+	    margin: 40px 0 0;
+	    text-align: center;
+    }
+}
+/* ==========================================================================
+   Portfolio load more pagination style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio loading element style - begin
+   ========================================================================== */
+
+.edgtf-pl-loading {
+	position: relative;
+	display: none;
+	width: 100%;
+	margin: 40px 0 20px;
+	color: $default-heading-color;
+	text-align: center;
+
+	&.edgtf-filter-trigger {
+		position: absolute;
+		top: 250px;
+		left: 0;
+	}
+	
+    &.edgtf-standard-pag-trigger {
+		position: absolute;
+		top: 50px;
+		left: 0;
+	
+	    .edgtf-pl-has-filter & {
+		    top: 150px;
+	    }
+    }
+
+	&.edgtf-showing {
+		display: block;
+	}
+
+	> div {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		width: 14px;
+		height: 14px;
+		margin: 0 3px;
+		background-color: $default-heading-color;
+		border-radius: 100%;
+		@include edgtfAnimation(sk-bouncedelay 1.4s infinite ease-in-out both);
+	}
+
+	.edgtf-pl-loading-bounce1 {
+		-webkit-animation-delay: -0.32s;
+		-moz-animation-delay: -0.32s;
+		animation-delay: -0.32s;
+	}
+
+	.edgtf-pl-loading-bounce2 {
+		-webkit-animation-delay: -0.16s;
+		-moz-animation-delay: -0.16s;
+		animation-delay: -0.16s;
+	}
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+	}
+}
+
+@-moz-keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-moz-transform: scale(0);
+	}
+	40% {
+		-moz-transform: scale(1.0);
+	}
+}
+
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
+@-webkit-keyframes move-right {
+	0%,100% {
+		-webkit-transform: translateX(0);
+	}
+	50% {
+		-webkit-transform: translateX(5px);
+	}
+}
+
+@-moz-keyframes move-right {
+	0%,100% {
+		-moz-transform: translateX(0);
+	}
+	50% {
+		-moz-transform: translateX(5px);
+	}
+}
+
+@-o-keyframes move-right {
+	0%,100% {
+		-o-transform: translateX(0);
+	}
+	50% {
+		-o-transform: translateX(5px);
+	}
+}
+
+@keyframes move-right {
+	0%,100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+}
+/* ==========================================================================
+   Portfolio loading element style - end
+   ========================================================================== */

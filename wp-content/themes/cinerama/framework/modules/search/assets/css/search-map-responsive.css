@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Search responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Search template responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-search-page-holder article .edgtf-post-image {
+    width: 80px;
+  }
+  .edgtf-search-page-holder article .edgtf-post-title-area {
+    padding: 0 0 0 105px;
+    min-height: 80px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-search-page-holder article .edgtf-post-image {
+    width: 60px;
+  }
+  .edgtf-search-page-holder article .edgtf-post-title-area {
+    padding: 0 0 0 80px;
+    min-height: 60px;
+  }
+}
+
+/* ==========================================================================
+# Search template responsive style - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen search responsive - start
+========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-fullscreen-search-cell {
+    padding: 50px 0 0;
+  }
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-fullscreen-sidebar {
+    margin: 20px 0 0;
+  }
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-search-field {
+    font-size: 70px;
+  }
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-search-submit {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-form-holder-inner {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-field-holder .edgtf-search-field {
+    font-size: 25px;
+  }
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-search-submit {
+    font-size: 25px;
+    bottom: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .edgtf-fullscreen-with-sidebar-search-holder .edgtf-form-holder-inner {
+    width: 80%;
+  }
+}
+
+/* ==========================================================================
+# Fullscreen search responsive - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen search responsive - start
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .edgtf-fullscreen-search-holder .edgtf-form-holder-inner {
+    width: 80%;
+  }
+}
+
+/* ==========================================================================
+# Fullscreen search responsive - end
+========================================================================== */
+/* ==========================================================================
+   Search responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=search-map-responsive.css.map */

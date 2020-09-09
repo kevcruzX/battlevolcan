@@ -1,0 +1,169 @@
+.edgtf-twitter-list-holder {
+	@include edgtfRelativeHolderLayout();
+	clear: both;
+	
+	&:not(.edgtf-tl-one-column) {
+		
+		.edgtf-tl-item {
+			float: left;
+		}
+	}
+	
+	.edgtf-twitter-list {
+		@include edgtfRelativeHolderLayout();
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.edgtf-tl-item {
+		@include edgtfRelativeHolderLayout();
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	
+	.edgtf-tli-inner {
+		@include edgtfRelativeHolderLayout();
+		background-color: #ffffff;
+		@include edgtfTransition(all .2s ease-in-out);
+		
+		&:hover {
+			box-shadow: -2px 4px 13px 0 rgba(81, 137, 162, .05);
+			@include edgtfTransform(translateY(-3px));
+		}
+	}
+	
+	.edgtf-tli-content {
+		@include edgtfRelativeHolderLayout();
+		padding: 35px 23px;
+		border: 1px solid #f2f2f2;
+		box-sizing: border-box;
+	}
+	
+	.edgtf-twitter-content-top {
+		@include edgtfRelativeHolderLayout();
+		margin-bottom: 25px;
+		box-sizing: border-box;
+	}
+	
+	.edgtf-twitter-link-over {
+		@include edgtfAbsoluteHolderLayout();
+		z-index: 1;
+	}
+	
+	.edgtf-twitter-user {
+		@include edgtfRelativeHolderLayout();
+		padding-right: 30px;
+		box-sizing: border-box;
+		
+		.edgtf-twitter-image {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			float: left;
+			width: 56px;
+			height: 56px;
+			
+			img {
+				border-radius: 50%;
+			}
+		}
+		
+		.edgtf-twitter-name {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			float: left;
+			width: calc(100% - 56px);
+			padding-left: 15px;
+			box-sizing: border-box;
+			
+			* {
+				margin: 0;
+			}
+		}
+	}
+	
+	.edgtf-twitter-icon {
+		position: absolute;
+		top: -7px;
+		right: 3px;
+		width: 20px;
+		display: inline-block;
+		vertical-align: top;
+		color: $first-main-color;
+		font-size: 24px;
+		text-align: right;
+	}
+	
+	.edgtf-tweet-text {
+		padding-left: 12px;
+		box-sizing: border-box;
+		
+		a {
+			position: relative;
+			color: #808080;
+			z-index: 2;
+			
+			&:hover {
+				color: $first-main-color;
+			}
+		}
+	}
+	
+	.edgtf-twitter-profile {
+		
+		a {
+			position: relative;
+			color: #808080;
+			z-index: 2;
+			
+			&:hover {
+				color: $first-main-color;
+			}
+		}
+	}
+	
+	$columns_number: ('two', 'three', 'four', 'five');
+	
+	@for $i from 0 to length($columns_number) {
+		&.edgtf-tl-#{nth($columns_number,$i+1)}-columns {
+			
+			.edgtf-tl-item {
+				width: 100% / ($i+2);
+			}
+			
+			@if ($i > 1) { // set different break point for four and five columns
+				@media only screen and (min-width: $laptop-landscape-medium-plus-pixel) {
+					.edgtf-tl-item {
+						
+						&:nth-child(#{$i+2}n+1) {
+							clear: both;
+						}
+					}
+				}
+			} @else if ($i == 1) { // set different break point for three columns
+				@media only screen and (min-width: $laptop-landscape-plus-pixel) {
+					
+					.edgtf-tl-item {
+						
+						&:nth-child(#{$i+2}n+1) {
+							clear: both;
+						}
+					}
+				}
+			} @else {
+				@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+					
+					.edgtf-tl-item {
+						
+						&:nth-child(#{$i+2}n+1) {
+							clear: both;
+						}
+					}
+				}
+			}
+		}
+	}
+}

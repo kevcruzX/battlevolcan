@@ -1,0 +1,157 @@
+/* ==========================================================================
+   Banner shortcode style - begin
+   ========================================================================== */
+
+.edgtf-banner-holder {
+    @include edgtfRelativeHolderLayout();
+	
+	.touch & {
+		cursor: pointer;
+	}
+	
+	&.edgtf-visible-on-hover {
+		
+		&:hover {
+			
+			.edgtf-banner-text-holder {
+				opacity: 1;
+			}
+		}
+		
+		.edgtf-banner-text-holder {
+			opacity: 0;
+			@include edgtfTransition(opacity .2s ease-out);
+		}
+	}
+	
+	&.edgtf-disabled {
+		
+		.edgtf-banner-text-holder {
+			display: none;
+		}
+	}
+	
+	&.edgtf-banner-info-centered {
+		
+		.edgtf-banner-text-holder {
+			padding: 70px 20px;
+			text-align: center;
+		}
+	}
+	
+	.edgtf-banner-image {
+		@include edgtfRelativeHolderLayout();
+		
+		img {
+			display: block;
+		}
+	}
+	
+	.edgtf-banner-text-holder {
+		@include edgtfAbsoluteHolderLayout();
+		padding: 35px;
+		background-color: rgba($default-heading-color, .4);
+		box-sizing: border-box;
+		
+		@include ipad-portrait {
+			padding: 25px;
+		}
+	}
+	
+	.edgtf-banner-text-outer {
+		@include edgtfTableLayout();
+	}
+	
+	.edgtf-banner-text-inner {
+		position: relative;
+		display: table-cell;
+		height: 100%;
+		width: 100%;
+		vertical-align: bottom;
+	}
+	
+	.edgtf-banner-subtitle {
+		margin: 0 0 4px;
+		color: #fff;
+	}
+	
+	.edgtf-banner-title {
+		margin: 0;
+		color: #fff;
+		
+		.edgtf-banner-title-light {
+			font-weight: 300;
+		}
+	}
+	
+	.edgtf-banner-link-text {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin: 11px 0 0;
+		color: #fff;
+		line-height: 1em;
+		z-index: 2;
+		@include edgtfTransform(translateZ(0));
+		
+		&:hover {
+			
+			.edgtf-banner-link-hover {
+				width: 100%;
+			}
+		}
+		
+		.edgtf-banner-link-original {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width: 100%;
+			
+			span {
+				color: inherit;
+			}
+		}
+		
+		.edgtf-banner-link-hover {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 0.1%;
+			height: 100%;
+			display: inline-block;
+			vertical-align: top;
+			white-space: nowrap;
+			overflow: hidden;
+			@include edgtfTransition(width .4s ease-in-out);
+			
+			span {
+				color: $first-main-color;
+			}
+		}
+		
+		.edgtf-banner-link-icon,
+		.edgtf-banner-link-label {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		.edgtf-banner-link-icon {
+			margin: 0 2px 0 0;
+			font-size: 15px;
+		}
+		
+		.edgtf-banner-link-label {
+			font-size: 14px;
+			line-height: inherit;
+		}
+	}
+
+	.edgtf-banner-link {
+		@include edgtfAbsoluteHolderLayout();
+		z-index: 1;
+	}
+}
+/* ==========================================================================
+   Banner shortcode style - end
+   ========================================================================== */

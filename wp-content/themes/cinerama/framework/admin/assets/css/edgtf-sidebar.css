@@ -1,0 +1,58 @@
+.sidebar-edgtf-custom{
+	position: relative;
+}
+
+.edgtf-delete-button{
+	height:24px;
+	width: 24px;
+	position: absolute;
+	z-index: 100;
+	top: 11px;
+	right: 32px;
+	background: transparent url(img/delete.png) no-repeat top left;
+}
+
+.edgtf-delete-button:hover{
+	background: transparent url(img/delete.png) no-repeat bottom left;
+	cursor: pointer;
+}
+
+.activate_spinner{
+	display: block !important;
+	position: absolute;
+	top: 10px;
+	right: 4px;
+	background-color: #ECECEC;
+}
+
+.edgtf-add-widget{
+	background-color: #FCFCFC;
+	border: 1px solid #DFDFDF;
+	padding:10px;
+	text-align: center;
+	margin: 12px 0px;
+}
+
+#wpwrap .edgtf-add-widget .button{
+	margin-top:15px;
+}
+
+.edgtf-add-widget .input_wrap {
+	display: block;
+	position: relative;
+}
+
+.edgtf-add-widget .input_wrap input{
+	width: 100%;
+}
+
+.edgtf-field-description {
+    display: block;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.edgtf-widget-color-picker label,
+.edgtf-widget-color-picker span {
+	display: block;
+}

@@ -1,0 +1,200 @@
+/* ==========================================================================
+   Portfolio Slider shortcode style - begin
+   ========================================================================== */
+
+.edgtf-portfolio-carousel-holder {
+	@include edgtfRelativeHolderLayout();
+	
+	&.edgtf-light-skin {
+		
+		.edgtf-portfolio-carousel-item {
+			
+			.edgtf-portfolio-carousel-title {
+				color: #fff;
+			}
+		}
+		&:not(.edgtf-owl-custom-nav) {
+			.owl-nav {
+				
+				.owl-prev,
+				.owl-next {
+					color: $header-light-color;
+					border: 1px solid $header-light-color;
+					
+					&:hover {
+						color: $header-light-hover-color;
+						border: 1px solid $header-light-hover-color;
+					}
+				}
+			}
+		}
+		
+		.owl-dots {
+			
+			.owl-dot {
+				
+				span {
+					border-color: rgba(#fff, .5);
+				}
+				
+				&.active,
+				&:hover {
+					
+					span {
+						background-color: #fff;
+						border-color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	.edgtf-portfolio-carousel-item {
+		@include edgtfRelativeHolderLayout();
+		margin: 50px 0;
+		box-sizing: border-box;
+		@include edgtfTransitionTransform(.3s ease);
+		
+		&:hover {
+			
+			.edgtf-portfolio-carousel-title {
+				bottom: 0;
+				opacity: 1;
+			}
+			
+			img {
+				@include edgtfTransform(scale(1) translateZ(0));
+			}
+			
+			&.edgtf-has-video {
+				
+				a {
+					&:after {
+						-webkit-animation: move-right .5s ease 1;
+						-moz-animation: move-right .5s ease 1;
+						-o-animation: move-right .5s ease 1;
+						animation: move-right .5s ease 1;
+					}
+				}
+			}
+		}
+		
+		.edgtf-pci-image {
+			overflow: hidden;
+		}
+
+		&.edgtf-has-video {
+
+			a {
+
+				&:after {
+					content: '';
+					position: absolute;
+					top: calc(50% - 22px);
+					left: calc(50% - 24px);
+					width: 44px;
+					height: 48px;
+					background-image: url('../img/play.svg');
+					background-size: 44px 48px;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+
+		a, img {
+			position: relative;
+			display: block;
+		}
+		
+		img {
+			@include edgtfTransform(scale(1.03) translateZ(0));
+			@include edgtfTransitionTransform(1s ease);
+		}
+
+		.edgtf-portfolio-carousel-title {
+			position: absolute;
+			bottom: -15px;
+			width: 100%;
+			margin: 0;
+			text-align: center;
+			color: #000;
+			opacity: 0;
+			overflow: hidden;
+			@include edgtfTransform(translateY(50%));
+			@include edgtfTransition(bottom .5s ease, opacity .5s ease);
+		}
+
+		.edgtf-portfolio-carousel-link {
+			@include edgtfAbsoluteHolderLayout();
+		}
+	}
+
+	.owl-item {
+		z-index: 4;
+		box-sizing: border-box;
+	}
+
+	.owl-dots {
+		position: relative;
+		bottom: 40px;
+		width: 100%;
+		z-index: 100;
+	}
+
+	$columns_space_label: ('no', 'tiny', 'small', 'normal', 'medium', 'large', 'huge' );
+	$columns_space_width: (0, 10, 20, 30, 40, 50, 60);
+
+	@for $i from 0 to length($columns_space_label) {
+		&.edgtf-#{nth($columns_space_label,$i+1)}-space {
+			$item_space: nth($columns_space_width,$i+1);
+
+			.owl-item {
+
+				@if ($item_space == 0) {
+					padding: 0;
+				} @else {
+					padding: 0 #{$item_space}px;
+				}
+			}
+		}
+	}
+}
+
+@-webkit-keyframes move-right {
+	0%,100% {
+		-webkit-transform: translateX(0);
+	}
+	50% {
+		-webkit-transform: translateX(5px);
+	}
+}
+
+@-moz-keyframes move-right {
+	0%,100% {
+		-moz-transform: translateX(0);
+	}
+	50% {
+		-moz-transform: translateX(5px);
+	}
+}
+
+@-o-keyframes move-right {
+	0%,100% {
+		-o-transform: translateX(0);
+	}
+	50% {
+		-o-transform: translateX(5px);
+	}
+}
+
+@keyframes move-right {
+	0%,100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+}
+/* ==========================================================================
+   Portfolio Slider shortcode style - end
+   ========================================================================== */

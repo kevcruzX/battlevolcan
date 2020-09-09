@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Dropcaps shortcode style - begin
+   ========================================================================== */
+
+.edgtf-dropcaps {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    font-family: $additional-text-font;
+    line-height: 111px;
+    font-size: 111px;
+    color: $default-heading-color;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0 21px 0 0;
+
+    &.edgtf-normal {
+        top: -7px;
+        left: -14px;
+    }
+
+    &.edgtf-square {
+        height: 70px;
+        width: 70px;
+        font-size: 50px;
+        line-height: 70px;
+        color: #fff;
+        background-color: $default-heading-color;
+        margin: 11px 13px 0 1px;
+        box-sizing: border-box;
+
+        .edgtf-dropcaps-inner {
+            position: relative;
+            top: -2px;
+            left: -4px;
+        }
+    }
+
+    &.edgtf-circle {
+        @extend .edgtf-square;
+        border-radius: 3em;
+    }
+}
+/* ==========================================================================
+   Dropcaps shortcode style - end
+   ========================================================================== */

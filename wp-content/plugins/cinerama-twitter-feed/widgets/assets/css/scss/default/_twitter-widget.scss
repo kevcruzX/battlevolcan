@@ -1,0 +1,160 @@
+/* ==========================================================================
+   Twitter widget style - begin
+   ========================================================================== */
+
+.widget.widget_edgtf_twitter_widget {
+	margin: 0 0 20px;
+	
+	.edgtf-twitter-widget {
+		@include edgtfRelativeHolderLayout();
+		margin: 0;
+		
+		li {
+			@include edgtfRelativeHolderLayout();
+			
+			&:not(:last-child) {
+				margin: 0 0 22px;
+			}
+			
+			.edgtf-twitter-icon {
+				font-size: 18px;
+				color: $first-main-color;
+			}
+			
+			.edgtf-tweet-text {
+				position: relative;
+				
+				span {
+					color: $default-text-color;
+				}
+				
+				a {
+					position: relative;
+					color: $default-text-color;
+					
+					&:hover {
+						color: $first-main-color;
+					}
+					
+					&.edgtf-tweet-time {
+						display: block;
+						
+						span {
+							margin: 0 2px 0 0;
+						}
+					}
+				}
+			}
+		}
+		
+		&.edgtf-twitter-standard {
+			
+			li {
+				
+				.edgtf-twitter-icon {
+					position: absolute;
+					top: 2px;
+					left: 0;
+				}
+				
+				.edgtf-tweet-text {
+					padding: 0 0 0 40px;
+				}
+			}
+		}
+		
+		&.edgtf-twitter-slider {
+			@include edgtfRelativeHolderLayout();
+			padding: 0 40px;
+			text-align: center;
+			box-sizing: border-box;
+			
+			li {
+				overflow: hidden;
+				
+				.edgtf-tweet-text {
+					
+					a {
+						
+						&.edgtf-tweet-time {
+							margin: 21px 0 0;
+						}
+					}
+				}
+			}
+			
+			.owl-nav {
+
+				.owl-prev,
+			    .owl-next {
+	                width: 40px;
+	                height: 40px;
+
+					&:hover {
+                        color: $first-main-color;
+	                    border-color: $first-main-color;
+                    }
+
+	                > span {
+	                    font-size: 20px;
+	                }
+	            }
+
+	            .owl-prev {
+	                left: -16px;
+	            }
+
+	            .owl-next {
+	                right: -16px;
+	            }
+			}
+		}
+	}
+
+	.edgtf-page-footer & {
+
+        .edgtf-twitter-widget {
+
+            li {
+
+	            .edgtf-twitter-icon {
+					color: #b1b2b2;
+				}
+
+                .edgtf-tweet-text {
+
+	                span {
+						color: #b1b2b2;
+					}
+
+                    a {
+	                    color: #b1b2b2;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+
+            .owl-nav {
+
+                .owl-prev,
+                .owl-next {
+	                color: #b1b2b2;
+	                border-color: #b1b2b2;
+
+                    &:hover {
+                        color: #fff;
+	                    border-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Twitter widget style - end
+   ========================================================================== */

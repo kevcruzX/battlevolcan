@@ -1,0 +1,240 @@
+/* ==========================================================================
+   Interactive Image With Text shortcode style - begin
+   ========================================================================== */
+
+.edgtf-interactive-image-with-text-holder {
+    @include edgtfRelativeHolderLayout();
+	
+	&.edgtf-iiwt-animation {
+		
+		&.edgtf-iiwt-appear {
+			
+			.edgtf-iiwt-prefix-holder {
+				opacity: 1;
+				@include edgtfTransform(translateY(0));
+			}
+			
+			&.edgtf-iiwt-prefix-left,
+			&.edgtf-iiwt-prefix-right {
+				.edgtf-iiwt-image {
+					opacity: 1;
+					@include edgtfTransform(translateX(0));
+				}
+			}
+			
+			.edgtf-iiwt-title,
+			.edgtf-iiwt-text,
+			.edgtf-iiwt-button {
+				opacity: 1;
+				@include edgtfTransform(translateY(0));
+			}
+		}
+		
+		.edgtf-iiwt-prefix-holder {
+			opacity: 0;
+			@include edgtfTransform(translateY(50px));
+			@include edgtfTransitionTransform(.5s ease .2s, opacity .5s ease .2s);
+		}
+		
+		&.edgtf-iiwt-prefix-left,
+		&.edgtf-iiwt-prefix-right {
+			.edgtf-iiwt-image {
+				opacity: 0;
+				@include edgtfTransitionTransform(.5s ease .2s, opacity .5s ease .2s);
+			}
+		}
+		
+		&.edgtf-iiwt-prefix-left {
+			.edgtf-iiwt-image {
+				@include edgtfTransform(translateX(-50px));
+			}
+		}
+		
+		&.edgtf-iiwt-prefix-right {
+			.edgtf-iiwt-image {
+				@include edgtfTransform(translateX(50px));
+			}
+		}
+		
+		.edgtf-iiwt-title,
+		.edgtf-iiwt-text,
+		.edgtf-iiwt-button {
+			opacity: 0;
+			@include edgtfTransform(translateY(15px));
+			@include edgtfTransitionTransform(.5s ease, opacity .5s ease);
+		}
+		
+		.edgtf-iiwt-title {
+			transition-delay: .7s;
+		}
+		
+		.edgtf-iiwt-text {
+			transition-delay: .9s;
+		}
+		
+		.edgtf-iiwt-button {
+			transition-delay: 1.2s;
+		}
+	}
+	
+	&.edgtf-iiwt-prefix-left {
+		text-align: left;
+		
+		&.edgtf-iiwt-small-space {
+			
+			@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+				
+				.edgtf-iiwt-inner {
+					padding-left: 230px;
+				}
+			}
+		}
+		
+		.edgtf-iiwt-prefix-holder {
+			left: 0;
+		}
+		
+		.edgtf-iiwt-prefix-inner {
+			@include edgtfTransform(rotate(90deg));
+		}
+		
+		.edgtf-iiwt-inner {
+			padding-left: 340px;
+		}
+		
+		.edgtf-iiwt-image {
+			padding-left: 80px;
+		}
+	}
+	
+	&.edgtf-iiwt-prefix-right {
+		text-align: right;
+		
+		&.edgtf-iiwt-small-space {
+			
+			@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+				
+				.edgtf-iiwt-inner {
+					padding-right: 230px;
+				}
+				
+				.edgtf-iiwt-prefix-holder {
+					right: 46px;
+				}
+			}
+		}
+		
+		.edgtf-iiwt-prefix-holder {
+			right: 0;
+		}
+		
+		.edgtf-iiwt-prefix-inner {
+			@include edgtfTransform(rotate(90deg) translateY(-50%));
+		}
+		
+		.edgtf-iiwt-inner {
+			padding-right: 340px;
+		}
+		
+		.edgtf-iiwt-image {
+			padding-right: 80px;
+		}
+		
+		.edgtf-iiwt-text {
+			
+			@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+				margin-left: auto;
+			}
+		}
+	}
+	
+	&.edgtf-iiwt-small-space {
+		
+		.edgtf-iiwt-prefix-holder {
+			
+			@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+				width: 230px;
+			}
+		}
+	}
+	
+	.edgtf-iiwt-prefix-holder {
+		position: absolute;
+		top: 0;
+		width: 340px;
+		height: 100%;
+	}
+	
+	.edgtf-iiwt-prefix-inner {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		width: auto;
+		color: $default-heading-color;
+		@include edgtfTransformOrigin(0 0);
+	}
+	
+	.edgtf-iiwt-prefix-text {
+		font-size: 290px;
+		line-height: 1;
+		font-weight: 700;
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1px;
+		overflow: visible;
+	}
+	
+	.edgtf-iiwt-inner {
+		@include edgtfRelativeHolderLayout();
+		box-sizing: border-box;
+	}
+	
+	.edgtf-iiwt-image {
+		@include edgtfRelativeHolderLayout();
+		box-sizing: border-box;
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	.edgtf-iiwt-content {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-iiwt-title {
+		margin: -30px 0 0;
+	}
+	
+	span.edgtf-iiwt-title {
+		display: block;
+		font-size: 60px;
+		line-height: 1.1em;
+		font-weight: 700;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		color: $default-heading-color;
+	}
+	
+	.edgtf-iiwt-text {
+		display: block;
+		margin: 18px 0 0;
+		
+		@media only screen and (min-width: $laptop-landscape-mac-plus-pixel) {
+			max-width: 58%;
+		}
+		
+		@media only screen and (min-width: $ipad-landscape-plus-pixel) and (max-width: $laptop-landscape-mac) {
+			max-width: 80%;
+		}
+	}
+	
+	.edgtf-iiwt-button {
+		margin-top: 37px;
+	}
+}
+
+/* ==========================================================================
+   Interactive Image With Text shortcode style - end
+   ========================================================================== */

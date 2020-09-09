@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Google Map shortcode style - begin
+   ========================================================================== */
+
+.edgtf-google-map-holder {
+	@include edgtfRelativeHolderLayout();
+	
+	.edgtf-google-map {
+		display: block;
+		width: 100%;
+		height: 300px;
+		
+		iframe,
+		object,
+		embed {
+			width: 100%;
+			display: block;
+		}
+		
+		img {
+			max-width: none;
+		}
+	}
+	
+	.edgtf-snazzy-map {
+		display: none;
+	}
+	
+	.edgtf-google-map-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: none;
+		z-index: 1000;
+	}
+}
+
+/* ==========================================================================
+   Google Map shortcode style - end
+   ========================================================================== */

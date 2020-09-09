@@ -1,0 +1,10 @@
+.extended-custom-icon{
+	background-image: url('img/vc-shortcodes.png') !important; /* to override Visual Composer css style */
+	background-size: auto !important; /* to override Visual Composer css style */
+}
+
+.wpb_vc_param_value.wpb-select.fa_icon option {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}

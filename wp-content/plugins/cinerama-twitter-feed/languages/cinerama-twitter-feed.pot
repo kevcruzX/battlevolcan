@@ -1,0 +1,165 @@
+# Copyright (C) 2019 Cinerama Twitter Feed
+# This file is distributed under the same license as the Cinerama Twitter Feed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cinerama Twitter Feed 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cinerama-twitter-feed\n"
+"POT-Creation-Date: 2019-05-21 08:29:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/cinerama-twitter-api.php:232 lib/cinerama-twitter-api.php:299
+#: lib/cinerama-twitter-api.php:363 lib/cinerama-twitter-api.php:432
+msgid "Internal WP error"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:248
+msgid "Redirect URL couldn't be generated"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:251 lib/cinerama-twitter-api.php:367
+#: lib/cinerama-twitter-api.php:384 lib/cinerama-twitter-api.php:436
+#: lib/cinerama-twitter-api.php:453
+msgid "Ok"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:255
+msgid "Couldn't connect with Twitter API"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:311
+msgid "Access token obtained"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:316
+msgid "Authorize token and it's secret were not obtained"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:373 lib/cinerama-twitter-api.php:442
+msgid "Couldn't connect with Twitter"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:378 lib/cinerama-twitter-api.php:447
+msgid "It seems like you haven't connected with your Twitter account"
+msgstr ""
+
+#: lib/cinerama-twitter-api.php:388 lib/cinerama-twitter-api.php:457
+msgid "Couldn't retrieve content from database"
+msgstr ""
+
+#: lib/cinerama-twitter-helper.php:83
+msgid "ago"
+msgstr ""
+
+#: shortcodes/twitter-list/holder.php:20
+#: widgets/cinerama-twitter-widget.php:203
+msgid "It seems that you haven't connected with your Twitter account"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:24
+msgid "Twitter List"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:26
+msgid "by CINERAMA"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:33
+#: widgets/cinerama-twitter-widget.php:40
+msgid "User ID"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:39
+msgid "Number of Columns"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:41
+msgid "One"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:42
+msgid "Two"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:43
+msgid "Three"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:44
+msgid "Four"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:45
+msgid "Five"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:52
+msgid "Space Between Columns"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:58
+#: widgets/cinerama-twitter-widget.php:45
+msgid "Number of Tweets"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:63
+#: widgets/cinerama-twitter-widget.php:68
+msgid "Tweets Cache Time"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:12
+msgid "Cinerama Twitter Widget"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:14
+msgid "Display your Twitter feed"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:26
+msgid "Title"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:31
+msgid "Type"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:33
+msgid "Standard"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:34
+msgid "Slider"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:50
+msgid "Show Tweet Icon"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:52
+#: widgets/cinerama-twitter-widget.php:62
+msgid "Yes"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:53
+#: widgets/cinerama-twitter-widget.php:61
+msgid "No"
+msgstr ""
+
+#: widgets/cinerama-twitter-widget.php:59
+msgid "Show Tweet Time"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Cinerama Twitter Feed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds Twitter feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Edge Themes"
+msgstr ""
